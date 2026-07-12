@@ -293,7 +293,8 @@
       "question": "Reaction of RMgX with water produces the corresponding ______.",
       "answers": [
         "hydrocarbon",
-        "alkane"
+        "alkane",
+        "ch4"
       ],
       "matchThreshold": 0.7,
       "difficulty": 2,
@@ -407,7 +408,8 @@
       "type": "fill_blank",
       "question": "The poisonous gas formed by oxidation of chloroform in the presence of air and light is called ______.",
       "answers": [
-        "phosgene"
+        "phosgene",
+        "cocl2"
       ],
       "matchThreshold": 0.7,
       "difficulty": 1,
