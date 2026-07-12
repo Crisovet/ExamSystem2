@@ -460,7 +460,8 @@
       "type": "fill_blank",
       "question": "The IUPAC name of CH3CH2OH is ______.",
       "answers": [
-        "ethanol"
+        "ethanol",
+        ""ethan1ol""
       ],
       "matchThreshold": 0.7,
       "difficulty": 1,
