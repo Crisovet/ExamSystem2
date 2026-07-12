@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Exam Result</title>
+
+    <link
+        rel="stylesheet"
+        href="style.css"
+    >
+
+
+    <style>
+
+        .correct-question {
+
+            border-left: 7px solid #2e7d32;
+
+            background: #e8f5e9;
+
+        }
+
+
+        .wrong-question {
+
+            border-left: 7px solid #d32f2f;
+
+            background: #ffebee;
+
+        }
+
+
+        .correct-question .result-status {
+
+            color: #2e7d32;
+
+        }
+
+
+        .wrong-question .result-status {
+
+            color: #d32f2f;
+
+        }
+
+
+        #score {
+
+            background: white;
+
+            padding: 20px;
+
+            border-radius: 10px;
+
+            text-align: center;
+
+            margin-bottom: 30px;
+
+        }
+
+    </style>
+
+</head>
+
+
+<body>
+
+    <div class="container">
+
+        <h1>Exam Result</h1>
+
+        <h2 id="score"></h2>
+
+        <div id="results"></div>
+
+    </div>
+
+
+    <script src="result.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,1015 @@
+{
+  "examTitle": "Chemistry Test",
+  "subject": "Chemistry",
+  "class": 12,
+  "chapter": "Haloalkanes and Haloarenes; Alcohols, Phenols and Ethers",
+  "topic": "Test",
+  "questions": [
+    {
+      "id": 1,
+      "type": "fill_blank",
+      "question": "A halogen attached to an sp3 carbon directly adjacent to a benzene ring is classified as a ______ halide.",
+      "answers": [
+        "benzylic",
+        "benzylic halide"
+      ],
+      "matchThreshold": 0.7,
+      "difficulty": 1,
+      "marks": 1,
+      "explanation": "A halogen attached to an sp3 carbon adjacent to a benzene ring forms a benzylic halide."
+    },
+    {
+      "id": 2,
+      "type": "fill_blank",
+      "question": "CH2=CHCl is classified as a ______ halide.",
+      "answers": [
+        "vinylic",
+        "vinylic halide",
+        "vinyl halide"
+      ],
+      "matchThreshold": 0.7,
+      "difficulty": 1,
+      "marks": 1,
+      "explanation": "In CH2=CHCl, chlorine is directly attached to an sp2 carbon of a carbon-carbon double bond."
+    },
+    {
+      "id": 3,
+      "type": "fill_blank",
+      "question": "CH2=CHCH2Cl is classified as an ______ halide.",
+      "answers": [
+        "allylic",
+        "allylic halide",
+        "allyl halide"
+      ],
+      "matchThreshold": 0.7,
+      "difficulty": 1,
+      "marks": 1,
+      "explanation": "The carbon bearing chlorine is directly adjacent to a carbon-carbon double bond, making the compound allylic."
+    },
+    {
+      "id": 4,
+      "type": "fill_blank",
+      "question": "The IUPAC name of CH3CHClCH2CH3 is ______.",
+      "answers": [
+        "2-chlorobutane",
+        "2 chlorobutane"
+      ],
+      "matchThreshold": 0.7,
+      "difficulty": 1,
+      "marks": 1,
+      "explanation": "The parent chain contains four carbon atoms and chlorine receives the lowest locant, 2."
+    },
+    {
+      "id": 5,
+      "type": "fill_blank",
+      "question": "The reagent preferred for preparing pure alkyl chlorides from alcohols because its by-products escape as gases is ______.",
+      "answers": [
+        "SOCl2",
+        "thionyl chloride"
+      ],
+      "matchThreshold": 0.7,
+      "difficulty": 1,
+      "marks": 1,
+      "explanation": "SOCl2 forms gaseous SO2 and HCl as by-products, making purification of the alkyl chloride easier."
+    },
+    {
+      "id": 6,
+      "type": "fill_blank",
+      "question": "The conversion of an alkyl chloride or bromide into an alkyl iodide using NaI in dry acetone is called the ______ reaction.",
+      "answers": [
+        "Finkelstein reaction",
+        "Finkelstein"
+      ],
+      "matchThreshold": 0.7,
+      "difficulty": 1,
+      "marks": 1,
+      "explanation": "The Finkelstein reaction uses NaI in dry acetone for the preparation of alkyl iodides."
+    },
+    {
+      "id": 7,
+      "type": "fill_blank",
+      "question": "The named reaction used to prepare alkyl fluorides from alkyl chlorides or bromides is the ______ reaction.",
+      "answers": [
+        "Swarts reaction",
+        "Swarts"
+      ],
+      "matchThreshold": 0.7,
+      "difficulty": 1,
+      "marks": 1,
+      "explanation": "The Swarts reaction replaces chlorine or bromine in an alkyl halide with fluorine."
+    },
+    {
+      "id": 8,
+      "type": "fill_blank",
+      "question": "The product type formed when an alkyl halide reacts with KCN is called a ______.",
+      "answers": [
+        "nitrile",
+        "alkyl nitrile"
+      ],
+      "matchThreshold": 0.7,
+      "difficulty": 1,
+      "marks": 1,
+      "explanation": "KCN favours carbon-end attack and forms a nitrile with the general structure RCN."
+    },
+    {
+      "id": 9,
+      "type": "fill_blank",
+      "question": "The product type formed when an alkyl halide reacts with AgCN is called an ______.",
+      "answers": [
+        "isocyanide",
+        "isonitrile",
+        "alkyl isocyanide",
+        "alkyl isonitrile"
+      ],
+      "matchThreshold": 0.7,
+      "difficulty": 1,
+      "marks": 1,
+      "explanation": "AgCN favours nitrogen-end attack and forms an isocyanide or isonitrile with the general structure RNC."
+    },
+    {
+      "id": 10,
+      "type": "fill_blank",
+      "question": "The stereochemical change caused by backside attack during an SN2 reaction is called ______ of configuration.",
+      "answers": [
+        "inversion",
+        "inversion of configuration"
+      ],
+      "matchThreshold": 0.7,
+      "difficulty": 2,
+      "marks": 1,
+      "explanation": "Backside nucleophilic attack in SN2 reverses the spatial arrangement around the reacting carbon, causing inversion of configuration."
+    },
+    {
+      "id": 11,
+      "type": "fill_blank",
+      "question": "A carbon atom attached to four different groups is called a ______ carbon.",
+      "answers": [
+        "chiral",
+        "asymmetric",
+        "asymmetric carbon"
+      ],
+      "matchThreshold": 0.7,
+      "difficulty": 1,
+      "marks": 1,
+      "explanation": "A tetrahedral carbon bonded to four different groups is a chiral or asymmetric carbon."
+    },
+    {
+      "id": 12,
+      "type": "fill_blank",
+      "question": "Non-superimposable mirror image molecules are called ______.",
+      "answers": [
+        "enantiomers"
+      ],
+      "matchThreshold": 0.7,
+      "difficulty": 1,
+      "marks": 1,
+      "explanation": "Enantiomers are stereoisomers that are non-superimposable mirror images of each other."
+    },
+    {
+      "id": 13,
+      "type": "fill_blank",
+      "question": "Formation of a mixture of configurations due to nucleophilic attack from both sides of a planar carbocation is called ______.",
+      "answers": [
+        "racemisation",
+        "racemization"
+      ],
+      "matchThreshold": 0.7,
+      "difficulty": 2,
+      "marks": 1,
+      "explanation": "In an SN1 reaction, attack on the planar carbocation from both sides leads to racemisation."
+    },
+    {
+      "id": 14,
+      "type": "fill_blank",
+      "question": "A solvent containing polar bonds and a hydrogen atom bonded to oxygen or nitrogen is classified as a polar ______ solvent.",
+      "answers": [
+        "protic",
+        "polar protic"
+      ],
+      "matchThreshold": 0.7,
+      "difficulty": 1,
+      "marks": 1,
+      "explanation": "Polar protic solvents contain hydrogen bonded to an electronegative atom such as oxygen or nitrogen."
+    },
+    {
+      "id": 15,
+      "type": "fill_blank",
+      "question": "DMSO and acetone are examples of polar ______ solvents.",
+      "answers": [
+        "aprotic",
+        "polar aprotic"
+      ],
+      "matchThreshold": 0.7,
+      "difficulty": 1,
+      "marks": 1,
+      "explanation": "DMSO and acetone are polar solvents but lack hydrogen bonded to oxygen or nitrogen, so they are polar aprotic solvents."
+    },
+    {
+      "id": 16,
+      "type": "fill_blank",
+      "question": "Removal of a hydrogen from a carbon adjacent to the carbon bearing the halogen is called ______ elimination.",
+      "answers": [
+        "beta",
+        "beta elimination",
+        "beta-elimination"
+      ],
+      "matchThreshold": 0.7,
+      "difficulty": 1,
+      "marks": 1,
+      "explanation": "Elimination involving removal of a beta-hydrogen and a leaving group is called beta-elimination."
+    },
+    {
+      "id": 17,
+      "type": "fill_blank",
+      "question": "The rule stating that the more substituted alkene is generally the major product of elimination is called the ______ rule.",
+      "answers": [
+        "Zaitsev",
+        "Zaitsev rule",
+        "Saytzeff",
+        "Saytzeff rule"
+      ],
+      "matchThreshold": 0.7,
+      "difficulty": 1,
+      "marks": 1,
+      "explanation": "Zaitsev's rule predicts the more substituted alkene as the major product in the elimination reactions studied here."
+    },
+    {
+      "id": 18,
+      "type": "fill_blank",
+      "question": "CH3CH2Br gives ethanol when heated with ______ KOH.",
+      "answers": [
+        "aqueous KOH",
+        "aqueous",
+        "aq KOH"
+      ],
+      "matchThreshold": 0.7,
+      "difficulty": 1,
+      "marks": 1,
+      "explanation": "Aqueous KOH favours nucleophilic substitution and replaces bromine with a hydroxyl group."
+    },
+    {
+      "id": 19,
+      "type": "fill_blank",
+      "question": "CH3CH2Br gives ethene on heating with ______ KOH.",
+      "answers": [
+        "alcoholic KOH",
+        "alcoholic",
+        "alc KOH"
+      ],
+      "matchThreshold": 0.7,
+      "difficulty": 1,
+      "marks": 1,
+      "explanation": "Hot alcoholic KOH favours beta-elimination and converts ethyl bromide into ethene."
+    },
+    {
+      "id": 20,
+      "type": "fill_blank",
+      "question": "The organomagnesium compound represented by RMgX is called a ______ reagent.",
+      "answers": [
+        "Grignard",
+        "Grignard reagent"
+      ],
+      "matchThreshold": 0.7,
+      "difficulty": 1,
+      "marks": 1,
+      "explanation": "Compounds with the general formula RMgX are called Grignard reagents."
+    },
+    {
+      "id": 21,
+      "type": "fill_blank",
+      "question": "The solvent used during the preparation of a Grignard reagent is dry ______.",
+      "answers": [
+        "ether",
+        "dry ether"
+      ],
+      "matchThreshold": 0.7,
+      "difficulty": 1,
+      "marks": 1,
+      "explanation": "Grignard reagents are prepared using magnesium in dry ether."
+    },
+    {
+      "id": 22,
+      "type": "fill_blank",
+      "question": "Reaction of RMgX with water produces the corresponding ______.",
+      "answers": [
+        "hydrocarbon",
+        "alkane"
+      ],
+      "matchThreshold": 0.7,
+      "difficulty": 2,
+      "marks": 1,
+      "explanation": "Water destroys a Grignard reagent by protonating the carbon bonded to magnesium and forming a hydrocarbon."
+    },
+    {
+      "id": 23,
+      "type": "fill_blank",
+      "question": "Coupling of two alkyl halide molecules using sodium in dry ether is called the ______ reaction.",
+      "answers": [
+        "Wurtz reaction",
+        "Wurtz"
+      ],
+      "matchThreshold": 0.7,
+      "difficulty": 1,
+      "marks": 1,
+      "explanation": "The Wurtz reaction couples alkyl halides using sodium in dry ether to form a higher alkane."
+    },
+    {
+      "id": 24,
+      "type": "fill_blank",
+      "question": "The reaction used to prepare chlorobenzene from a benzene diazonium salt using CuCl is called the ______ reaction.",
+      "answers": [
+        "Sandmeyer reaction",
+        "Sandmeyer"
+      ],
+      "matchThreshold": 0.7,
+      "difficulty": 1,
+      "marks": 1,
+      "explanation": "The Sandmeyer reaction replaces the diazonium group by chlorine using CuCl."
+    },
+    {
+      "id": 25,
+      "type": "fill_blank",
+      "question": "The partial double-bond character of the C-Cl bond in chlorobenzene arises due to ______.",
+      "answers": [
+        "resonance"
+      ],
+      "matchThreshold": 0.7,
+      "difficulty": 2,
+      "marks": 1,
+      "explanation": "Resonance involving the chlorine lone pair gives the C-Cl bond partial double-bond character."
+    },
+    {
+      "id": 26,
+      "type": "fill_blank",
+      "question": "Chlorobenzene is converted into phenol using aqueous NaOH at high temperature and high ______.",
+      "answers": [
+        "pressure",
+        "high pressure"
+      ],
+      "matchThreshold": 0.7,
+      "difficulty": 1,
+      "marks": 1,
+      "explanation": "Replacement of chlorine by a hydroxyl group in chlorobenzene requires harsh conditions of high temperature and pressure."
+    },
+    {
+      "id": 27,
+      "type": "fill_blank",
+      "question": "A nitro group at the ortho or para position increases nucleophilic substitution in chlorobenzene by stabilising the intermediate through ______.",
+      "answers": [
+        "resonance",
+        "resonance stabilisation",
+        "resonance stabilization"
+      ],
+      "matchThreshold": 0.7,
+      "difficulty": 2,
+      "marks": 1,
+      "explanation": "An ortho or para nitro group stabilises the negatively charged intermediate through resonance."
+    },
+    {
+      "id": 28,
+      "type": "fill_blank",
+      "question": "The electrophilic substitution of chlorobenzene using concentrated HNO3 and concentrated H2SO4 is called ______.",
+      "answers": [
+        "nitration"
+      ],
+      "matchThreshold": 0.7,
+      "difficulty": 1,
+      "marks": 1,
+      "explanation": "Treatment with concentrated nitric acid and concentrated sulphuric acid introduces a nitro group by nitration."
+    },
+    {
+      "id": 29,
+      "type": "fill_blank",
+      "question": "The electrophilic substitution that introduces the SO3H group into a haloarene is called ______.",
+      "answers": [
+        "sulphonation",
+        "sulfonation"
+      ],
+      "matchThreshold": 0.7,
+      "difficulty": 1,
+      "marks": 1,
+      "explanation": "Sulphonation introduces the SO3H group into an aromatic ring."
+    },
+    {
+      "id": 30,
+      "type": "fill_blank",
+      "question": "The increase in concentration of DDT at successive trophic levels is called ______.",
+      "answers": [
+        "biomagnification"
+      ],
+      "matchThreshold": 0.7,
+      "difficulty": 1,
+      "marks": 1,
+      "explanation": "The increasing concentration of a persistent substance such as DDT along a food chain is called biomagnification."
+    },
+    {
+      "id": 31,
+      "type": "fill_blank",
+      "question": "The poisonous gas formed by oxidation of chloroform in the presence of air and light is called ______.",
+      "answers": [
+        "phosgene"
+      ],
+      "matchThreshold": 0.7,
+      "difficulty": 1,
+      "marks": 1,
+      "explanation": "Chloroform is slowly oxidised by air and light to form poisonous phosgene."
+    },
+    {
+      "id": 32,
+      "type": "fill_blank",
+      "question": "The antiseptic property associated with iodoform is due to the release of ______.",
+      "answers": [
+        "iodine"
+      ],
+      "matchThreshold": 0.7,
+      "difficulty": 1,
+      "marks": 1,
+      "explanation": "The antiseptic action associated with iodoform is due to the release of iodine."
+    },
+    {
+      "id": 33,
+      "type": "fill_blank",
+      "question": "Alcohols containing one hydroxyl group are classified as ______ alcohols.",
+      "answers": [
+        "monohydric",
+        "monohydric alcohols"
+      ],
+      "matchThreshold": 0.7,
+      "difficulty": 1,
+      "marks": 1,
+      "explanation": "Alcohols containing one hydroxyl group are called monohydric alcohols."
+    },
+    {
+      "id": 34,
+      "type": "fill_blank",
+      "question": "An alcohol in which the carbon bearing the OH group is attached to three other carbon atoms is classified as a ______ alcohol.",
+      "answers": [
+        "tertiary",
+        "tertiary alcohol",
+        "3 degree alcohol"
+      ],
+      "matchThreshold": 0.7,
+      "difficulty": 1,
+      "marks": 1,
+      "explanation": "A tertiary alcohol has its hydroxyl-bearing carbon attached to three other carbon atoms."
+    },
+    {
+      "id": 35,
+      "type": "fill_blank",
+      "question": "The IUPAC name of CH3CH2OH is ______.",
+      "answers": [
+        "ethanol"
+      ],
+      "matchThreshold": 0.7,
+      "difficulty": 1,
+      "marks": 1,
+      "explanation": "CH3CH2OH is a two-carbon alcohol and is named ethanol."
+    },
+    {
+      "id": 36,
+      "type": "fill_blank",
+      "question": "The IUPAC name of CH3CH(OH)CH3 is ______.",
+      "answers": [
+        "propan-2-ol",
+        "propan 2 ol",
+        "2-propanol"
+      ],
+      "matchThreshold": 0.7,
+      "difficulty": 1,
+      "marks": 1,
+      "explanation": "The three-carbon parent chain is propane and the hydroxyl group is located at carbon 2."
+    },
+    {
+      "id": 37,
+      "type": "fill_blank",
+      "question": "The compound C6H5OH is commonly called ______.",
+      "answers": [
+        "phenol"
+      ],
+      "matchThreshold": 0.7,
+      "difficulty": 1,
+      "marks": 1,
+      "explanation": "C6H5OH is called phenol because the hydroxyl group is directly attached to a benzene ring."
+    },
+    {
+      "id": 38,
+      "type": "fill_blank",
+      "question": "The IUPAC name of CH3OCH2CH3 is ______.",
+      "answers": [
+        "methoxyethane"
+      ],
+      "matchThreshold": 0.7,
+      "difficulty": 1,
+      "marks": 1,
+      "explanation": "In ether nomenclature, the smaller group is named as an alkoxy substituent. Therefore CH3OCH2CH3 is methoxyethane."
+    },
+    {
+      "id": 39,
+      "type": "fill_blank",
+      "question": "Addition of water to an alkene in the presence of an acid catalyst to form an alcohol is called acid-catalysed ______.",
+      "answers": [
+        "hydration",
+        "acid catalysed hydration",
+        "acid-catalysed hydration"
+      ],
+      "matchThreshold": 0.7,
+      "difficulty": 1,
+      "marks": 1,
+      "explanation": "Acid-catalysed hydration adds water across the carbon-carbon double bond of an alkene to form an alcohol."
+    },
+    {
+      "id": 40,
+      "type": "fill_blank",
+      "question": "The preparation of an alcohol from an alkene using diborane followed by hydrogen peroxide and NaOH is called ______.",
+      "answers": [
+        "hydroboration oxidation",
+        "hydroboration-oxidation",
+        "hydroboration oxidation reaction"
+      ],
+      "matchThreshold": 0.7,
+      "difficulty": 2,
+      "marks": 1,
+      "explanation": "Hydroboration-oxidation converts an alkene into an alcohol through hydroboration followed by oxidation."
+    },
+    {
+      "id": 41,
+      "type": "mcq_single",
+      "question": "Which compound is correctly classified as a benzylic halide?",
+      "options": [
+        "CH2=CHCl",
+        "C6H5Cl",
+        "CH3CH2Cl",
+        "C6H5CH2Cl",
+        "CH2=CHCH2Cl"
+      ],
+      "answer": 3,
+      "difficulty": 1,
+      "marks": 1,
+      "explanation": "In C6H5CH2Cl, chlorine is attached to an sp3 carbon directly adjacent to a benzene ring."
+    },
+    {
+      "id": 42,
+      "type": "mcq_single",
+      "question": "Which reagent is generally preferred for converting an alcohol into a pure alkyl chloride?",
+      "options": [
+        "SOCl2",
+        "NaI",
+        "AgF",
+        "NaOH",
+        "Mg"
+      ],
+      "answer": 0,
+      "difficulty": 1,
+      "marks": 1,
+      "explanation": "SOCl2 is preferred because its by-products SO2 and HCl escape as gases, simplifying purification."
+    },
+    {
+      "id": 43,
+      "type": "mcq_single",
+      "question": "Why is the C-Cl bond in chlorobenzene stronger than the C-Cl bond in a typical chloroalkane?",
+      "options": [
+        "Chlorine becomes positively charged in chlorobenzene.",
+        "The C-Cl bond in chlorobenzene is ionic.",
+        "Resonance gives the C-Cl bond partial double-bond character.",
+        "The benzene ring removes all lone pairs from chlorine.",
+        "Carbon is sp3 hybridised in chlorobenzene."
+      ],
+      "answer": 2,
+      "difficulty": 2,
+      "marks": 1,
+      "explanation": "Resonance between the chlorine lone pair and the benzene ring gives the C-Cl bond partial double-bond character, making it shorter and stronger."
+    },
+    {
+      "id": 44,
+      "type": "mcq_single",
+      "question": "An alkyl halide reacts rapidly through a planar carbocation intermediate. Which combination is most consistent with this reaction?",
+      "options": [
+        "SN2 and inversion",
+        "SN1 and racemisation",
+        "SN2 and racemisation",
+        "E2 and retention",
+        "SN1 and only inversion"
+      ],
+      "answer": 1,
+      "difficulty": 2,
+      "marks": 1,
+      "explanation": "A planar carbocation is characteristic of SN1. Nucleophilic attack from both sides can lead to racemisation."
+    },
+    {
+      "id": 45,
+      "type": "mcq_single",
+      "question": "Which condition most strongly favours an SN2 reaction?",
+      "options": [
+        "Tertiary alkyl halide with water",
+        "Tertiary alkyl halide with a weak nucleophile",
+        "Secondary alkyl halide in a polar protic solvent",
+        "Tertiary alkyl halide in ethanol",
+        "Primary alkyl halide with a strong nucleophile in a polar aprotic solvent"
+      ],
+      "answer": 4,
+      "difficulty": 2,
+      "marks": 1,
+      "explanation": "A primary substrate has low steric hindrance, while a strong nucleophile and polar aprotic solvent strongly favour SN2."
+    },
+    {
+      "id": 46,
+      "type": "mcq_single",
+      "question": "CH3CH2Br is heated with alcoholic KOH. What is the major organic product?",
+      "options": [
+        "CH3CH2OH",
+        "CH3CH3",
+        "CH2=CH2",
+        "CH3OH",
+        "CH3CH2CH3"
+      ],
+      "answer": 2,
+      "difficulty": 1,
+      "marks": 1,
+      "explanation": "Hot alcoholic KOH favours beta-elimination, producing ethene from ethyl bromide."
+    },
+    {
+  "id": 47,
+  "type": "mcq_single",
+  "question": "Which condition favours beta-elimination of an alkyl halide to form an alkene?",
+  "options": [
+    "Aqueous KOH at room temperature",
+    "Hot alcoholic KOH",
+    "NaI in dry acetone",
+    "Mg in dry ether",
+    "AgCN"
+  ],
+  "answer": 1,
+  "difficulty": 1,
+  "marks": 1,
+  "explanation": "Heating an alkyl halide with alcoholic KOH favours beta-elimination, in which a beta-hydrogen and the halogen are removed to form an alkene."
+},
+    {
+      "id": 48,
+      "type": "mcq_single",
+      "question": "CH3CHBrCH2CH3 gives but-2-ene as the major product with alcoholic KOH mainly because:",
+      "options": [
+        "But-2-ene is the more substituted and generally more stable alkene.",
+        "But-1-ene contains no carbon-carbon double bond.",
+        "The bromine atom moves to carbon-1.",
+        "Alcoholic KOH follows Markovnikov's rule.",
+        "Only terminal beta-hydrogens can be removed."
+      ],
+      "answer": 0,
+      "difficulty": 2,
+      "marks": 1,
+      "explanation": "According to Zaitsev's rule, the more substituted alkene is generally the major elimination product."
+    },
+    {
+      "id": 49,
+      "type": "mcq_single",
+      "question": "Why must water be excluded during the preparation of a Grignard reagent?",
+      "options": [
+        "Water converts ether into an alkene.",
+        "Water increases Wurtz coupling.",
+        "Water changes magnesium into sodium.",
+        "Water reacts with RMgX and destroys the Grignard reagent.",
+        "Water converts alkyl halides into haloarenes."
+      ],
+      "answer": 3,
+      "difficulty": 2,
+      "marks": 1,
+      "explanation": "Grignard reagents are highly reactive towards proton sources. Water reacts with RMgX and converts the organic group into the corresponding hydrocarbon."
+    },
+    {
+      "id": 50,
+      "type": "mcq_single",
+      "question": "CH3CH2Br reacts with Mg in dry ether and the product is then treated with water. Which final organic product is formed?",
+      "options": [
+        "CH3CH2OH",
+        "CH2=CH2",
+        "CH3OH",
+        "CH3CH2CH3",
+        "CH3CH3"
+      ],
+      "answer": 4,
+      "difficulty": 2,
+      "marks": 1,
+      "explanation": "CH3CH2Br forms CH3CH2MgBr. Reaction of this Grignard reagent with water gives ethane, CH3CH3."
+    },
+    {
+      "id": 51,
+      "type": "mcq_single",
+      "question": "An alkyl bromide forms a nitrile with KCN but an isocyanide with AgCN. Which explanation is correct?",
+      "options": [
+        "KCN contains no nitrogen atom.",
+        "AgCN removes the carbon atom from the cyanide group.",
+        "The cyanide group can bond through carbon or nitrogen, and the nature of the reagent influences the attacking end.",
+        "Both reagents actually form the same product.",
+        "AgCN always causes beta-elimination."
+      ],
+      "answer": 2,
+      "difficulty": 2,
+      "marks": 1,
+      "explanation": "The cyanide group is ambident. KCN favours carbon-end attack to form RCN, while AgCN favours nitrogen-end attack to form RNC."
+    },
+    {
+      "id": 52,
+      "type": "mcq_single",
+      "question": "Which statement correctly compares polar protic and polar aprotic solvents in nucleophilic substitution?",
+      "options": [
+        "Polar aprotic solvents strongly solvate anionic nucleophiles through hydrogen bonding.",
+        "Polar protic solvents generally support ion formation and SN1, while polar aprotic solvents help anionic nucleophiles remain more reactive for SN2.",
+        "Polar protic solvents contain no polar bonds.",
+        "DMSO is a polar protic solvent.",
+        "Water is a polar aprotic solvent."
+      ],
+      "answer": 1,
+      "difficulty": 2,
+      "marks": 1,
+      "explanation": "Polar protic solvents stabilise ions and favour SN1 conditions, while polar aprotic solvents do not strongly hydrogen-bond to anionic nucleophiles and often favour SN2."
+    },
+    {
+      "id": 53,
+      "type": "mcq_single",
+      "question": "Which compound contains a chiral carbon atom?",
+      "options": [
+        "CH3CH2Cl",
+        "CH3CHClCH3",
+        "CH3CHBrCH2CH3",
+        "CH2Cl2",
+        "(CH3)3CCl"
+      ],
+      "answer": 2,
+      "difficulty": 1,
+      "marks": 1,
+      "explanation": "The carbon bearing bromine in CH3CHBrCH2CH3 is attached to Br, H, CH3 and CH2CH3, four different groups."
+    },
+    {
+      "id": 54,
+      "type": "mcq_single",
+      "question": "Which statement correctly distinguishes SN1 from SN2?",
+      "options": [
+        "SN1 is always one-step, while SN2 forms a carbocation.",
+        "SN1 requires backside attack in its rate-determining step.",
+        "SN2 generally causes racemisation through a planar carbocation.",
+        "SN1 forms a carbocation intermediate, while SN2 occurs through a concerted backside attack.",
+        "Both mechanisms are independent of substrate structure."
+      ],
+      "answer": 3,
+      "difficulty": 2,
+      "marks": 1,
+      "explanation": "SN1 occurs stepwise through a carbocation intermediate. SN2 is a concerted reaction involving backside nucleophilic attack."
+    },
+    {
+      "id": 55,
+      "type": "mcq_single",
+      "question": "Which order best represents increasing ease of nucleophilic substitution of chlorine in the compounds studied?",
+      "options": [
+        "p-Nitrochlorobenzene < chlorobenzene < m-nitrochlorobenzene",
+        "Chlorobenzene < p-nitrochlorobenzene < m-nitrochlorobenzene",
+        "m-Nitrochlorobenzene < chlorobenzene < p-nitrochlorobenzene",
+        "p-Nitrochlorobenzene < m-nitrochlorobenzene < chlorobenzene",
+        "Chlorobenzene < m-nitrochlorobenzene < p-nitrochlorobenzene"
+      ],
+      "answer": 4,
+      "difficulty": 2,
+      "marks": 1,
+      "explanation": "A meta nitro group increases electron withdrawal but cannot stabilise the intermediate by resonance as effectively as a para nitro group. Para-NO2 strongly increases nucleophilic substitution through resonance stabilisation."
+    },
+    {
+  "id": 55,
+  "type": "mcq_single",
+  "question": "Why does a nitro group at the para position increase the reactivity of chlorobenzene towards nucleophilic substitution?",
+  "options": [
+    "It weakens the benzene carbon-carbon bonds.",
+    "It converts chlorine into a positively charged ion.",
+    "It stabilises the negatively charged intermediate through resonance.",
+    "It causes chlorine to donate electrons by induction.",
+    "It converts the reaction into an SN1 mechanism."
+  ],
+  "answer": 2,
+  "difficulty": 2,
+  "marks": 1,
+  "explanation": "A para nitro group stabilises the negatively charged intermediate formed during nucleophilic substitution through resonance, increasing the reactivity of chlorobenzene."
+},
+    {
+      "id": 57,
+      "type": "mcq_single",
+      "question": "Why is chlorine in chlorobenzene deactivating but still ortho-para directing?",
+      "options": [
+        "Chlorine activates the ring by its positive inductive effect.",
+        "Its negative inductive effect deactivates the ring, while lone-pair resonance donation increases relative electron density at ortho and para positions.",
+        "Chlorine leaves the ring before electrophilic attack.",
+        "The meta positions contain no hydrogen atoms.",
+        "Chlorine forms a carbocation at the para position."
+      ],
+      "answer": 1,
+      "difficulty": 2,
+      "marks": 1,
+      "explanation": "The negative inductive effect of chlorine lowers overall ring electron density, but resonance donation directs electrophilic attack mainly to ortho and para positions."
+    },
+    {
+      "id": 58,
+      "type": "mcq_single",
+      "question": "Which pair of major products is expected during nitration of chlorobenzene?",
+      "options": [
+        "Nitrobenzene and benzene",
+        "Only m-nitrochlorobenzene",
+        "Phenol and nitrobenzene",
+        "o-Nitrochlorobenzene and p-nitrochlorobenzene",
+        "Only p-nitrochlorobenzene"
+      ],
+      "answer": 3,
+      "difficulty": 1,
+      "marks": 1,
+      "explanation": "Chlorine is ortho-para directing, so nitration mainly gives ortho- and para-nitrochlorobenzene."
+    },
+    {
+      "id": 59,
+      "type": "mcq_single",
+      "question": "Which statement about polyhalogen compounds is correct?",
+      "options": [
+        "DDT is rapidly metabolised and cannot accumulate in organisms.",
+        "Freons are mainly responsible for biomagnification of DDT.",
+        "Chloroform can form poisonous phosgene on oxidation in air and light.",
+        "Iodoform shows antiseptic action because it releases chlorine.",
+        "Carbon tetrachloride is a Grignard reagent."
+      ],
+      "answer": 2,
+      "difficulty": 1,
+      "marks": 1,
+      "explanation": "Chloroform is slowly oxidised by oxygen in the presence of light to form poisonous phosgene."
+    },
+    {
+      "id": 60,
+      "type": "mcq_single",
+      "question": "Two molecules of CH3CH2Br react with sodium in dry ether. Which product and reaction name are correctly matched?",
+      "options": [
+        "Ethane — Fittig reaction",
+        "Butane — Wurtz reaction",
+        "Ethene — beta-elimination",
+        "Ethanol — nucleophilic substitution",
+        "Toluene — Wurtz-Fittig reaction"
+      ],
+      "answer": 1,
+      "difficulty": 2,
+      "marks": 1,
+      "explanation": "Two ethyl groups couple in the presence of sodium and dry ether to form butane. This is the Wurtz reaction."
+    },
+    {
+      "id": 61,
+      "type": "mcq_single",
+      "question": "Which IUPAC name is correctly matched with its structure?",
+      "options": [
+        "CH3CH2OH — methanol",
+        "CH3CH(OH)CH3 — propan-1-ol",
+        "CH3OCH2CH3 — ethoxyethane",
+        "C6H5OH — cyclohexanol",
+        "CH3OCH2CH3 — methoxyethane"
+      ],
+      "answer": 4,
+      "difficulty": 1,
+      "marks": 1,
+      "explanation": "CH3OCH2CH3 is named methoxyethane by treating the smaller alkyl group as the alkoxy substituent."
+    },
+    {
+      "id": 62,
+      "type": "mcq_single",
+      "question": "Which alcohol is classified as a tertiary alcohol?",
+      "options": [
+        "CH3OH",
+        "CH3CH2OH",
+        "(CH3)3COH",
+        "CH3CH(OH)CH3",
+        "CH3CH2CH2OH"
+      ],
+      "answer": 2,
+      "difficulty": 1,
+      "marks": 1,
+      "explanation": "In (CH3)3COH, the carbon bearing the OH group is attached to three carbon atoms, so it is a tertiary alcohol."
+    },
+    {
+      "id": 63,
+      "type": "mcq_single",
+      "question": "Which statement correctly describes the C-O bond in an alcohol?",
+      "options": [
+        "Oxygen is more electronegative than carbon, so the C-O bond is polar.",
+        "Carbon is more electronegative than oxygen.",
+        "The C-O bond is purely ionic.",
+        "Oxygen carries a permanent positive charge.",
+        "The C-O bond is non-polar."
+      ],
+      "answer": 0,
+      "difficulty": 1,
+      "marks": 1,
+      "explanation": "Oxygen is more electronegative than carbon and attracts the shared electron pair more strongly, making the C-O bond polar."
+    },
+    {
+      "id": 64,
+      "type": "mcq_single",
+      "question": "Propene is treated with water in the presence of an acid catalyst. Which major alcohol is formed?",
+      "options": [
+        "Propan-1-ol",
+        "Methanol",
+        "Ethanol",
+        "Propan-2-ol",
+        "Butan-2-ol"
+      ],
+      "answer": 3,
+      "difficulty": 2,
+      "marks": 1,
+      "explanation": "Acid-catalysed hydration follows Markovnikov addition and forms propan-2-ol as the major product from propene."
+    },
+    {
+      "id": 65,
+      "type": "mcq_single",
+      "question": "During acid-catalysed hydration of an unsymmetrical alkene, why does hydrogen generally add to the carbon already bearing more hydrogen atoms?",
+      "options": [
+        "To form the less stable carbocation intermediate.",
+        "To prevent formation of an alcohol.",
+        "To form the more stable carbocation intermediate.",
+        "Because oxygen attacks before proton addition.",
+        "Because the reaction follows Zaitsev's rule."
+      ],
+      "answer": 2,
+      "difficulty": 2,
+      "marks": 1,
+      "explanation": "Proton addition occurs in the direction that produces the more stable carbocation intermediate. This leads to Markovnikov orientation."
+    },
+    {
+      "id": 66,
+      "type": "mcq_single",
+      "question": "Propene undergoes hydroboration-oxidation. Which major alcohol is formed?",
+      "options": [
+        "Propan-2-ol",
+        "Propan-1-ol",
+        "Ethanol",
+        "Methanol",
+        "Butan-1-ol"
+      ],
+      "answer": 1,
+      "difficulty": 2,
+      "marks": 1,
+      "explanation": "Hydroboration-oxidation gives anti-Markovnikov hydration. The OH group appears at the less substituted carbon, forming propan-1-ol."
+    },
+    {
+      "id": 67,
+      "type": "mcq_single",
+      "question": "Which statement correctly compares acid-catalysed hydration and hydroboration-oxidation of propene?",
+      "options": [
+        "Both mainly form propan-1-ol.",
+        "Both mainly form propan-2-ol.",
+        "Acid-catalysed hydration forms propan-1-ol, while hydroboration-oxidation forms propan-2-ol.",
+        "Acid-catalysed hydration mainly forms propan-2-ol, while hydroboration-oxidation mainly forms propan-1-ol.",
+        "Neither reaction forms an alcohol."
+      ],
+      "answer": 3,
+      "difficulty": 2,
+      "marks": 1,
+      "explanation": "Acid-catalysed hydration follows Markovnikov orientation, while hydroboration-oxidation gives anti-Markovnikov hydration."
+    },
+    {
+      "id": 68,
+      "type": "mcq_single",
+      "question": "In hydroboration of an unsymmetrical alkene, boron mainly attaches to the less substituted carbon. Which reason is most appropriate at this level?",
+      "options": [
+        "Boron behaves as a leaving group before addition.",
+        "The less substituted carbon is always negatively charged.",
+        "Water attacks the alkene before boron.",
+        "The reaction proceeds through a free carbocation.",
+        "Electronic and steric factors favour attachment of boron to the less substituted carbon."
+      ],
+      "answer": 4,
+      "difficulty": 2,
+      "marks": 1,
+      "explanation": "The concerted hydroboration step is controlled by electronic and steric factors, favouring boron attachment to the less substituted carbon."
+    },
+    {
+      "id": 69,
+      "type": "mcq_single",
+      "question": "Which statement about hydroboration-oxidation is correct?",
+      "options": [
+        "It proceeds through a freely rotating carbocation intermediate.",
+        "Oxidation replaces the carbon-boron bond by a carbon-oxygen bond.",
+        "It always produces a ketone.",
+        "It is a beta-elimination reaction.",
+        "It requires alcoholic KOH as the first reagent."
+      ],
+      "answer": 1,
+      "difficulty": 2,
+      "marks": 1,
+      "explanation": "During oxidation, the carbon-boron bond formed in hydroboration is ultimately converted into a carbon-oxygen bond, producing an alcohol."
+    },
+    {
+      "id": 70,
+      "type": "mcq_single",
+      "question": "A student wants to prepare propan-1-ol directly from propene using the preparation methods covered. Which method should be selected?",
+      "options": [
+        "Acid-catalysed hydration",
+        "Treatment with aqueous KOH",
+        "Hydroboration-oxidation",
+        "Wurtz reaction",
+        "Finkelstein reaction"
+      ],
+      "answer": 2,
+      "difficulty": 2,
+      "marks": 1,
+      "explanation": "Hydroboration-oxidation converts propene into propan-1-ol by anti-Markovnikov hydration."
+    }
+  ]
+}
