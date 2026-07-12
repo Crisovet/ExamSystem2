@@ -1,5 +1,10 @@
-const questions = JSON.parse(localStorage.getItem("questions"));
-const answers = JSON.parse(localStorage.getItem("answers"));
+const questions = JSON.parse(
+    localStorage.getItem("questions")
+);
+
+const answers = JSON.parse(
+    localStorage.getItem("answers")
+);
 
 let score = 0;
 
@@ -14,28 +19,6 @@ function normalizeAnswer(text) {
         .replace(/\s/g, "")
         .replace(/-/g, "")
         .replace(/,/g, "");
-
-}
-
-
-// Extract all numbers from an answer
-
-function getNumbers(text) {
-
-    return String(text).match(/\d+/g) || [];
-
-}
-
-
-// Chemistry/IUPAC numbers must match exactly
-
-function numbersMatch(student, correct) {
-
-    const studentNumbers = getNumbers(student);
-    const correctNumbers = getNumbers(correct);
-
-    return JSON.stringify(studentNumbers) ===
-           JSON.stringify(correctNumbers);
 
 }
 
@@ -101,19 +84,133 @@ function similarity(a, b) {
 
     }
 
-    if (a.length === 0 || b.length === 0) {
+    if (
+        a.length === 0 ||
+        b.length === 0
+    ) {
 
         return 0;
 
     }
 
-    const distance = levenshteinDistance(a, b);
+    const distance =
+        levenshteinDistance(a, b);
 
     return 1 - (
-        distance / Math.max(a.length, b.length)
+        distance /
+        Math.max(a.length, b.length)
     );
 
 }
+
+
+// Split text using numbers as fixed anchors
+
+function splitByNumbers(text) {
+
+    return normalizeAnswer(text)
+        .split(/(\d+)/)
+        .filter(part => part !== "");
+
+}
+
+
+// Numbers must appear in same structural position
+
+function structuralSimilarity(student, correct) {
+
+    const studentParts =
+        splitByNumbers(student);
+
+    const correctParts =
+        splitByNumbers(correct);
+
+
+    // Structure differs
+
+    if (
+        studentParts.length !==
+        correctParts.length
+    ) {
+
+        return 0;
+
+    }
+
+
+    let scores = [];
+
+
+    for (
+        let i = 0;
+        i < correctParts.length;
+        i++
+    ) {
+
+        const correctPart =
+            correctParts[i];
+
+        const studentPart =
+            studentParts[i];
+
+
+        const correctIsNumber =
+            /^\d+$/.test(correctPart);
+
+        const studentIsNumber =
+            /^\d+$/.test(studentPart);
+
+
+        // Numbers are strict anchors
+
+        if (
+            correctIsNumber ||
+            studentIsNumber
+        ) {
+
+            if (
+                !correctIsNumber ||
+                !studentIsNumber ||
+                correctPart !== studentPart
+            ) {
+
+                return 0;
+
+            }
+
+        }
+
+        else {
+
+            scores.push(
+
+                similarity(
+                    studentPart,
+                    correctPart
+                )
+
+            );
+
+        }
+
+    }
+
+
+    if (scores.length === 0) {
+
+        return 1;
+
+    }
+
+
+    return scores.reduce(
+        (total, value) =>
+            total + value,
+        0
+    ) / scores.length;
+
+}
+
 
 
 questions.forEach((q, index) => {
@@ -122,7 +219,8 @@ questions.forEach((q, index) => {
 
     let isCorrect = false;
 
-    let studentAnswer = "Not Answered";
+    let studentAnswer =
+        "Not Answered";
 
     let correctAnswer = "";
 
@@ -133,14 +231,16 @@ questions.forEach((q, index) => {
 
         const correct = q.answer;
 
-        isCorrect = student === correct;
+        isCorrect =
+            student === correct;
 
         studentAnswer =
             student === -1
                 ? "Not Answered"
                 : q.options[student];
 
-        correctAnswer = q.options[correct];
+        correctAnswer =
+            q.options[correct];
 
     }
 
@@ -150,11 +250,13 @@ questions.forEach((q, index) => {
     else if (q.type === "fill_blank") {
 
         studentAnswer =
-            student && student.trim() !== ""
+            student &&
+            student.trim() !== ""
                 ? student
                 : "Not Answered";
 
-        correctAnswer = q.answers[0];
+        correctAnswer =
+            q.answers[0];
 
         const threshold =
             q.matchThreshold ?? 0.7;
@@ -164,24 +266,20 @@ questions.forEach((q, index) => {
 
         q.answers.forEach(answer => {
 
-            let match = 0;
-
-
-            // Numbers must match exactly
-
-            if (numbersMatch(student, answer)) {
-
-                match = similarity(
+            const match =
+                structuralSimilarity(
                     student,
                     answer
                 );
 
-            }
 
+            if (
+                match >
+                highestSimilarity
+            ) {
 
-            if (match > highestSimilarity) {
-
-                highestSimilarity = match;
+                highestSimilarity =
+                    match;
 
             }
 
@@ -189,14 +287,16 @@ questions.forEach((q, index) => {
 
 
         isCorrect =
-            highestSimilarity >= threshold;
+            highestSimilarity >=
+            threshold;
 
     }
 
 
     if (isCorrect) {
 
-        score += q.marks ?? 1;
+        score +=
+            q.marks ?? 1;
 
     }
 
@@ -257,16 +357,20 @@ questions.forEach((q, index) => {
 });
 
 
-const totalMarks = questions.reduce(
+const totalMarks =
+    questions.reduce(
 
-    (total, q) =>
-        total + (q.marks ?? 1),
+        (total, q) =>
+            total +
+            (q.marks ?? 1),
 
-    0
+        0
 
-);
+    );
 
 
-document.getElementById("score").innerHTML =
+document
+    .getElementById("score")
+    .innerHTML =
 
     `Score : ${score} / ${totalMarks}`;
