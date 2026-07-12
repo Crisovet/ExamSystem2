@@ -461,7 +461,7 @@
       "question": "The IUPAC name of CH3CH2OH is ______.",
       "answers": [
         "ethanol",
-        ""ethan1ol""
+        "ethan1ol"
       ],
       "matchThreshold": 0.7,
       "difficulty": 1,
@@ -759,23 +759,23 @@
       "explanation": "SN1 occurs stepwise through a carbocation intermediate. SN2 is a concerted reaction involving backside nucleophilic attack."
     },
     {
-      "id": 55,
-      "type": "mcq_single",
-      "question": "Which order best represents increasing ease of nucleophilic substitution of chlorine in the compounds studied?",
-      "options": [
-        "p-Nitrochlorobenzene < chlorobenzene < m-nitrochlorobenzene",
-        "Chlorobenzene < p-nitrochlorobenzene < m-nitrochlorobenzene",
-        "m-Nitrochlorobenzene < chlorobenzene < p-nitrochlorobenzene",
-        "p-Nitrochlorobenzene < m-nitrochlorobenzene < chlorobenzene",
-        "Chlorobenzene < m-nitrochlorobenzene < p-nitrochlorobenzene"
-      ],
-      "answer": 4,
-      "difficulty": 2,
-      "marks": 1,
-      "explanation": "A meta nitro group increases electron withdrawal but cannot stabilise the intermediate by resonance as effectively as a para nitro group. Para-NO2 strongly increases nucleophilic substitution through resonance stabilisation."
-    },
-    {
   "id": 55,
+  "type": "mcq_single",
+  "question": "Which nitro-substituted chlorobenzene is strongly activated towards nucleophilic substitution because the nitro group can stabilise the negatively charged intermediate through resonance?",
+  "options": [
+    "m-Nitrochlorobenzene",
+    "p-Nitrochlorobenzene",
+    "Chlorobenzene",
+    "1,3-Dichlorobenzene",
+    "Toluene"
+  ],
+  "answer": 1,
+  "difficulty": 2,
+  "marks": 1,
+  "explanation": "In p-nitrochlorobenzene, the para nitro group stabilises the negatively charged intermediate through resonance, increasing the rate of nucleophilic substitution."
+},
+    {
+  "id": 56,
   "type": "mcq_single",
   "question": "Why does a nitro group at the para position increase the reactivity of chlorobenzene towards nucleophilic substitution?",
   "options": [
