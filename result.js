@@ -12,7 +12,31 @@ function normalizeAnswer(text) {
         .toLowerCase()
         .trim()
         .replace(/\s/g, "")
-        .replace(/-/g, "");
+        .replace(/-/g, "")
+        .replace(/,/g, "");
+
+}
+
+
+// Extract all numbers from an answer
+
+function getNumbers(text) {
+
+    return String(text).match(/\d+/g) || [];
+
+}
+
+
+// Chemistry/IUPAC numbers must match exactly
+
+function numbersMatch(student, correct) {
+
+    const studentNumbers = getNumbers(student);
+    const correctNumbers = getNumbers(correct);
+
+    return JSON.stringify(studentNumbers) ===
+           JSON.stringify(correctNumbers);
+
 }
 
 
@@ -21,11 +45,15 @@ function levenshteinDistance(a, b) {
     const matrix = [];
 
     for (let i = 0; i <= b.length; i++) {
+
         matrix[i] = [i];
+
     }
 
     for (let j = 0; j <= a.length; j++) {
+
         matrix[0][j] = j;
+
     }
 
     for (let i = 1; i <= b.length; i++) {
@@ -34,14 +62,21 @@ function levenshteinDistance(a, b) {
 
             if (b[i - 1] === a[j - 1]) {
 
-                matrix[i][j] = matrix[i - 1][j - 1];
+                matrix[i][j] =
+                    matrix[i - 1][j - 1];
 
-            } else {
+            }
+
+            else {
 
                 matrix[i][j] = Math.min(
+
                     matrix[i - 1][j - 1] + 1,
+
                     matrix[i][j - 1] + 1,
+
                     matrix[i - 1][j] + 1
+
                 );
 
             }
@@ -51,6 +86,7 @@ function levenshteinDistance(a, b) {
     }
 
     return matrix[b.length][a.length];
+
 }
 
 
@@ -60,11 +96,15 @@ function similarity(a, b) {
     b = normalizeAnswer(b);
 
     if (a === b) {
+
         return 1;
+
     }
 
     if (a.length === 0 || b.length === 0) {
+
         return 0;
+
     }
 
     const distance = levenshteinDistance(a, b);
@@ -72,6 +112,7 @@ function similarity(a, b) {
     return 1 - (
         distance / Math.max(a.length, b.length)
     );
+
 }
 
 
@@ -82,6 +123,7 @@ questions.forEach((q, index) => {
     let isCorrect = false;
 
     let studentAnswer = "Not Answered";
+
     let correctAnswer = "";
 
 
@@ -114,27 +156,48 @@ questions.forEach((q, index) => {
 
         correctAnswer = q.answers[0];
 
-        const threshold = q.matchThreshold ?? 0.7;
+        const threshold =
+            q.matchThreshold ?? 0.7;
 
         let highestSimilarity = 0;
 
+
         q.answers.forEach(answer => {
 
-            const match = similarity(student, answer);
+            let match = 0;
+
+
+            // Numbers must match exactly
+
+            if (numbersMatch(student, answer)) {
+
+                match = similarity(
+                    student,
+                    answer
+                );
+
+            }
+
 
             if (match > highestSimilarity) {
+
                 highestSimilarity = match;
+
             }
 
         });
 
-        isCorrect = highestSimilarity >= threshold;
+
+        isCorrect =
+            highestSimilarity >= threshold;
 
     }
 
 
     if (isCorrect) {
+
         score += q.marks ?? 1;
+
     }
 
 
@@ -163,21 +226,31 @@ questions.forEach((q, index) => {
             </p>
 
             <p class="result-status">
+
                 <b>
-                    ${isCorrect
-                        ? "✓ Correct"
-                        : "✗ Incorrect"}
+
+                    ${
+                        isCorrect
+                            ? "✓ Correct"
+                            : "✗ Incorrect"
+                    }
+
                 </b>
+
             </p>
 
             <p>
+
                 <b>Explanation:</b>
+
                 ${q.explanation ?? ""}
+
             </p>
 
         </div>
 
     `;
+
 
     container.innerHTML += html;
 
@@ -185,10 +258,15 @@ questions.forEach((q, index) => {
 
 
 const totalMarks = questions.reduce(
-    (total, q) => total + (q.marks ?? 1),
+
+    (total, q) =>
+        total + (q.marks ?? 1),
+
     0
+
 );
 
 
 document.getElementById("score").innerHTML =
+
     `Score : ${score} / ${totalMarks}`;
