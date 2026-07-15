@@ -8,87 +8,120 @@
     {
       "id": 1,
       "type": "fill_blank",
-      "question": "The IUPAC name of CH3CH2Cl is ______.",
+      "question": "The IUPAC name of CH3CH2OH is ______.",
       "answers": [
-        "chloroethane"
+        "ethanol",
+	"ethan1ol"
       ],
       "matchThreshold": 0.7,
       "difficulty": 1,
       "marks": 1,
-      "explanation": "CH3CH2Cl contains a two-carbon ethane chain with a chlorine substituent and is named chloroethane."
+      "explanation": "CH3CH2OH is a two-carbon alcohol. Its IUPAC name is ethanol."
     },
     {
       "id": 2,
       "type": "fill_blank",
-      "question": "C6H5CH2Cl is classified as a ______.",
+      "question": "An alcohol in which the hydroxyl-bearing carbon is attached to only one other carbon atom is classified as a ______.",
       "answers": [
-        "benzylic",
-        "benzylic halide"
+        "primary",
+        "primary alcohol"
       ],
       "matchThreshold": 0.7,
       "difficulty": 1,
       "marks": 1,
-      "explanation": "The chlorine-bearing carbon is directly adjacent to a benzene ring, so the compound is a benzylic halide."
+      "explanation": "A primary alcohol has the carbon bearing the OH group attached to only one other carbon atom."
     },
     {
       "id": 3,
       "type": "fill_blank",
-      "question": "CH2=CHCl is classified as a ______.",
+      "question": "The IUPAC name of CH3OCH2CH3 is ______.",
       "answers": [
-        "vinylic",
-        "vinylic halide",
-        "vinyl",
-        "vinyl halide"
+        "methoxyethane"
       ],
       "matchThreshold": 0.7,
       "difficulty": 1,
       "marks": 1,
-      "explanation": "In CH2=CHCl, chlorine is directly attached to an sp2 carbon of a carbon-carbon double bond, making it a vinylic halide."
+      "explanation": "Ethers are named as alkoxyalkanes. CH3OCH2CH3 is methoxyethane."
     },
     {
       "id": 4,
       "type": "fill_blank",
-      "question": "C6H5Cl is classified as an ______.",
+      "question": "The reagent commonly used to oxidise a primary alcohol into an aldehyde without further oxidation is ______.",
       "answers": [
-        "aryl",
-	"arylic",
-	"aryllic",
-        "aryl halide"
+        "PCC",
+	"CrO3",
+	"chromium trioxide"
       ],
       "matchThreshold": 0.7,
-      "difficulty": 1,
+      "difficulty": 2,
       "marks": 1,
-      "explanation": "In C6H5Cl, chlorine is directly attached to an aromatic ring carbon, so the compound is an aryl halide."
+      "explanation": "Cro3, PCC oxidises primary alcohols to aldehydes without significant further oxidation."
     },
     {
       "id": 5,
       "type": "fill_blank",
-      "question": "Due to the electronegativity difference between carbon and halogen, the C-X bond in a haloalkane is classified as ______.",
+      "question": "The reaction in which an alcohol reacts with a carboxylic acid to form an ester is called ______.",
       "answers": [
-        "polar covalent"
+        "esterification"
       ],
       "matchThreshold": 0.7,
       "difficulty": 1,
       "marks": 1,
-      "explanation": "The halogen attracts the shared electron pair more strongly than carbon, making the C-X bond polar covalent."
+      "explanation": "Alcohols react with carboxylic acids in the presence of acid catalyst to give esters."
     },
     {
       "id": 6,
       "type": "fill_blank",
-      "question": "The reagent preferred for converting alcohols into alkyl chlorides because its by-products escape as gases is ______.",
+      "question": "The common laboratory test used to distinguish primary, secondary and tertiary alcohols using concentrated HCl and anhydrous ZnCl2 is the ______.",
       "answers": [
-        "thionyl chloride",
-        "SOCl2"
+        "Lucas",
+        "Lucas test"
       ],
       "matchThreshold": 0.7,
       "difficulty": 1,
       "marks": 1,
-      "explanation": "Thionyl chloride, SOCl2, produces gaseous SO2 and HCl as by-products, allowing the alkyl chloride to be obtained in a relatively pure form."
+      "explanation": "Lucas test distinguishes alcohols based on the rate of formation of alkyl chlorides."
     },
     {
       "id": 7,
       "type": "fill_blank",
-      "question": "The named reaction used to prepare alkyl fluorides from alkyl chlorides or bromides is the ______.",
+      "question": "Heating ethanol vapours over copper at 573 K produces the aldehyde ______.",
+      "answers": [
+        "ethanal"
+      ],
+      "matchThreshold": 0.7,
+      "difficulty": 2,
+      "marks": 1,
+      "explanation": "Primary alcohols are dehydrogenated by hot copper at 573 K to give aldehydes."
+    },
+    {
+  "id": 8,
+  "type": "fill_blank",
+  "question": "The product formed in the Wurtz reaction of two molecules of ethyl bromide is ______.",
+  "answers": [
+    "butane"
+  ],
+  "matchThreshold": 0.7,
+  "difficulty": 2,
+  "marks": 1,
+  "explanation": "In the Wurtz reaction, two ethyl groups couple to form butane."
+	},
+    {
+  "id": 9,
+  "type": "fill_blank",
+  "question": "The product formed in the Sandmeyer reaction when benzene diazonium chloride is treated with CuCl is ______.",
+  "answers": [
+    "chlorobenzene"
+  ],
+  "matchThreshold": 0.7,
+  "difficulty": 1,
+  "marks": 1,
+  "explanation": "In the Sandmeyer reaction, benzene diazonium chloride reacts with CuCl to form chlorobenzene."
+	},
+    {
+      "id": 10,
+      "type": "fill_blank",
+      "question": "The named reaction used to convert an alkyl chloride or bromide into an alkyl fluoride is the ______.",
       "answers": [
         "Swarts",
         "Swarts reaction"
@@ -96,101 +129,62 @@
       "matchThreshold": 0.7,
       "difficulty": 1,
       "marks": 1,
-      "explanation": "The Swarts reaction prepares alkyl fluorides by replacing chlorine or bromine in an alkyl halide with fluorine."
-    },
-    {
-      "id": 8,
-      "type": "fill_blank",
-      "question": "The conversion of an alkyl chloride or bromide into an alkyl iodide using NaI in dry acetone is called the ______.",
-      "answers": [
-        "Finkelstein",
-        "Finkelstein reaction"
-      ],
-      "matchThreshold": 0.7,
-      "difficulty": 1,
-      "marks": 1,
-      "explanation": "The Finkelstein reaction uses NaI in dry acetone to convert alkyl chlorides or bromides into alkyl iodides."
-    },
-    {
-      "id": 9,
-      "type": "fill_blank",
-      "question": "Conversion of a benzene diazonium salt into an aryl chloride or bromide using a Cu(I) salt is called the ______.",
-      "answers": [
-        "Sandmeyer",
-        "Sandmeyer reaction"
-      ],
-      "matchThreshold": 0.7,
-      "difficulty": 1,
-      "marks": 1,
-      "explanation": "The Sandmeyer reaction replaces the diazonium group with chlorine or bromine using the corresponding copper(I) salt."
-    },
-    {
-      "id": 10,
-      "type": "fill_blank",
-      "question": "An electron-pair donor that attacks an electron-deficient centre is called a ______.",
-      "answers": [
-        "nucleophile",
-	"weak nucleophile"
-      ],
-      "matchThreshold": 0.7,
-      "difficulty": 1,
-      "marks": 1,
-      "explanation": "A (weak)nucleophile donates an electron pair to an electron-deficient centre during a chemical reaction."
+      "explanation": "The Swarts reaction prepares alkyl fluorides from alkyl chlorides or bromides."
     },
     {
       "id": 11,
       "type": "fill_blank",
-      "question": "A one-step nucleophilic substitution reaction mechanism involving backside attack is called ______.",
+      "question": "The reagent used for converting alcohols into alkyl bromides under mild conditions is ______.",
       "answers": [
-        "SN2",
-        "SN2 reaction"
+        "PBr3",
+        "phosphorus tribromide"
       ],
       "matchThreshold": 0.7,
       "difficulty": 1,
       "marks": 1,
-      "explanation": "SN2 is a concerted one-step nucleophilic substitution mechanism involving backside attack."
+      "explanation": "Phosphorus tribromide (PBr3) converts primary and secondary alcohols into alkyl bromides efficiently."
     },
     {
       "id": 12,
       "type": "fill_blank",
-      "question": "A pair of non-superimposable mirror-image stereoisomers are called ______.",
+      "question": "The intermolecular force mainly responsible for the unusually high boiling points of alcohols is ______.",
       "answers": [
-        "enantiomers"
+        "hydrogen bonding"
       ],
       "matchThreshold": 0.7,
       "difficulty": 1,
       "marks": 1,
-      "explanation": "Enantiomers are stereoisomers that are non-superimposable mirror images of each other."
+      "explanation": "Alcohol molecules are associated through intermolecular hydrogen bonding, increasing their boiling points."
     },
     {
-      "id": 13,
-      "type": "fill_blank",
-      "question": "The stereochemical change caused by backside attack in an SN2 reaction is called ______.",
-      "answers": [
-        "inversion"
-      ],
-      "matchThreshold": 0.7,
-      "difficulty": 1,
-      "marks": 1,
-      "explanation": "Backside attack in an SN2 reaction causes inversion of configuration at the stereogenic carbon."
-    },
+  "id": 13,
+  "type": "fill_blank",
+  "question": "The product obtained when propan-2-ol is oxidised is ______.",
+  "answers": [
+   	 "propanone",
+   	"propan2one"
+  ],
+  "matchThreshold": 0.7,
+  "difficulty": 1,
+  "marks": 1,
+  "explanation": "Oxidation of a secondary alcohol produces a ketone. Propan-2-ol gives propanone."
+	},
     {
-      "id": 14,
-      "type": "fill_blank",
-      "question": "Formation of a mixture (50%-50% enantiomers) through nucleophilic attack on both sides of a planar carbocation is called ______.",
-      "answers": [
-        "racemisation",
-        "racemization"
-      ],
-      "matchThreshold": 0.7,
-      "difficulty": 2,
-      "marks": 1,
-      "explanation": "Attack on both sides of a planar carbocation produces both configurations and leads to racemisation."
-    },
+  "id": 14,
+  "type": "fill_blank",
+  "question": "The major alkene formed on dehydration of propan-2-ol is ______.",
+  "answers": [
+    "propene"
+  ],
+  "matchThreshold": 0.7,
+  "difficulty": 1,
+  "marks": 1,
+  "explanation": "On dehydration with concentrated H2SO4 and heat, propan-2-ol undergoes elimination of water to form propene."
+},
     {
       "id": 15,
       "type": "fill_blank",
-      "question": "The rule predicting the more substituted alkene as the major product of beta-elimination is the ______.",
+      "question": "The major alkene formed during dehydration generally follows the ______.",
       "answers": [
         "Zaitsev",
         "Zaitsev rule",
@@ -200,1155 +194,550 @@
       "matchThreshold": 0.7,
       "difficulty": 1,
       "marks": 1,
-      "explanation": "Zaitsev's rule predicts that the more substituted alkene is generally the major product of beta-elimination."
+      "explanation": "According to Zaitsev's rule, the more substituted alkene is usually the major product."
     },
     {
       "id": 16,
       "type": "fill_blank",
-      "question": "A compound containing an OH group directly attached to an aromatic ring carbon is called  ______.",
+      "question": "The common name of o-hydroxybenzoic acid is ______.",
       "answers": [
-        "phenol"
+        "salicylic acid"
       ],
       "matchThreshold": 0.7,
       "difficulty": 1,
       "marks": 1,
-      "explanation": "A phenol contains a hydroxyl group directly attached to an aromatic ring carbon."
+      "explanation": "o-Hydroxybenzoic acid is commonly known as salicylic acid."
     },
     {
       "id": 17,
       "type": "fill_blank",
-      "question": "CH2=CHCH2OH is classified as an ______.",
+      "question": "The IUPAC name of CH3CH2Cl is ______.",
       "answers": [
-        "allylic",
-	"allyl",
-        "allylic alcohol"
+        "chloroethane"
       ],
       "matchThreshold": 0.7,
       "difficulty": 1,
       "marks": 1,
-      "explanation": "The OH-bearing carbon is directly adjacent to a carbon-carbon double bond, so the compound is an allylic alcohol."
+      "explanation": "CH3CH2Cl is the two-carbon haloalkane named chloroethane."
     },
     {
       "id": 18,
       "type": "fill_blank",
-      "question": "The IUPAC name of CH3OCH3 is ______.",
+      "question": "The conversion of an alkyl chloride or bromide into an alkyl iodide using NaI in dry acetone is called the ______.",
       "answers": [
-        "methoxymethane"
+        "Finkelstein",
+        "Finkelstein reaction"
       ],
       "matchThreshold": 0.7,
       "difficulty": 1,
       "marks": 1,
-      "explanation": "CH3OCH3 is named methoxymethane according to the alkoxyalkane system of ether nomenclature."
+      "explanation": "The Finkelstein reaction replaces chlorine or bromine with iodine using sodium iodide in dry acetone."
     },
     {
       "id": 19,
       "type": "fill_blank",
-      "question": "The C=O functional group present in aldehydes and ketones is called the ______ group.",
+      "question": "The conversion of a benzene diazonium salt into chlorobenzene using CuCl is called the ______.",
       "answers": [
-        "carbonyl"
+        "Sandmeyer",
+        "Sandmeyer reaction"
       ],
       "matchThreshold": 0.7,
       "difficulty": 1,
       "marks": 1,
-      "explanation": "A carbon atom double-bonded to oxygen forms the carbonyl functional group."
+      "explanation": "The Sandmeyer reaction converts aryl diazonium salts into haloarenes using cuprous salts."
     },
-     {
-      "id": 20,
-      "type": "fill_blank",
-      "question": "The simplest aldehyde used with a Grignard reagent to prepare a primary alcohol is ______.",
-      "answers": [
-        "methanal"
-      ],
-      "matchThreshold": 0.7,
-      "difficulty": 1,
-      "marks": 1,
-      "explanation": "Methanal reacts with a Grignard reagent and, after hydrolysis, gives a primary alcohol."
-    },
-      {
+    {
+  "id": 20,
+  "type": "fill_blank",
+  "question": "In the reaction 3R–OH + PBr3 → 3R–Br + H3PO3, PBr3 is prepared in situ using red phosphorus and ______.",
+  "answers": [
+    "bromine",
+    "Br2"
+  ],
+  "matchThreshold": 0.7,
+  "difficulty": 2,
+  "marks": 1,
+  "explanation": "In the laboratory, phosphorus tribromide is prepared in situ by reacting red phosphorus with bromine (Br2). The PBr3 formed then converts alcohols into alkyl bromides according to: 3R–OH + PBr3 → 3R–Br + H3PO3."
+},
+    {
       "id": 21,
-      "type": "fill_blank",
-      "question": "The carbonyl compound that gives propan-2-ol on reduction is ______.",
-      "answers": [
-        "propanone"
+      "type": "mcq_single",
+      "question": "Why is phenol more acidic than ethanol?",
+      "options": [
+        "Phenol contains more carbon atoms",
+        "Phenoxide ion is resonance stabilised",
+        "Ethanol contains a stronger C–O bond",
+        "Phenol has weaker O–H bond because of hydrogen bonding",
+        "Phenol is an aromatic alcohol"
       ],
-      "matchThreshold": 0.7,
-      "difficulty": 1,
+      "answer": 1,
+      "difficulty": 2,
       "marks": 1,
-      "explanation": "Reduction of propanone converts its carbonyl group into a hydroxyl group and forms propan-2-ol."
+      "explanation": "The phenoxide ion formed after loss of H+ is resonance stabilised, whereas the ethoxide ion is not."
     },
     {
       "id": 22,
-      "type": "fill_blank",
-      "question": "Hydroboration-oxidation of an unsymmetrical alkene follows ______ orientation.",
-      "answers": [
-        "anti-Markovnikov",
-        "anti Markovnikov"
+      "type": "mcq_single",
+      "question": "Arrange the following in decreasing order of boiling point: Ethanol, Dimethyl ether, Ethane.",
+      "options": [
+        "Ethanol > Dimethyl ether > Ethane",
+        "Dimethyl ether > Ethanol > Ethane",
+        "Ethanol > Ethane > Dimethyl ether",
+        "Ethane > Ethanol > Dimethyl ether",
+        "Dimethyl ether > Ethane > Ethanol"
       ],
-      "matchThreshold": 0.7,
-      "difficulty": 1,
+      "answer": 0,
+      "difficulty": 2,
       "marks": 1,
-      "explanation": "Hydroboration-oxidation places the hydroxyl group on the less substituted carbon and follows anti-Markovnikov orientation."
+      "explanation": "Alcohols exhibit hydrogen bonding, ethers have dipole-dipole interactions and hydrocarbons possess only dispersion forces."
     },
     {
       "id": 23,
-      "type": "fill_blank",
-      "question": "The intermolecular attraction mainly responsible for the high boiling points of alcohols and phenols is ______.",
-      "answers": [
-        "hydrogen bonding"
+      "type": "mcq_single",
+      "question": "Why is tert-butyl alcohol resistant to oxidation under ordinary oxidising conditions?",
+      "options": [
+        "It contains no oxygen atom",
+        "It has no α-hydrogen attached to the carbon bearing the OH group",
+        "It forms hydrogen bonds",
+        "It is insoluble in oxidising agents",
+        "It is an ether"
       ],
-      "matchThreshold": 0.7,
-      "difficulty": 1,
+      "answer": 1,
+      "difficulty": 2,
       "marks": 1,
-      "explanation": "Alcohols and phenols form intermolecular hydrogen bonds through their hydroxyl groups."
+      "explanation": "Tertiary alcohols lack an α-hydrogen, making oxidation difficult without carbon-carbon bond cleavage."
     },
-     {
+    {
       "id": 24,
-      "type": "fill_blank",
-      "question": "The aromatic amine that gives phenol on hydrolysis of its diazonium salt is ______.",
-      "answers": [
-        "benzenamine",
-        "aniline"
+      "type": "mcq_single",
+      "question": "Which reagent converts a primary alcohol into an aldehyde without significant further oxidation?",
+      "options": [
+        "KMnO4",
+        "CrO3",
+        "PCC",
+        "Lucas reagent",
+        "NaOH"
       ],
-      "matchThreshold": 0.7,
+      "answer": 2,
       "difficulty": 1,
       "marks": 1,
-      "explanation": "Benzenamine, commonly known as aniline, is converted into a benzene diazonium salt, which on hydrolysis gives phenol."
+      "explanation": "PCC selectively oxidises primary alcohols to aldehydes."
     },
     {
       "id": 25,
-      "type": "fill_blank",
-      "question": "An alcohol whose OH-bearing carbon is bonded to three other carbon atoms is classified as a ______.",
-      "answers": [
-        "tertiary",
-        "tertiary alcohol"
+      "type": "mcq_single",
+      "question": "Arrange the following in increasing acidity: Ethanol, Water, Phenol.",
+      "options": [
+        "Water < Ethanol < Phenol",
+        "Phenol < Water < Ethanol",
+        "Ethanol < Water < Phenol",
+        "Phenol < Ethanol < Water",
+        "Water < Phenol < Ethanol"
       ],
-      "matchThreshold": 0.7,
-      "difficulty": 1,
+      "answer": 2,
+      "difficulty": 2,
       "marks": 1,
-      "explanation": "In a tertiary alcohol, the carbon bearing the hydroxyl group is directly attached to three carbon atoms."
+      "explanation": "Phenol is most acidic due to resonance stabilisation. Water is more acidic than ethanol."
     },
     {
       "id": 26,
-      "type": "fill_blank",
-      "question": "The hybridisation of the oxygen atom in a simple alcohol is ______.",
-      "answers": [
-        "sp3"
+      "type": "mcq_single",
+      "question": "Why does hydroboration-oxidation of propene mainly produce propan-1-ol?",
+      "options": [
+        "It follows Markovnikov addition",
+        "It follows anti-Markovnikov addition",
+        "It forms a carbocation intermediate",
+        "It removes the double bond before oxidation",
+        "It produces only secondary alcohols"
       ],
-      "matchThreshold": 0.7,
-      "difficulty": 1,
+      "answer": 1,
+      "difficulty": 2,
       "marks": 1,
-      "explanation": "The oxygen atom in a simple alcohol has two sigma bonds and two lone pairs and is treated as sp3 hybridised."
+      "explanation": "Hydroboration-oxidation proceeds through anti-Markovnikov addition, placing the OH group on the less substituted carbon."
     },
     {
       "id": 27,
-      "type": "fill_blank",
-      "question": "An organomagnesium compound represented by RMgX is called______.",
-      "answers": [
-        "Grignard",
-        "Grignard reagent"
+      "type": "mcq_single",
+      "question": "Which alcohol gives a ketone on passing its vapours over heated copper at 573 K?",
+      "options": [
+        "Methanol",
+        "Ethanol",
+        "Propan-2-ol",
+        "2-Methylpropan-2-ol",
+        "Phenol"
       ],
-      "matchThreshold": 0.7,
-      "difficulty": 1,
+      "answer": 2,
+      "difficulty": 2,
       "marks": 1,
-      "explanation": "Organomagnesium compounds represented by RMgX are called Grignard reagents."
+      "explanation": "Secondary alcohols undergo dehydrogenation to ketones over heated copper."
     },
     {
       "id": 28,
-      "type": "fill_blank",
-      "question": "The reaction process in which an alcohol and a carboxylic acid form an ester is called ______.",
-      "answers": [
-        "esterification"
+      "type": "mcq_single",
+      "question": "Arrange the following in decreasing boiling point: Propan-1-ol, Propan-2-ol, 2-Methylpropan-2-ol.",
+      "options": [
+        "2-Methylpropan-2-ol > Propan-2-ol > Propan-1-ol",
+        "Propan-1-ol > Propan-2-ol > 2-Methylpropan-2-ol",
+        "Propan-2-ol > Propan-1-ol > 2-Methylpropan-2-ol",
+        "Propan-1-ol > 2-Methylpropan-2-ol > Propan-2-ol",
+        "2-Methylpropan-2-ol > Propan-1-ol > Propan-2-ol"
       ],
-      "matchThreshold": 0.7,
-      "difficulty": 1,
+      "answer": 1,
+      "difficulty": 2,
       "marks": 1,
-      "explanation": "The reaction of an alcohol with a carboxylic acid to form an ester is called esterification."
+      "explanation": "Greater branching reduces surface area and intermolecular attraction, lowering boiling point."
     },
     {
       "id": 29,
-      "type": "fill_blank",
-      "question": "The introduction of a CH3CO group into an alcohol or phenol derivative is called ______.",
-      "answers": [
-        "acetylation"
+      "type": "mcq_single",
+      "question": "Which statement correctly explains why alcohols are generally more soluble in water than ethers of similar molecular mass?",
+      "options": [
+        "Alcohols are ionic compounds",
+        "Alcohols form hydrogen bonds with water through their O–H group",
+        "Ethers contain no oxygen atom",
+        "Alcohols are non-polar",
+        "Ethers have stronger hydrogen bonding than alcohols"
       ],
-      "matchThreshold": 0.7,
-      "difficulty": 1,
+      "answer": 1,
+      "difficulty": 2,
       "marks": 1,
-      "explanation": "Acetylation is the introduction of an acetyl, CH3CO, group into a molecule."
+      "explanation": "The hydroxyl group of alcohols forms strong hydrogen bonds with water, increasing solubility."
     },
     {
       "id": 30,
-      "type": "fill_blank",
-      "question": "The common name of ortho-hydroxybenzoic acid is ______.",
-      "answers": [
-        "salicylic acid",
-	"salicylic"
+      "type": "mcq_single",
+      "question": "Which reagent is used in the Lucas test?",
+      "options": [
+        "Concentrated HCl and anhydrous ZnCl₂",
+        "Dilute HCl and CuCl",
+        "PBr₃ and HBr",
+        "SOCl₂ and pyridine",
+        "NaOH and ethanol"
       ],
-      "matchThreshold": 0.7,
+      "answer": 0,
       "difficulty": 1,
       "marks": 1,
-      "explanation": "Ortho-hydroxybenzoic acid is commonly known as salicylic acid."
+      "explanation": "Lucas reagent consists of concentrated hydrochloric acid and anhydrous zinc chloride."
     },
     {
       "id": 31,
       "type": "mcq_single",
-      "question": "Why does the carbon atom bonded to halogen in a haloalkane behave as an electron-deficient centre?",
+      "question": "Why does phenol react with aqueous NaOH whereas ethanol does not?",
       "options": [
-        "Carbon attracts the bonding electron pair more strongly than halogen",
-        "The C-X bond is completely ionic",
-        "The more electronegative halogen pulls the shared electron pair towards itself",
-        "The halogen transfers a lone pair completely to carbon",
-        "Carbon forms a carbon-carbon double bond during bond polarisation"
+        "Phenol is sufficiently acidic to form sodium phenoxide",
+        "Phenol is a stronger base than ethanol",
+        "Ethanol contains no O–H bond",
+        "Phenol is an ether",
+        "Ethanol is aromatic"
       ],
-      "answer": 2,
+      "answer": 0,
       "difficulty": 2,
       "marks": 1,
-      "explanation": "Halogen is more electronegative than carbon and attracts the shared electron pair, giving carbon a partial positive charge."
+      "explanation": "Phenol is more acidic due to resonance stabilisation of the phenoxide ion and therefore reacts with NaOH."
     },
     {
       "id": 32,
       "type": "mcq_single",
-      "question": "An alcohol gives an alkyl chloride and H3PO3 as a phosphorus-containing by-product. Which reagent was most likely used?",
+      "question": "Arrange the following in decreasing acidity: p-Nitrophenol, Phenol, p-Cresol.",
       "options": [
-        "PCl5",
-        "SOCl2",
-        "NaCl",
-        "CuCl",
-        "PCl3"
+        "Phenol > p-Nitrophenol > p-Cresol",
+        "p-Cresol > Phenol > p-Nitrophenol",
+        "p-Nitrophenol > Phenol > p-Cresol",
+        "Phenol > p-Cresol > p-Nitrophenol",
+        "p-Cresol > p-Nitrophenol > Phenol"
       ],
-      "answer": 4,
+      "answer": 2,
       "difficulty": 2,
       "marks": 1,
-      "explanation": "PCl3 converts alcohols into alkyl chlorides and forms phosphorous acid, H3PO3, as a by-product."
+      "explanation": "The electron-withdrawing nitro group increases acidity, whereas the methyl group decreases it."
     },
     {
       "id": 33,
       "type": "mcq_single",
-      "question": "An alcohol is converted into an alkyl chloride with POCl3 and HCl formed as by-products. Which reagent accounts for these products?",
+      "question": "Why is dry ether used during the preparation of Grignard reagents?",
       "options": [
-        "PCl3",
-        "PCl5",
-        "SOCl2",
-        "NaCl",
-        "CuCl"
+        "It supplies oxygen for oxidation",
+        "It prevents hydrolysis by excluding moisture and stabilises the reagent",
+        "It converts magnesium into Mg²⁺ ions",
+        "It acts as the nucleophile",
+        "It oxidises the alkyl halide"
       ],
       "answer": 1,
       "difficulty": 2,
       "marks": 1,
-      "explanation": "PCl5 converts an alcohol into an alkyl chloride while producing POCl3 and HCl as by-products."
+      "explanation": "Grignard reagents are destroyed by water. Dry ether provides an anhydrous medium and stabilises the reagent."
     },
     {
       "id": 34,
       "type": "mcq_single",
-      "question": "Why can an alkyl chloride prepared using SOCl2 often be obtained in a relatively pure form?",
+      "question": "Which alcohol is produced when methylmagnesium bromide reacts with methanal followed by hydrolysis?",
       "options": [
-        "SOCl2 produces only insoluble solid by-products",
-        "SOCl2 prevents cleavage of the carbon-oxygen bond",
-        "SOCl2 converts impurities into Grignard reagents",
-        "The SO2 and HCl by-products escape as gases",
-        "The alkyl chloride precipitates from every solvent"
+        "Methanol",
+        "Ethanol",
+        "Propan-1-ol",
+        "Propan-2-ol",
+        "tert-Butyl alcohol"
       ],
-      "answer": 3,
+      "answer": 1,
       "difficulty": 2,
       "marks": 1,
-      "explanation": "The SO2 and HCl by-products are gases and escape from the reaction mixture, leaving the alkyl chloride relatively pure."
+      "explanation": "Reaction with methanal always gives a primary alcohol containing one additional carbon atom."
     },
     {
       "id": 35,
       "type": "mcq_single",
-      "question": "Why does the Finkelstein reaction proceed effectively when NaI is used in dry acetone?",
+      "question": "Arrange the following in decreasing solubility in water: Methanol, Ethanol, Propan-1-ol.",
       "options": [
-        "NaCl or NaBr formed in the reaction precipitates from acetone",
-        "Acetone converts iodide into fluorine",
-        "NaI produces a stable carbocation in every substrate",
-        "Acetone supplies water for hydrolysis",
-        "The alkyl iodide forms an insoluble precipitate"
+        "Propan-1-ol > Ethanol > Methanol",
+        "Methanol > Ethanol > Propan-1-ol",
+        "Ethanol > Methanol > Propan-1-ol",
+        "Methanol > Propan-1-ol > Ethanol",
+        "Ethanol > Propan-1-ol > Methanol"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": 2,
       "marks": 1,
-      "explanation": "NaCl or NaBr is insoluble in dry acetone and precipitates, helping drive the halogen-exchange reaction forward."
+      "explanation": "As alkyl chain length increases, the hydrophobic effect increases and water solubility decreases."
     },
     {
       "id": 36,
       "type": "mcq_single",
-      "question": "Why does KCN mainly give a nitrile whereas AgCN mainly gives an isocyanide with an alkyl halide?",
+      "question": "Why does concentrated H₂SO₄ promote dehydration of alcohols?",
       "options": [
-        "KCN contains oxygen while AgCN contains nitrogen",
-        "AgCN converts the alkyl halide into an alkene first",
-        "KCN favours carbon-end attack, whereas AgCN favours nitrogen-end attack",
-        "KCN reacts only by elimination while AgCN reacts only by addition",
-        "Both reagents attack through the same atom but undergo different hydrolysis"
+        "It behaves as a reducing agent",
+        "It protonates the hydroxyl group, converting it into a better leaving group",
+        "It removes oxygen from the alcohol",
+        "It acts only as a catalyst for oxidation",
+        "It converts alcohols into ethers only"
       ],
-      "answer": 2,
+      "answer": 1,
       "difficulty": 2,
       "marks": 1,
-      "explanation": "The cyanide group can attack through carbon or nitrogen. KCN favours carbon-end attack to form a nitrile, whereas AgCN favours nitrogen-end attack to form an isocyanide."
+      "explanation": "Protonation converts –OH into H₂O, a much better leaving group, facilitating elimination."
     },
     {
       "id": 37,
       "type": "mcq_single",
-      "question": "Why does a tertiary haloalkane generally favour an SN1 mechanism over a primary haloalkane?",
+      "question": "Which product is obtained when phenol is acetylated using acetic anhydride?",
       "options": [
-        "A tertiary haloalkane has no carbon-halogen bond",
-        "Primary haloalkanes always form aromatic intermediates",
-        "Tertiary haloalkanes prevent ionisation completely",
-        "Primary carbocations are more stable than tertiary carbocations",
-        "A tertiary haloalkane can form a relatively more stable carbocation"
+        "Ethoxybenzene",
+        "Phenyl acetate",
+        "Salicylic acid",
+        "Benzaldehyde",
+        "Anisole"
       ],
-      "answer": 4,
+      "answer": 1,
       "difficulty": 2,
       "marks": 1,
-      "explanation": "The SN1 mechanism involves carbocation formation, and tertiary carbocations are relatively more stable than primary carbocations."
+      "explanation": "Acetylation introduces an acetyl group on oxygen, producing phenyl acetate."
     },
     {
       "id": 38,
       "type": "mcq_single",
-      "question": "Why does a methyl or primary haloalkane generally react more readily by an SN2 mechanism than a tertiary haloalkane?",
+      "question": "Arrange the following in decreasing reactivity towards Lucas reagent: tert-Butyl alcohol, Propan-2-ol, Ethanol.",
       "options": [
-        "It always forms the most stable carbocation",
-        "Lower steric hindrance allows easier backside attack",
-        "Its carbon-halogen bond is completely non-polar",
-        "It prevents nucleophiles from approaching the carbon atom",
-        "It undergoes racemisation before nucleophilic attack"
+        "Ethanol > Propan-2-ol > tert-Butyl alcohol",
+        "tert-Butyl alcohol > Propan-2-ol > Ethanol",
+        "Propan-2-ol > Ethanol > tert-Butyl alcohol",
+        "Propan-2-ol > tert-Butyl alcohol > Ethanol",
+        "Ethanol > tert-Butyl alcohol > Propan-2-ol"
       ],
       "answer": 1,
       "difficulty": 2,
       "marks": 1,
-      "explanation": "SN2 reactions require backside attack. Methyl and primary substrates have less steric hindrance around the reacting carbon."
+      "explanation": "Lucas reagent reacts fastest with tertiary alcohols, followed by secondary and then primary alcohols."
     },
     {
       "id": 39,
       "type": "mcq_single",
-      "question": "Why do polar protic solvents generally favour SN1 reactions?",
+      "question": "Why is sodium metal able to liberate hydrogen from alcohols?",
       "options": [
-        "They convert every nucleophile into a Grignard reagent",
-        "They prevent the carbon-halogen bond from breaking",
-        "They remove the halogen atom by beta-elimination only",
-        "They stabilise the ions formed during carbocation generation",
-        "They make tertiary carbocations less stable than primary carbocations"
+        "Alcohols behave as strong bases",
+        "The O–H hydrogen is weakly acidic and is displaced by sodium",
+        "Sodium oxidises carbon atoms",
+        "Alcohols undergo substitution with sodium",
+        "The C–O bond breaks first"
       ],
-      "answer": 3,
+      "answer": 1,
       "difficulty": 2,
       "marks": 1,
-      "explanation": "Polar protic solvents stabilise the carbocation and leaving-group ions, facilitating the ionisation step of an SN1 reaction."
+      "explanation": "The hydroxyl hydrogen is displaced by sodium to form sodium alkoxide and hydrogen gas."
     },
     {
       "id": 40,
       "type": "mcq_single",
-      "question": "Why can a polar aprotic solvent increase the effectiveness of an anionic nucleophile in an SN2 reaction?",
+      "question": "Which alcohol gives no oxidation product with PCC, KMnO₄ or CrO₃ under ordinary conditions?",
       "options": [
-        "It does not strongly solvate the anionic nucleophile through hydrogen bonding",
-        "It converts the nucleophile into a carbocation",
-        "It forces the reaction to proceed through a planar carbocation",
-        "It removes all lone pairs from the nucleophile",
-        "It converts the substrate into an aryl halide"
+        "Methanol",
+        "Ethanol",
+        "Propan-2-ol",
+        "2-Methylpropan-2-ol",
+        "Propan-1-ol"
       ],
-      "answer": 0,
+      "answer": 3,
       "difficulty": 2,
       "marks": 1,
-      "explanation": "Polar aprotic solvents do not strongly hydrogen-bond to anionic nucleophiles, so the nucleophile remains more available for backside attack."
+      "explanation": "Tertiary alcohols lack an α-hydrogen and therefore resist oxidation under ordinary conditions."
     },
     {
       "id": 41,
       "type": "mcq_single",
-      "question": "Why does an SN1 reaction of an optically active haloalkane tend to produce a racemised mixture?",
+      "question": "Why does phenol undergo electrophilic substitution more readily than benzene?",
       "options": [
-        "The nucleophile can attack only from the backside",
-        "The carbon-halogen bond becomes a double bond",
-        "The planar carbocation can be attacked from either side",
-        "The substrate undergoes beta-elimination before substitution",
-        "The nucleophile removes all four groups from the chiral carbon"
+        "The –OH group withdraws electrons by resonance",
+        "The –OH group donates electron density to the ring by resonance",
+        "Phenol contains no π electrons",
+        "The –OH group deactivates the ring completely",
+        "Phenol is non-aromatic"
       ],
-      "answer": 2,
+      "answer": 1,
       "difficulty": 2,
       "marks": 1,
-      "explanation": "The planar carbocation intermediate can be attacked from either side, producing both configurations and causing racemisation."
+      "explanation": "The lone pair on oxygen is delocalised into the aromatic ring by resonance, increasing electron density and activating the ring toward electrophilic substitution."
     },
     {
       "id": 42,
       "type": "mcq_single",
-      "question": "A substitution reaction occurs at a stereogenic carbon, but its original spatial arrangement is preserved in the product. Which stereochemical result has occurred?",
+      "question": "Which reagent is used in the Kolbe reaction for preparing salicylic acid from sodium phenoxide?",
       "options": [
-        "Inversion",
-        "Racemisation",
-        "Beta-elimination",
-        "Enantiomerism",
-        "Retention"
+        "CO2",
+        "CH3COCl",
+        "Br2",
+        "NaOH",
+        "SOCl2"
       ],
-      "answer": 4,
-      "difficulty": 2,
+      "answer": 0,
+      "difficulty": 1,
       "marks": 1,
-      "explanation": "Preservation of the original spatial arrangement around a stereogenic carbon is described as retention of configuration."
+      "explanation": "Carbon dioxide reacts with sodium phenoxide under pressure in the Kolbe reaction to form sodium salicylate, which on acidification gives salicylic acid."
     },
     {
       "id": 43,
       "type": "mcq_single",
-      "question": "Why does aqueous KOH generally favour substitution whereas alcoholic KOH generally favours elimination in haloalkanes?",
+      "question": "Arrange the following in decreasing ease of dehydration: tert-Butyl alcohol, Propan-2-ol, Ethanol.",
       "options": [
-        "Aqueous KOH forms only carbocations in every haloalkane",
-        "The aqueous medium favours nucleophilic substitution, while the alcoholic medium favours removal of beta-hydrogen",
-        "Alcoholic KOH converts every haloalkane into a Grignard reagent",
-        "Aqueous KOH prevents nucleophiles from approaching carbon",
-        "Both media favour exactly the same reaction pathway"
+        "Ethanol > Propan-2-ol > tert-Butyl alcohol",
+        "Propan-2-ol > Ethanol > tert-Butyl alcohol",
+        "tert-Butyl alcohol > Propan-2-ol > Ethanol",
+        "Propan-2-ol > tert-Butyl alcohol > Ethanol",
+        "Ethanol > tert-Butyl alcohol > Propan-2-ol"
       ],
-      "answer": 1,
+      "answer": 2,
       "difficulty": 2,
       "marks": 1,
-      "explanation": "Aqueous KOH generally favours nucleophilic substitution, whereas alcoholic KOH favours beta-elimination involving removal of a beta-hydrogen."
+      "explanation": "Dehydration proceeds through carbocation formation. Tertiary alcohols dehydrate most readily, followed by secondary and then primary alcohols."
     },
     {
       "id": 44,
       "type": "mcq_single",
-      "question": "In beta-elimination of a haloalkane, why must the hydrogen removed be present on a carbon adjacent to the carbon bearing the halogen?",
+      "question": "Why does dehydration of alcohols generally produce the more substituted alkene as the major product?",
       "options": [
-        "The hydrogen must first form a Grignard reagent",
-        "Only an aromatic hydrogen can be removed",
-        "The halogen must migrate to the beta-carbon",
-        "Removal from adjacent carbons allows formation of a carbon-carbon double bond",
-        "The hydrogen and halogen must be attached to the same atom"
+        "The less substituted alkene is always less stable",
+        "The reaction follows Zaitsev's rule",
+        "The double bond always forms at carbon-1",
+        "Hydrogen is removed from the α-carbon only",
+        "Alcohols undergo substitution instead of elimination"
       ],
-      "answer": 3,
+      "answer": 1,
       "difficulty": 2,
       "marks": 1,
-      "explanation": "Removal of hydrogen from the beta-carbon and halogen from the adjacent alpha-carbon allows a double bond to form between those two carbons."
+      "explanation": "According to Zaitsev's rule, the more substituted and more stable alkene is generally the major product."
     },
     {
       "id": 45,
       "type": "mcq_single",
-      "question": "When 2-bromobutane undergoes beta-elimination, why is but-2-ene generally the major alkene?",
+      "question": "Which alcohol is obtained when ethylmagnesium bromide reacts with ethanal followed by hydrolysis?",
       "options": [
-        "But-2-ene is the more substituted alkene predicted as major by Zaitsev's rule",
-        "But-2-ene contains no carbon-carbon double bond",
-        "But-1-ene cannot be formed from 2-bromobutane",
-        "The bromine atom becomes part of but-2-ene",
-        "Elimination always forms the alkene with the terminal double bond"
+        "Butan-2-ol",
+        "Butan-1-ol",
+        "Propan-2-ol",
+        "Propan-1-ol",
+        "2-Methylpropan-2-ol"
       ],
       "answer": 0,
       "difficulty": 2,
       "marks": 1,
-      "explanation": "According to Zaitsev's rule, the more substituted alkene is generally the major product, so but-2-ene predominates."
+      "explanation": "A Grignard reagent reacts with an aldehyde (other than methanal) to produce a secondary alcohol after hydrolysis."
     },
     {
       "id": 46,
       "type": "mcq_single",
-      "question": "Why are Grignard reagents highly reactive towards electron-deficient centres?",
+      "question": "Why must Grignard reagents never be prepared in the presence of water?",
       "options": [
-        "The C-Mg bond is completely non-polar",
-        "Magnesium removes all electrons from carbon",
-        "The polar C-Mg bond gives carbon carbanion-like character",
-        "The carbon atom carries a complete positive charge",
-        "Grignard reagents contain a carbon-carbon triple bond"
+        "Water oxidises magnesium into MgO",
+        "Water converts the reagent into an alkene",
+        "Water destroys the Grignard reagent by protonating it",
+        "Water converts ether into alcohol",
+        "Water acts as a catalyst"
       ],
       "answer": 2,
       "difficulty": 2,
       "marks": 1,
-      "explanation": "The strongly polar C-Mg bond gives the carbon atom substantial negative, carbanion-like character, making it highly reactive towards electron-deficient centres."
+      "explanation": "Grignard reagents are extremely basic and react immediately with water to give hydrocarbons, destroying the reagent."
     },
     {
       "id": 47,
       "type": "mcq_single",
-      "question": "Why is dry ether used during the preparation and handling of a Grignard reagent?",
+      "question": "Which reagent converts phenol into phenyl acetate?",
       "options": [
-        "Ether supplies hydrogen ions to the reagent",
-        "Ether converts magnesium into sodium",
-        "Ether oxidises the carbon-magnesium bond",
-        "Ether produces water required for the reaction",
-        "Ether oxygen coordinates with magnesium and helps stabilise the reagent"
+        "Acetic anhydride",
+        "NaOH",
+        "CO2",
+        "PCC",
+        "Lucas reagent"
       ],
-      "answer": 4,
-      "difficulty": 2,
+      "answer": 0,
+      "difficulty": 1,
       "marks": 1,
-      "explanation": "The lone pairs on ether oxygen coordinate with magnesium and help stabilise the Grignard reagent."
+      "explanation": "Phenol undergoes acetylation with acetic anhydride (or acetyl chloride) to form phenyl acetate."
     },
     {
       "id": 48,
       "type": "mcq_single",
-      "question": "Why must water be strictly excluded while using a Grignard reagent?",
+      "question": "Arrange the following in decreasing boiling point: Methanol, Ethanol, Propan-1-ol.",
       "options": [
-        "Water converts the reagent into an alkyl fluoride",
-        "Water protonates the reactive carbon and destroys the Grignard reagent",
-        "Water converts magnesium into sodium",
-        "Water changes the reagent into an aryl halide",
-        "Water makes the C-Mg bond completely non-polar"
+        "Propan-1-ol > Ethanol > Methanol",
+        "Methanol > Ethanol > Propan-1-ol",
+        "Ethanol > Propan-1-ol > Methanol",
+        "Propan-1-ol > Methanol > Ethanol",
+        "Ethanol > Methanol > Propan-1-ol"
       ],
-      "answer": 1,
+      "answer": 0,
       "difficulty": 2,
       "marks": 1,
-      "explanation": "Grignard reagents react rapidly with water. Water protonates the reactive carbon centre and destroys the reagent."
+      "explanation": "Boiling point increases with molecular mass when hydrogen bonding is similar, giving Propan-1-ol > Ethanol > Methanol."
     },
     {
       "id": 49,
       "type": "mcq_single",
-      "question": "Why are haloarenes generally less reactive than haloalkanes towards nucleophilic substitution?",
+      "question": "Why does phenol not give the Lucas test under ordinary conditions?",
       "options": [
-        "Haloarenes contain no carbon-halogen bond",
-        "The aromatic carbon is always negatively charged",
-        "Halogens have no lone pairs in haloarenes",
-        "Resonance gives the carbon-halogen bond partial double-bond character",
-        "Haloarenes immediately form Grignard reagents in water"
+        "Phenol contains no oxygen atom",
+        "The C–O bond in phenol has partial double-bond character due to resonance",
+        "Phenol is a tertiary alcohol",
+        "Phenol is completely non-polar",
+        "Phenol contains no hydrogen atom"
       ],
-      "answer": 3,
+      "answer": 1,
       "difficulty": 2,
       "marks": 1,
-      "explanation": "Resonance gives the carbon-halogen bond in haloarenes partial double-bond character, making the bond shorter and stronger."
+      "explanation": "The aryl C–O bond in phenol has partial double-bond character because of resonance and does not undergo the substitution required for the Lucas test."
     },
     {
       "id": 50,
       "type": "mcq_single",
-      "question": "Why are harsh conditions required to convert chlorobenzene into phenol using aqueous NaOH?",
+      "question": "Which reagent is preferred for converting alcohols into alkyl chlorides because its gaseous by-products escape from the reaction mixture?",
       "options": [
-        "The carbon-chlorine bond in chlorobenzene is strengthened by resonance and requires about 623 K and 300 atm",
-        "Chlorobenzene is an ionic solid that must first be melted",
-        "NaOH reacts only below room temperature",
-        "Phenol is formed only in dry ether",
-        "Chlorobenzene must first be converted into an alkyl halide"
+        "SOCl2",
+        "PCl5",
+        "PCl3",
+        "HCl",
+        "NaCl"
       ],
       "answer": 0,
-      "difficulty": 2,
+      "difficulty": 1,
       "marks": 1,
-      "explanation": "The carbon-chlorine bond in chlorobenzene has partial double-bond character due to resonance. NCERT describes heating with aqueous NaOH at 623 K and 300 atmospheres before acidification."
-    },
-    {
-      "id": 51,
-      "type": "mcq_single",
-      "question": "Why does a nitro group at the ortho or para position increase the reactivity of a haloarene towards nucleophilic substitution?",
-      "options": [
-        "It converts the carbon-halogen bond into a non-polar bond",
-        "It removes the halogen before nucleophilic attack",
-        "It helps stabilise the negatively charged intermediate by electron withdrawal",
-        "It converts the nucleophile into an electrophile",
-        "It prevents the nucleophile from approaching the aromatic ring"
-      ],
-      "answer": 2,
-      "difficulty": 2,
-      "marks": 1,
-      "explanation": "An ortho or para nitro group withdraws electron density and stabilises the negatively charged intermediate formed during nucleophilic substitution."
-    },
-    {
-      "id": 52,
-      "type": "mcq_single",
-      "question": "Why are halogens deactivating but ortho-para directing during electrophilic substitution of haloarenes?",
-      "options": [
-        "They activate the ring only through the inductive effect",
-        "They remove aromaticity permanently",
-        "They direct all electrophiles exclusively to the meta position",
-        "They have no electronic effect on the aromatic ring",
-        "Their inductive effect deactivates the ring, while lone-pair resonance directs substitution to ortho and para positions"
-      ],
-      "answer": 4,
-      "difficulty": 2,
-      "marks": 1,
-      "explanation": "Halogens withdraw electron density through the inductive effect but donate lone-pair electron density by resonance, making them deactivating yet ortho-para directing."
-    },
-    {
-      "id": 53,
-      "type": "mcq_single",
-      "question": "When two molecules of CH3Br react with sodium in dry ether, why is ethane formed in the Wurtz reaction?",
-      "options": [
-        "Each methyl group is converted into a hydroxyl group",
-        "Two methyl carbon fragments become coupled to form a new carbon-carbon bond",
-        "Bromine atoms combine to form the carbon skeleton",
-        "Sodium converts methane directly into ethane",
-        "The reaction introduces a carbon-carbon double bond"
-      ],
-      "answer": 1,
-      "difficulty": 2,
-      "marks": 1,
-      "explanation": "The Wurtz reaction couples two alkyl fragments. Coupling two methyl groups forms a new carbon-carbon bond and produces ethane."
-    },
-    {
-      "id": 54,
-      "type": "mcq_single",
-      "question": "Why are haloalkanes generally only slightly soluble in water despite having a polar carbon-halogen bond?",
-      "options": [
-        "Haloalkanes form stronger hydrogen bonds than water",
-        "All haloalkanes are ionic solids",
-        "Water immediately converts haloalkanes into alkenes",
-        "Haloalkane-water attractions do not compensate sufficiently for breaking hydrogen bonds between water molecules",
-        "The carbon-halogen bond prevents all intermolecular attraction"
-      ],
-      "answer": 3,
-      "difficulty": 2,
-      "marks": 1,
-      "explanation": "The energy released by interactions between haloalkanes and water is insufficient to compensate for the energy needed to break hydrogen bonds between water molecules."
-    },
-    {
-      "id": 55,
-      "type": "mcq_single",
-      "question": "Why can DDT become increasingly concentrated at higher trophic levels of a food chain?",
-      "options": [
-        "Its persistence and poor biodegradability allow it to accumulate and undergo biomagnification",
-        "It is immediately decomposed into harmless substances in organisms",
-        "It is highly soluble in water and is removed instantly",
-        "It is produced naturally by every organism in a food chain",
-        "Its concentration decreases each time one organism consumes another"
-      ],
-      "answer": 0,
-      "difficulty": 2,
-      "marks": 1,
-      "explanation": "DDT is persistent and poorly biodegradable, so it accumulates in organisms and its concentration can increase at successive trophic levels."
-    },
-    {
-      "id": 56,
-      "type": "mcq_single",
-      "question": "Why is the oxygen atom in a simple alcohol treated as sp3 hybridised?",
-      "options": [
-        "It has one sigma bond and three lone pairs",
-        "It has one double bond and one lone pair",
-        "It has two sigma bonds and two lone pairs",
-        "It has three pi bonds and no lone pair",
-        "It has two double bonds and two lone pairs"
-      ],
-      "answer": 2,
-      "difficulty": 2,
-      "marks": 1,
-      "explanation": "Alcohol oxygen has two sigma bonds and two lone pairs, giving four electron regions and an sp3 hybridised description."
-    },
-    {
-      "id": 57,
-      "type": "mcq_single",
-      "question": "Two compounds both contain an OH group. Why is C6H5OH classified as a phenol rather than an alcohol?",
-      "options": [
-        "Its oxygen atom contains no lone pairs",
-        "Its OH group is attached to a saturated primary carbon",
-        "It contains an ether linkage",
-        "Its OH group is attached to a carbonyl carbon",
-        "Its OH group is directly attached to an aromatic ring carbon"
-      ],
-      "answer": 4,
-      "difficulty": 2,
-      "marks": 1,
-      "explanation": "C6H5OH is classified as a phenol because the hydroxyl group is directly attached to an aromatic ring carbon."
-    },
-    {
-      "id": 58,
-      "type": "mcq_single",
-      "question": "Why is CH3OCH2CH3 named methoxyethane rather than ethoxymethane in IUPAC nomenclature?",
-      "options": [
-        "The oxygen atom must always be included in the parent chain",
-        "The smaller methyl group is named as the methoxy substituent and ethane is selected as the parent",
-        "The larger group must always be named as an alkoxy substituent",
-        "Ether compounds are named as alcohols",
-        "The molecule contains a carbonyl group"
-      ],
-      "answer": 1,
-      "difficulty": 2,
-      "marks": 1,
-      "explanation": "In alkoxyalkane nomenclature, the larger carbon chain is selected as the parent and the smaller group with oxygen is named as the alkoxy substituent."
-    },
-    {
-      "id": 59,
-      "type": "mcq_single",
-      "question": "Why is the carbon bearing the OH group assigned carbon number 1 in a simple cyclic alcohol containing one hydroxyl group?",
-      "options": [
-        "The OH group is ignored during numbering",
-        "The ring must be numbered alphabetically",
-        "The largest substituent always receives carbon number 1",
-        "The principal hydroxyl functional group receives the lowest locant",
-        "Every cyclic compound begins numbering from an unsubstituted carbon"
-      ],
-      "answer": 3,
-      "difficulty": 2,
-      "marks": 1,
-      "explanation": "The hydroxyl group is the principal functional group in the cyclic alcohol and its carbon is assigned the lowest locant, carbon 1."
-    },
-    {
-      "id": 60,
-      "type": "mcq_single",
-      "question": "Why does acid-catalysed hydration of propene mainly produce propan-2-ol rather than propan-1-ol?",
-      "options": [
-        "The addition follows Markovnikov orientation, placing OH on the more substituted carbon",
-        "Water removes the terminal carbon atom of propene",
-        "The reaction follows anti-Markovnikov orientation",
-        "Propene is first converted into benzene",
-        "The OH group must always attach to carbon number 1"
-      ],
-      "answer": 0,
-      "difficulty": 2,
-      "marks": 1,
-      "explanation": "Acid-catalysed hydration follows Markovnikov orientation, so the hydroxyl group becomes attached to the more substituted carbon and propan-2-ol is the major product."
-    },
-    {
-      "id": 61,
-      "type": "mcq_single",
-      "question": "Why does hydroboration-oxidation of propene mainly produce propan-1-ol?",
-      "options": [
-        "The OH group is removed from the final product",
-        "The reaction always produces a phenol",
-        "The reaction converts the double bond into a carbonyl group",
-        "The OH group is placed on the more substituted carbon",
-        "The reaction follows anti-Markovnikov orientation and places OH on the less substituted carbon"
-      ],
-      "answer": 4,
-      "difficulty": 2,
-      "marks": 1,
-      "explanation": "Hydroboration-oxidation follows anti-Markovnikov orientation, placing the hydroxyl group on the less substituted carbon and producing propan-1-ol."
-    },
-    {
-      "id": 62,
-      "type": "mcq_single",
-      "question": "Why does reduction of an aldehyde generally produce a primary alcohol?",
-      "options": [
-        "The carbonyl carbon is bonded to three carbon groups",
-        "The aldehyde carbonyl carbon has a hydrogen and is converted into an OH-bearing carbon characteristic of a primary alcohol",
-        "The aldehyde loses its carbonyl carbon during reduction",
-        "Reduction directly attaches the OH group to an aromatic ring",
-        "Every aldehyde first becomes a ketone"
-      ],
-      "answer": 1,
-      "difficulty": 2,
-      "marks": 1,
-      "explanation": "The aldehyde carbonyl carbon already bears a hydrogen. Reduction converts the carbonyl group into an alcohol group, generally producing a primary alcohol."
-    },
-    {
-      "id": 63,
-      "type": "mcq_single",
-      "question": "Why does reduction of a ketone generally produce a secondary alcohol?",
-      "options": [
-        "A ketone contains no carbonyl group",
-        "Reduction removes one carbon group from the ketone",
-        "The ketone carbonyl carbon is bonded to two carbon groups, which remain attached after reduction",
-        "The OH group becomes directly attached to an aromatic ring",
-        "Ketones are converted into primary carbocations before reduction"
-      ],
-      "answer": 2,
-      "difficulty": 2,
-      "marks": 1,
-      "explanation": "The carbonyl carbon of a ketone is bonded to two carbon groups. These remain attached when the carbonyl group is reduced, giving a secondary alcohol."
-    },
-    {
-      "id": 64,
-      "type": "mcq_single",
-      "question": "Why does reaction of a Grignard reagent with methanal followed by hydrolysis produce a primary alcohol?",
-      "options": [
-        "Methanal already contains two alkyl groups",
-        "The Grignard reagent removes the carbonyl carbon",
-        "Hydrolysis converts the product into a phenol",
-        "After carbon-carbon bond formation, the OH-bearing carbon is attached to only one carbon group",
-        "Methanal prevents carbon-carbon bond formation"
-      ],
-      "answer": 3,
-      "difficulty": 2,
-      "marks": 1,
-      "explanation": "After addition of a Grignard reagent to methanal and hydrolysis, the hydroxyl-bearing carbon is attached to only one carbon group, so a primary alcohol is formed."
-    },
-    {
-      "id": 65,
-      "type": "mcq_single",
-      "question": "A Grignard reagent reacts with an aldehyde other than methanal and the product is hydrolysed. Why is a secondary alcohol generally formed?",
-      "options": [
-        "The OH-bearing carbon in the product is attached to two carbon groups",
-        "The aldehyde loses all of its hydrogen atoms",
-        "The Grignard reagent converts the aldehyde into an ether",
-        "The carbonyl carbon is removed during hydrolysis",
-        "A benzene ring is formed before the alcohol"
-      ],
-      "answer": 0,
-      "difficulty": 2,
-      "marks": 1,
-      "explanation": "An aldehyde other than methanal already has one carbon group attached to the carbonyl carbon. Grignard addition introduces another, so the final OH-bearing carbon is attached to two carbon groups."
-    },
-    {
-      "id": 66,
-      "type": "mcq_single",
-      "question": "Why does reaction of a Grignard reagent with a ketone followed by hydrolysis generally produce a tertiary alcohol?",
-      "options": [
-        "The ketone loses both carbon groups during the reaction",
-        "The Grignard reagent removes the oxygen atom completely",
-        "The ketone carbonyl carbon has two carbon groups and Grignard addition introduces a third carbon group",
-        "Hydrolysis converts every ketone into a phenol",
-        "The reaction prevents formation of a carbon-carbon bond"
-      ],
-      "answer": 2,
-      "difficulty": 2,
-      "marks": 1,
-      "explanation": "A ketone carbonyl carbon already has two carbon groups. Grignard addition introduces a third carbon group, and hydrolysis gives a tertiary alcohol."
-    },
-    {
-      "id": 67,
-      "type": "mcq_single",
-      "question": "During preparation of phenol from chlorobenzene using aqueous NaOH under harsh conditions, why is acidification required after formation of sodium phenoxide?",
-      "options": [
-        "Acidification converts phenol into chlorobenzene",
-        "Acidification forms a Grignard reagent",
-        "Acidification removes the aromatic ring",
-        "Acidification converts sodium phenoxide into an ether",
-        "Acidification protonates the phenoxide species to give phenol"
-      ],
-      "answer": 4,
-      "difficulty": 2,
-      "marks": 1,
-      "explanation": "The reaction with aqueous NaOH first forms sodium phenoxide. Acidification protonates the phenoxide species and produces phenol."
-    },
-    {
-      "id": 68,
-      "type": "mcq_single",
-      "question": "In the cumene process, why is acetone obtained along with phenol?",
-      "options": [
-        "Phenol is oxidised directly into acetone",
-        "Acidic decomposition of cumene hydroperoxide produces both phenol and acetone",
-        "Acetone is used only as an unreacted solvent",
-        "Benzene is reduced directly to acetone",
-        "Phenol reacts with water to form acetone"
-      ],
-      "answer": 1,
-      "difficulty": 2,
-      "marks": 1,
-      "explanation": "Cumene is converted into cumene hydroperoxide, whose acidic decomposition produces phenol and acetone."
-    },
-    {
-      "id": 69,
-      "type": "mcq_single",
-      "question": "Why do alcohols generally have higher boiling points than hydrocarbons of comparable molecular mass?",
-      "options": [
-        "Alcohols are always ionic",
-        "Alcohols contain carbon-carbon triple bonds",
-        "Alcohol molecules form intermolecular hydrogen bonds",
-        "Hydrocarbons form stronger hydrogen bonds than alcohols",
-        "Alcohols have no intermolecular forces other than covalent bonds"
-      ],
-      "answer": 2,
-      "difficulty": 2,
-      "marks": 1,
-      "explanation": "Intermolecular hydrogen bonding between alcohol molecules requires additional energy to overcome, resulting in relatively high boiling points."
-    },
-    {
-      "id": 70,
-      "type": "mcq_single",
-      "question": "Why does the solubility of alcohols in water generally decrease as the alkyl chain becomes longer?",
-      "options": [
-        "The OH group loses its oxygen atom",
-        "Longer alcohols become ionic compounds",
-        "Hydrogen bonding with water becomes chemically impossible",
-        "The increasing hydrophobic alkyl portion has a greater influence on the molecule",
-        "The carbon chain converts the alcohol into a phenol"
-      ],
-      "answer": 3,
-      "difficulty": 2,
-      "marks": 1,
-      "explanation": "Although the hydroxyl group can hydrogen-bond with water, the growing hydrophobic alkyl portion increasingly reduces water solubility."
-    },
-    {
-      "id": 71,
-      "type": "mcq_single",
-      "question": "When an alcohol reacts with sodium metal, why is hydrogen gas evolved?",
-      "options": [
-        "The O-H bond is cleaved and the acidic hydrogen is replaced by sodium",
-        "The carbon-carbon bond breaks to release hydrogen",
-        "Sodium converts oxygen directly into hydrogen",
-        "The alcohol undergoes beta-elimination",
-        "The alkyl group is converted into a Grignard reagent"
-      ],
-      "answer": 0,
-      "difficulty": 2,
-      "marks": 1,
-      "explanation": "Reaction with sodium involves cleavage of the O-H bond. The hydroxyl hydrogen is replaced by sodium, and hydrogen gas is evolved."
-    },
-    {
-      "id": 72,
-      "type": "mcq_single",
-      "question": "Why is phenol more acidic than a typical alcohol?",
-      "options": [
-        "Phenol contains an ionic O-H bond",
-        "Alcohols have no oxygen atom",
-        "Phenol releases a carbon atom when it loses hydrogen",
-        "The phenoxide species has no negative charge",
-        "The phenoxide species is stabilised by resonance, whereas an alkoxide lacks comparable resonance stabilisation"
-      ],
-      "answer": 4,
-      "difficulty": 2,
-      "marks": 1,
-      "explanation": "The negative charge in the phenoxide species is delocalised by resonance over the aromatic ring, making it more stable than a typical alkoxide."
-    },
-    {
-      "id": 73,
-      "type": "mcq_single",
-      "question": "Why does an electron-withdrawing substituent generally increase the acidic character of phenol?",
-      "options": [
-        "It prevents cleavage of the O-H bond",
-        "It helps stabilise the negatively charged phenoxide species",
-        "It converts phenol into an alcohol",
-        "It removes the oxygen atom from phenol",
-        "It increases electron density on the phenoxide species"
-      ],
-      "answer": 1,
-      "difficulty": 2,
-      "marks": 1,
-      "explanation": "An electron-withdrawing group helps disperse or reduce the effect of negative charge in the phenoxide species, increasing its stability and favouring proton loss."
-    },
-    {
-      "id": 74,
-      "type": "mcq_single",
-      "question": "Why can an alcohol act as a nucleophile in a chemical reaction?",
-      "options": [
-        "The carbon atom always carries a complete negative charge",
-        "The O-H bond is completely ionic",
-        "The oxygen atom has lone pairs that can be donated to an electron-deficient centre",
-        "The oxygen atom has no non-bonding electrons",
-        "The alkyl group always forms a carbocation first"
-      ],
-      "answer": 2,
-      "difficulty": 2,
-      "marks": 1,
-      "explanation": "The oxygen atom of an alcohol possesses lone pairs and can donate an electron pair to an electron-deficient centre, allowing the alcohol to act as a nucleophile."
-    },
-    {
-      "id": 75,
-      "type": "mcq_single",
-      "question": "Why does protonation of the OH group make an alcohol more susceptible to nucleophilic substitution at carbon?",
-      "options": [
-        "Protonation converts carbon into a nucleophile",
-        "Protonation removes the oxygen atom instantly",
-        "The alkyl group becomes aromatic",
-        "Protonation allows water to act as a better leaving group",
-        "The carbon-oxygen bond becomes a carbon-carbon bond"
-      ],
-      "answer": 3,
-      "difficulty": 2,
-      "marks": 1,
-      "explanation": "Protonation converts the poor leaving OH group into a form that can leave as water, making substitution at carbon more favourable."
-    },
-    {
-      "id": 76,
-      "type": "mcq_single",
-      "question": "Why can an alcohol show basic behaviour in the presence of an acid?",
-      "options": [
-        "The oxygen lone pair can accept a proton",
-        "The alcohol donates its carbon skeleton to the acid",
-        "The oxygen atom has a complete positive charge before reaction",
-        "The alcohol must first undergo beta-elimination",
-        "The alkyl group accepts a halogen atom instead of a proton"
-      ],
-      "answer": 0,
-      "difficulty": 2,
-      "marks": 1,
-      "explanation": "The oxygen atom has lone pairs and can accept a proton from an acid, allowing an alcohol to behave as a base."
-    },
-    {
-      "id": 77,
-      "type": "mcq_single",
-      "question": "Why does heating an alcohol with a carboxylic acid in the presence of an acid catalyst lead to ester formation?",
-      "options": [
-        "The alcohol is converted into a haloalkane first",
-        "The carboxylic acid is converted into a Grignard reagent",
-        "The reaction combines the alcohol and carboxylic acid components with elimination of water",
-        "The aromatic ring of the acid is destroyed",
-        "The alcohol loses its entire alkyl group"
-      ],
-      "answer": 2,
-      "difficulty": 2,
-      "marks": 1,
-      "explanation": "In esterification, an alcohol and a carboxylic acid react under acid catalysis to form an ester with elimination of water."
-    },
-    {
-      "id": 78,
-      "type": "mcq_single",
-      "question": "Why are acetyl chloride or acetic anhydride used in acetylation of an alcohol or phenol?",
-      "options": [
-        "They introduce a halogen directly onto the aromatic ring",
-        "They remove the hydroxyl oxygen",
-        "They convert the compound into a Grignard reagent",
-        "They cause only beta-elimination",
-        "They provide an acetyl group that becomes attached through oxygen"
-      ],
-      "answer": 4,
-      "difficulty": 2,
-      "marks": 1,
-      "explanation": "Acetyl chloride and acetic anhydride act as acetylating reagents and introduce an acetyl group through the oxygen of an alcohol or phenol."
-    },
-     {
-      "id": 79,
-      "type": "mcq_single",
-      "question": "Why is sodium phenoxide used instead of phenol directly in the Kolbe reaction for the preparation of salicylic acid?",
-      "options": [
-        "Sodium phenoxide converts carbon dioxide into carbon monoxide",
-        "The phenoxide group increases electron density in the aromatic ring and facilitates reaction with carbon dioxide",
-        "Phenol cannot contain an aromatic ring",
-        "Sodium phenoxide prevents carboxylation of the aromatic ring",
-        "The sodium atom becomes part of the final salicylic acid molecule"
-      ],
-      "answer": 1,
-      "difficulty": 2,
-      "marks": 1,
-      "explanation": "The phenoxide group increases electron density in the aromatic ring, making it more reactive towards carbon dioxide during the Kolbe reaction. Acidification subsequently gives salicylic acid."
-    },
-    {
-      "id": 80,
-      "type": "mcq_single",
-      "question": "Why does phenol react with aqueous NaOH whereas a typical alcohol generally does not?",
-      "options": [
-        "Alcohols contain no O-H bond",
-        "Phenol is a stronger base than NaOH",
-        "Alcohols are always insoluble in aqueous NaOH",
-        "Phenol is sufficiently more acidic because its conjugate species is resonance stabilised",
-        "NaOH converts phenol directly into a Grignard reagent"
-      ],
-      "answer": 3,
-      "difficulty": 2,
-      "marks": 1,
-      "explanation": "Phenol is more acidic than a typical alcohol because the phenoxide species is resonance stabilised, allowing phenol to react with aqueous NaOH."
-    },
-	
-	{
-      "id": 81,
-      "type": "mcq_single",
-      "question": "Which is the correct decreasing order of reactivity of alkyl halides towards an SN1 reaction?",
-      "options": [
-        "CH3X > 1° > 2° > 3°",
-        "1° > 2° > 3° > CH3X",
-        "3° > 2° > 1° > CH3X",
-        "2° > 3° > 1° > CH3X",
-        "3° > 1° > 2° > CH3X"
-      ],
-      "answer": 2,
-      "difficulty": 2,
-      "marks": 1,
-      "explanation": "SN1 reactivity follows carbocation stability. Tertiary carbocations are most stable, followed by secondary and primary carbocations."
-    },
-    {
-      "id": 82,
-      "type": "mcq_single",
-      "question": "Which is the correct decreasing order of reactivity of alkyl halides towards an SN2 reaction?",
-      "options": [
-        "3° > 2° > 1° > CH3X",
-        "CH3X > 1° > 2° > 3°",
-        "2° > 1° > CH3X > 3°",
-        "1° > CH3X > 2° > 3°",
-        "CH3X > 3° > 2° > 1°"
-      ],
-      "answer": 1,
-      "difficulty": 2,
-      "marks": 1,
-      "explanation": "SN2 reactivity decreases with increasing steric hindrance. Methyl halides react fastest, followed by primary, secondary and tertiary halides."
-    },
-    {
-      "id": 83,
-      "type": "mcq_single",
-      "question": "Which is the correct decreasing order of carbon-halogen bond strength in methyl halides?",
-      "options": [
-        "C-I > C-Br > C-Cl > C-F",
-        "C-Br > C-Cl > C-F > C-I",
-        "C-Cl > C-F > C-Br > C-I",
-        "C-F > C-Cl > C-Br > C-I",
-        "C-F > C-Br > C-Cl > C-I"
-      ],
-      "answer": 3,
-      "difficulty": 2,
-      "marks": 1,
-      "explanation": "Carbon-halogen bond strength decreases as the size of the halogen increases: C-F > C-Cl > C-Br > C-I."
-    },
-    {
-      "id": 84,
-      "type": "mcq_single",
-      "question": "Which is the correct decreasing order of reactivity of methyl halides towards nucleophilic substitution?",
-      "options": [
-        "CH3I > CH3Br > CH3Cl > CH3F",
-        "CH3F > CH3Cl > CH3Br > CH3I",
-        "CH3Cl > CH3Br > CH3I > CH3F",
-        "CH3Br > CH3I > CH3Cl > CH3F",
-        "CH3I > CH3Cl > CH3Br > CH3F"
-      ],
-      "answer": 0,
-      "difficulty": 2,
-      "marks": 1,
-      "explanation": "The C-I bond is weakest and breaks most readily, while the C-F bond is strongest. Therefore, reactivity follows CH3I > CH3Br > CH3Cl > CH3F."
-    },
-    {
-      "id": 85,
-      "type": "mcq_single",
-      "question": "Which is the correct decreasing order of boiling points of the following chlorinated methanes?",
-      "options": [
-        "CH3Cl > CH2Cl2 > CHCl3 > CCl4",
-        "CHCl3 > CCl4 > CH2Cl2 > CH3Cl",
-        "CCl4 > CHCl3 > CH2Cl2 > CH3Cl",
-        "CH2Cl2 > CH3Cl > CHCl3 > CCl4",
-        "CCl4 > CH2Cl2 > CHCl3 > CH3Cl"
-      ],
-      "answer": 2,
-      "difficulty": 2,
-      "marks": 1,
-      "explanation": "Boiling point generally increases with molecular mass and strength of dispersion forces. The order is CCl4 > CHCl3 > CH2Cl2 > CH3Cl."
-    },
-    {
-      "id": 86,
-      "type": "mcq_single",
-      "question": "Which is the correct decreasing order of acidity?",
-      "options": [
-        "Ethanol > water > phenol",
-        "Water > phenol > ethanol",
-        "Phenol > ethanol > water",
-        "Ethanol > phenol > water",
-        "Phenol > water > ethanol"
-      ],
-      "answer": 4,
-      "difficulty": 2,
-      "marks": 1,
-      "explanation": "Phenol is more acidic because the phenoxide ion is resonance stabilised. Water is slightly more acidic than ethanol because the ethyl group destabilises the ethoxide ion by its electron-releasing effect."
-    },
-    {
-      "id": 87,
-      "type": "mcq_single",
-      "question": "Which is the correct decreasing order of acidity of substituted phenols?",
-      "options": [
-        "p-Cresol > phenol > p-nitrophenol",
-        "p-Nitrophenol > phenol > p-cresol",
-        "Phenol > p-nitrophenol > p-cresol",
-        "p-Nitrophenol > p-cresol > phenol",
-        "Phenol > p-cresol > p-nitrophenol"
-      ],
-      "answer": 1,
-      "difficulty": 2,
-      "marks": 1,
-      "explanation": "The nitro group increases acidity by stabilising the phenoxide ion, whereas the methyl group decreases acidity through its electron-releasing effect."
-    },
-    {
-      "id": 88,
-      "type": "mcq_single",
-      "question": "Which is the correct decreasing order of boiling points?",
-      "options": [
-        "Propane > methoxyethane > propan-1-ol",
-        "Methoxyethane > propan-1-ol > propane",
-        "Propan-1-ol > methoxyethane > propane",
-        "Propan-1-ol > propane > methoxyethane",
-        "Methoxyethane > propane > propan-1-ol"
-      ],
-      "answer": 2,
-      "difficulty": 2,
-      "marks": 1,
-      "explanation": "Propan-1-ol forms intermolecular hydrogen bonds and has the highest boiling point. Ether has stronger intermolecular attractions than the comparable hydrocarbon."
-    },
-    {
-      "id": 89,
-      "type": "mcq_single",
-      "question": "Which is the correct decreasing order of solubility of the following alcohols in water?",
-      "options": [
-        "Butan-1-ol > propan-1-ol > ethanol > methanol",
-        "Methanol > ethanol > propan-1-ol > butan-1-ol",
-        "Ethanol > methanol > butan-1-ol > propan-1-ol",
-        "Propan-1-ol > butan-1-ol > ethanol > methanol",
-        "Methanol > propan-1-ol > ethanol > butan-1-ol"
-      ],
-      "answer": 1,
-      "difficulty": 2,
-      "marks": 1,
-      "explanation": "Water solubility of alcohols decreases as the hydrophobic alkyl chain becomes longer."
-    },
-    {
-      "id": 90,
-      "type": "mcq_single",
-      "question": "Which is the correct decreasing order of boiling points of isomeric butyl alcohols?",
-      "options": [
-        "tert-Butyl alcohol > sec-butyl alcohol > isobutyl alcohol > n-butyl alcohol",
-        "n-Butyl alcohol > isobutyl alcohol > sec-butyl alcohol > tert-butyl alcohol",
-        "sec-Butyl alcohol > n-butyl alcohol > tert-butyl alcohol > isobutyl alcohol",
-        "isobutyl alcohol > n-butyl alcohol > tert-butyl alcohol > sec-butyl alcohol",
-        "n-Butyl alcohol > sec-butyl alcohol > isobutyl alcohol > tert-butyl alcohol"
-      ],
-      "answer": 1,
-      "difficulty": 2,
-      "marks": 1,
-      "explanation": "Among isomeric alcohols, increased branching lowers boiling point by reducing surface area and weakening dispersion forces. Therefore, the order is n-butyl alcohol > isobutyl alcohol > sec-butyl alcohol > tert-butyl alcohol."
+      "explanation": "Thionyl chloride (SOCl₂) produces gaseous SO₂ and HCl as by-products, leaving relatively pure alkyl chloride."
     }
   ]
 }
