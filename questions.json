@@ -5,616 +5,365 @@
   "chapter": "Haloalkanes and Haloarenes; Alcohols, Phenols and Ethers",
   "topic": "Test",
   "questions": [
-    {
+        {
       "id": 1,
-      "type": "fill_blank",
-      "question": "The reagent required during the preparation of a Grignard reagent to prevent its decomposition by moisture is ______.",
-      "answers": [
-        "dry ether",
-        "ether"
+      "type": "mcq_single",
+      "question": "Which reagent is used in the Swarts reaction to convert an alkyl chloride into the corresponding alkyl fluoride?",
+      "options": [
+        "AgF",
+        "NaI in dry acetone",
+        "Alcoholic KOH",
+        "Aqueous KOH",
+        "Mg in dry ether",
+        "Zn/HCl"
       ],
-      "matchThreshold": 0.7,
+      "answer": 0,
       "difficulty": 1,
       "marks": 1,
-      "explanation": "Grignard reagents are prepared in absolutely dry ether because even traces of water destroy them."
+      "explanation": "The Swarts reaction uses metallic fluorides such as AgF, Hg2F2, CoF2 or SbF3 to prepare alkyl fluorides from alkyl chlorides or bromides."
     },
     {
       "id": 2,
-      "type": "fill_blank",
-      "question": "The named reaction in which an alkyl chloride or alkyl bromide is converted into an alkyl iodide using sodium iodide in dry acetone is the ______.",
-      "answers": [
-        "Finkelstein",
-        "Finkelstein reaction"
+      "type": "mcq_single",
+      "question": "Which product is formed when bromoethane is treated with aqueous KOH?",
+      "options": [
+        "Ethene",
+        "Ethanol",
+        "Ethyl acetate",
+        "Diethyl ether",
+        "Ethanal",
+        "Ethyl bromide"
       ],
-      "matchThreshold": 0.7,
+      "answer": 1,
       "difficulty": 1,
       "marks": 1,
-      "explanation": "The Finkelstein reaction involves halogen exchange using NaI in dry acetone."
+      "explanation": "Aqueous KOH favours nucleophilic substitution, replacing bromine with a hydroxyl group to form ethanol."
     },
     {
       "id": 3,
-      "type": "fill_blank",
-      "question": "The conjugate base formed when phenol loses a proton is called the ______.",
-      "answers": [
-        "phenoxide",
-        "phenoxide ion"
-      ],
-      "matchThreshold": 0.7,
-      "difficulty": 2,
-      "marks": 1,
-      "explanation": "Removal of H⁺ from phenol produces the resonance-stabilised phenoxide ion."
-    },
-    {
-      "id": 4,
-      "type": "fill_blank",
-      "question": "The major product obtained when phenol is treated with concentrated nitric acid is ______.",
-      "answers": [
-        "picric acid",
-	"picric",
-        "2,4,6-trinitrophenol"
-      ],
-      "matchThreshold": 0.7,
-      "difficulty": 2,
-      "marks": 1,
-      "explanation": "Concentrated nitric acid converts phenol into 2,4,6-trinitrophenol, commonly called picric acid."
-    },
-    {
-      "id": 5,
-      "type": "fill_blank",
-      "question": "The named reaction in which sodium phenoxide reacts with carbon dioxide followed by acidification to form salicylic acid is the ______.",
-      "answers": [
-        "Kolbe",
-        "Kolbe reaction"
-      ],
-      "matchThreshold": 0.7,
-      "difficulty": 2,
-      "marks": 1,
-      "explanation": "The Kolbe reaction introduces a carboxyl group into sodium phenoxide to produce salicylic acid after acidification."
-    },
-    {
-      "id": 6,
-      "type": "fill_blank",
-      "question": "The product obtained when phenol is heated with zinc dust is ______.",
-      "answers": [
-        "benzene"
-      ],
-      "matchThreshold": 0.7,
-      "difficulty": 2,
-      "marks": 1,
-      "explanation": "Heating phenol with zinc dust removes the oxygen atom, producing benzene."
-    },
-    {
-      "id": 7,
-      "type": "fill_blank",
-      "question": "The aldehyde formed in the Reimer–Tiemann reaction of phenol is ______.",
-      "answers": [
-        "salicylaldehyde",
-        "o-hydroxybenzaldehyde"
-      ],
-      "matchThreshold": 0.7,
-      "difficulty": 2,
-      "marks": 1,
-      "explanation": "The Reimer–Tiemann reaction introduces a formyl group at the ortho position of phenol to form salicylaldehyde."
-    },
-    {
-      "id": 8,
-      "type": "fill_blank",
-      "question": "The catalyst responsible for the fermentation of glucose into ethanol is the enzyme ______.",
-      "answers": [
-        "zymase"
-      ],
-      "matchThreshold": 0.7,
-      "difficulty": 1,
-      "marks": 1,
-      "explanation": "Zymase, present in yeast, catalyses the fermentation of sugars to ethanol and carbon dioxide."
-    },
-    {
-      "id": 9,
-      "type": "fill_blank",
-      "question": "The compound formed when phenol reacts with bromine water is ______.",
-      "answers": [
-        "2,4,6-tribromophenol"
-      ],
-      "matchThreshold": 0.7,
-      "difficulty": 2,
-      "marks": 1,
-      "explanation": "Phenol reacts readily with bromine water to give a white precipitate of 2,4,6-tribromophenol."
-    },
-    {
-      "id": 10,
-      "type": "fill_blank",
-      "question": "The oxidation product obtained when phenol is treated with acidified sodium dichromate is ______.",
-      "answers": [
-        "benzoquinone",
-        "p-benzoquinone"
-      ],
-      "matchThreshold": 0.7,
-      "difficulty": 2,
-      "marks": 1,
-      "explanation": "Phenol is oxidised by acidified sodium dichromate to give p-benzoquinone."
-    },
-    {
-      "id": 11,
-      "type": "fill_blank",
-      "question": "______ solvents do not strongly solvate anions, making nucleophiles more reactive and favouring SN2 reactions.",
-      "answers": [
-        "polar aprotic"
-      ],
-      "matchThreshold": 0.7,
-      "difficulty": 2,
-      "marks": 1,
-      "explanation": "Polar aprotic solvents do not strongly solvate anions, making nucleophiles more reactive and favouring SN2 reactions."
-    },
-    {
-      "id": 12,
-      "type": "fill_blank",
-      "question": "The stereochemical outcome observed when an SN2 reaction occurs at a chiral carbon is called ______.",
-      "answers": [
-        "inversion",
-        "Walden inversion"
-      ],
-      "matchThreshold": 0.7,
-      "difficulty": 2,
-      "marks": 1,
-      "explanation": "SN2 reactions proceed through backside attack, producing inversion of configuration (Walden inversion)."
-    },
-    {
-      "id": 13,
-      "type": "fill_blank",
-      "question": "The reagent used to convert an alcohol into an alkyl chloride while producing only gaseous by-products is ______.",
-      "answers": [
-        "thionyl chloride",
-        "SOCl2"
-      ],
-      "matchThreshold": 0.7,
-      "difficulty": 1,
-      "marks": 1,
-      "explanation": "Thionyl chloride converts alcohols into alkyl chlorides, producing SO₂ and HCl gases that escape from the reaction mixture."
-    },
-    {
-      "id": 14,
-      "type": "fill_blank",
-      "question": "The major product formed when phenol is nitrated with dilute nitric acid at 298 K along with p-nitrophenol is ______.",
-      "answers": [
-        "o-nitrophenol",
-        "2-nitrophenol"
-      ],
-      "matchThreshold": 0.7,
-      "difficulty": 2,
-      "marks": 1,
-      "explanation": "Dilute nitric acid nitrates phenol mainly at the ortho and para positions to give o-nitrophenol and p-nitrophenol."
-    },
-    {
-      "id": 15,
-      "type": "fill_blank",
-      "question": "The enzyme that hydrolyses sucrose into glucose and fructose before fermentation is ______.",
-      "answers": [
-        "invertase"
-      ],
-      "matchThreshold": 0.7,
-      "difficulty": 1,
-      "marks": 1,
-      "explanation": "Invertase converts sucrose into glucose and fructose, which are subsequently fermented by zymase."
-    },
-    {
-      "id": 16,
-      "type": "fill_blank",
-      "question": "The intermolecular hydrogen bonding present in ______ is responsible for its lower steam volatility than its ortho isomer.",
-      "answers": [
-        "p-nitrophenol",
-        "para-nitrophenol",
-	"4-nitrophenol"
-      ],
-      "matchThreshold": 0.7,
-      "difficulty": 2,
-      "marks": 1,
-      "explanation": "p-Nitrophenol forms intermolecular hydrogen bonds, increasing association and reducing steam volatility."
-    },
-    {
-      "id": 17,
-      "type": "fill_blank",
-      "question": "The reaction of phenol with chloroform and aqueous sodium hydroxide to introduce a formyl group is called the ______.",
-      "answers": [
-        "Reimer-Tiemann",
-        "Reimer-Tiemann reaction"
-      ],
-      "matchThreshold": 0.7,
-      "difficulty": 2,
-      "marks": 1,
-      "explanation": "The Reimer–Tiemann reaction introduces a formyl (–CHO) group mainly at the ortho position of phenol."
-    },
-    {
-      "id": 18,
-      "type": "fill_blank",
-      "question": "The major product obtained when aqueous KOH reacts with a methyl chloride is generally an ______.",
-      "answers": [
-        "methanol"
-      ],
-      "matchThreshold": 0.7,
-      "difficulty": 1,
-      "marks": 1,
-      "explanation": "Aqueous KOH favors nucleophilic substitution, replacing the halogen atom with a hydroxyl group to form an alcohol."
-    },
-    {
-      "id": 19,
-      "type": "fill_blank",
-      "question": "The stereochemical process in which a chiral compound is converted into an equimolar mixture of two enantiomers is called ______.",
-      "answers": [
-        "racemisation",
-        "racemization"
-      ],
-      "matchThreshold": 0.7,
-      "difficulty": 2,
-      "marks": 1,
-      "explanation": "Racemisation produces equal amounts of both enantiomers, resulting in an optically inactive mixture."
-    },
-    {
-  "id": 20,
-  "type": "fill_blank",
-  "question": "The bond between carbon and halogen in haloarenes possesses ______ character due to resonance.",
-  "answers": [
-	"partial double",
-	"partial double bond"
-  ],
-  "matchThreshold": 0.7,
-  "difficulty": 2,
-  "marks": 1,
-  "explanation": "Resonance between the halogen lone pair and the aromatic ring gives the C–X bond partial double-bond character."
-},
-    {
-      "id": 21,
       "type": "mcq_single",
-      "question": "Why is phenol more acidic than ethanol?",
+      "question": "Arrange the following in decreasing reactivity towards SN1 reaction: Ethyl chloride, tert-Butyl chloride, Isopropyl chloride.",
       "options": [
-        "Phenol contains more carbon atoms",
-        "The phenoxide ion is resonance stabilised",
-        "Ethanol has a weaker C–O bond",
-        "Phenol undergoes hydrogen bonding",
-        "Phenol is aromatic"
-      ],
-      "answer": 1,
-      "difficulty": 2,
-      "marks": 1,
-      "explanation": "The conjugate base of phenol (phenoxide ion) is resonance stabilised, making phenol more acidic than ethanol."
-    },
-    {
-      "id": 22,
-      "type": "mcq_single",
-      "question": "Arrange the following in decreasing boiling point:  Ethane, Ethanol, Dimethyl ether.",
-      "options": [
-        "Ethanol > Dimethyl ether > Ethane",
-        "Dimethyl ether > Ethanol > Ethane",
-        "Ethanol > Ethane > Dimethyl ether",
-        "Ethane > Ethanol > Dimethyl ether",
-        "Dimethyl ether > Ethane > Ethanol"
-      ],
-      "answer": 0,
-      "difficulty": 2,
-      "marks": 1,
-      "explanation": "Alcohols exhibit hydrogen bonding, ethers have dipole–dipole interactions and alkanes possess only weak dispersion forces."
-    },
-    {
-      "id": 23,
-      "type": "mcq_single",
-      "question": "Why does dry ether have to be used during the preparation of Grignard reagents?",
-      "options": [
-        "It oxidises magnesium",
-        "It prevents hydrolysis by moisture and stabilises the Grignard reagent",
-        "It converts alkyl halides into alcohols",
-        "It acts as the nucleophile",
-        "It supplies hydrogen atoms"
-      ],
-      "answer": 1,
-      "difficulty": 2,
-      "marks": 1,
-      "explanation": "Grignard reagents are destroyed by traces of water. Dry ether provides an anhydrous medium and stabilises the reagent."
-    },
-    {
-      "id": 24,
-      "type": "mcq_single",
-      "question": "Which statement correctly explains why phenol undergoes bromination without using FeBr₃ catalyst?",
-      "options": [
-        "Phenol is non-aromatic",
-        "The –OH group activates the benzene ring by resonance",
-        "Bromine water is a stronger electrophile than bromine",
-        "Phenol first forms benzene",
-        "The oxygen atom removes bromine"
-      ],
-      "answer": 1,
-      "difficulty": 2,
-      "marks": 1,
-      "explanation": "The lone pair on oxygen is donated to the aromatic ring by resonance, increasing electron density and making electrophilic substitution easy."
-    },
-    {
-      "id": 25,
-      "type": "mcq_single",
-      "question": "Arrange the following in increasing acidity: Phenol, Ethanol, Water .",
-      "options": [
-        "Water < Ethanol < Phenol",
-        "Phenol < Water < Ethanol",
-        "Ethanol < Water < Phenol",
-        "Phenol < Ethanol < Water",
-        "Water < Phenol < Ethanol"
-      ],
-      "answer": 2,
-      "difficulty": 2,
-      "marks": 1,
-      "explanation": "Phenol is most acidic because its conjugate base is resonance stabilised. Water is more acidic than ethanol."
-    },
-    {
-      "id": 26,
-      "type": "mcq_single",
-      "question": "Why is o-nitrophenol steam volatile whereas p-nitrophenol is not?",
-      "options": [
-        "o-Nitrophenol has a lower molecular mass",
-        "o-Nitrophenol forms intramolecular hydrogen bonding",
-        "p-Nitrophenol is non-polar",
-        "o-Nitrophenol does not contain a nitro group",
-        "p-Nitrophenol undergoes decomposition on heating"
-      ],
-      "answer": 1,
-      "difficulty": 2,
-      "marks": 1,
-      "explanation": "o-Nitrophenol forms intramolecular hydrogen bonding, reducing intermolecular association and making it steam volatile. p-Nitrophenol forms intermolecular hydrogen bonds."
-    },
-    {
-      "id": 27,
-      "type": "mcq_single",
-      "question": "Which alcohol resists oxidation by KMnO₄, CrO₃ and PCC under ordinary conditions?",
-      "options": [
-        "Ethanol",
-        "Propan-1-ol",
-        "Propan-2-ol",
-        "2-Methylpropan-2-ol",
-        "Methanol"
+        "Ethyl chloride > Isopropyl chloride > tert-Butyl chloride",
+        "tert-Butyl chloride > Ethyl chloride > Isopropyl chloride",
+        "Isopropyl chloride > tert-Butyl chloride > Ethyl chloride",
+        "tert-Butyl chloride > Isopropyl chloride > Ethyl chloride",
+        "Ethyl chloride > tert-Butyl chloride > Isopropyl chloride",
+        "Isopropyl chloride > Ethyl chloride > tert-Butyl chloride"
       ],
       "answer": 3,
       "difficulty": 2,
       "marks": 1,
-      "explanation": "Tertiary alcohols do not possess an α-hydrogen and therefore resist oxidation under ordinary conditions."
+      "explanation": "SN1 reactivity follows carbocation stability: tertiary > secondary > primary."
     },
     {
-      "id": 28,
+      "id": 4,
       "type": "mcq_single",
-      "question": "Arrange the following in decreasing reactivity towards the Lucas reagent: Propan-2-ol, tert-Butyl alcohol, Ethanol.",
+      "question": "Which reagent is required for the Finkelstein reaction?",
       "options": [
-        "Ethanol > Propan-2-ol > tert-Butyl alcohol",
-        "tert-Butyl alcohol > Propan-2-ol > Ethanol",
-        "Propan-2-ol > Ethanol > tert-Butyl alcohol",
-        "Propan-2-ol > tert-Butyl alcohol > Ethanol",
-        "Ethanol > tert-Butyl alcohol > Propan-2-ol"
+        "NaBr in water",
+        "NaI in dry acetone",
+        "KI in water",
+        "AgNO3 in ethanol",
+        "HF",
+        "AgF"
+      ],
+      "answer": 1,
+      "difficulty": 1,
+      "marks": 1,
+      "explanation": "The Finkelstein reaction converts alkyl chlorides or bromides into alkyl iodides using sodium iodide in dry acetone."
+    },
+    {
+      "id": 5,
+      "type": "mcq_single",
+      "question": "Arrange the following in increasing ease of nucleophilic substitution: Ethyl chloride, Chlorobenzene, tert-Butyl chloride.",
+      "options": [
+        "Ethyl chloride < tert-Butyl chloride < Chlorobenzene",
+        "tert-Butyl chloride < Ethyl chloride < Chlorobenzene",
+        "Chlorobenzene < Ethyl chloride < tert-Butyl chloride",
+        "Chlorobenzene < tert-Butyl chloride < Ethyl chloride",
+        "Ethyl chloride < Chlorobenzene < tert-Butyl chloride",
+        "tert-Butyl chloride < Chlorobenzene < Ethyl chloride"
+      ],
+      "answer": 2,
+      "difficulty": 2,
+      "marks": 1,
+      "explanation": "Haloarenes are least reactive due to resonance and partial double-bond character of the C–Cl bond. Among alkyl halides, tertiary compounds react readily by SN1."
+    },
+    {
+      "id": 6,
+      "type": "mcq_single",
+      "question": "Which statement best explains why chlorobenzene is less reactive than chloroethane towards nucleophilic substitution?",
+      "options": [
+        "Chlorobenzene has a longer C–Cl bond.",
+        "The C–Cl bond in chlorobenzene has partial double-bond character due to resonance.",
+        "Chlorobenzene contains fewer hydrogen atoms.",
+        "The chlorine atom is positively charged.",
+        "Chlorobenzene is non-polar.",
+        "The benzene ring behaves as a nucleophile."
       ],
       "answer": 1,
       "difficulty": 2,
       "marks": 1,
-      "explanation": "Lucas reagent reacts fastest with tertiary alcohols because they readily form stable carbocations, followed by secondary and then primary alcohols."
+      "explanation": "Resonance gives the C–Cl bond in chlorobenzene partial double-bond character, making bond cleavage difficult."
     },
     {
-      "id": 29,
+      "id": 7,
       "type": "mcq_single",
-      "question": "Phenol reacts with concentrated nitric acid to produce:",
+      "question": "Which product is obtained when ethyl chloride is treated with alcoholic KOH?",
       "options": [
-        "Nitrobenzene",
-        "o-Nitrophenol only",
-        "p-Nitrophenol only",
-        "2,4,6-Trinitrophenol",
+        "Ethanol",
+        "Ethanoic acid",
+        "Ethene",
+        "Diethyl ether",
+        "Ethanal",
+        "Acetylene"
+      ],
+      "answer": 2,
+      "difficulty": 1,
+      "marks": 1,
+      "explanation": "Alcoholic KOH favours β-elimination, producing ethene."
+    },
+    {
+      "id": 8,
+      "type": "mcq_single",
+      "question": "Arrange the following in increasing boiling point: Chloroethane, Ethane, Ethanol.",
+      "options": [
+        "Ethanol < Chloroethane < Ethane",
+        "Ethane < Ethanol < Chloroethane",
+        "Chloroethane < Ethane < Ethanol",
+        "Ethane < Chloroethane < Ethanol",
+        "Chloroethane < Ethanol < Ethane",
+        "Ethanol < Ethane < Chloroethane"
+      ],
+      "answer": 3,
+      "difficulty": 2,
+      "marks": 1,
+      "explanation": "Alcohols exhibit hydrogen bonding, haloalkanes have dipole-dipole interactions, while alkanes possess only weak van der Waals forces."
+    },
+    {
+      "id": 9,
+      "type": "mcq_single",
+      "question": "The major product formed when methylmagnesium bromide reacts with carbon dioxide followed by acidic hydrolysis is:",
+      "options": [
+        "Methanal",
+        "Methanol",
+        "Ethanoic acid",
+        "Ethane",
+        "Ethanol",
+        "Acetic anhydride"
+      ],
+      "answer": 2,
+      "difficulty": 2,
+      "marks": 1,
+      "explanation": "Grignard reagents react with carbon dioxide to give carboxylic acids containing one additional carbon atom after hydrolysis."
+    },
+    {
+      "id": 10,
+      "type": "mcq_single",
+      "question": "Which nucleophile produces an isocyanide when reacted with an alkyl halide?",
+      "options": [
+        "KCN",
+        "NaOH",
+        "AgCN",
+        "NaI",
+        "NH3",
+        "Mg"
+      ],
+      "answer": 2,
+      "difficulty": 2,
+      "marks": 1,
+      "explanation": "AgCN is largely covalent and attacks through nitrogen to produce isocyanides, whereas KCN attacks through carbon to produce nitriles."
+    },
+    {
+      "id": 11,
+      "type": "mcq_single",
+      "question": "Which reagent converts a primary alcohol into an alkyl chloride while producing only gaseous by-products?",
+      "options": [
+        "PCl5",
+        "SOCl2",
+        "HCl",
+        "PCl3",
+        "NaCl",
+        "Cl2"
+      ],
+      "answer": 1,
+      "difficulty": 1,
+      "marks": 1,
+      "explanation": "Thionyl chloride forms alkyl chloride along with SO2 and HCl gases, giving a relatively pure product."
+    },
+    {
+      "id": 12,
+      "type": "mcq_single",
+      "question": "Arrange the following in decreasing boiling point: Dimethyl ether, Ethanol, Propane.",
+      "options": [
+        "Dimethyl ether > Ethanol > Propane",
+        "Ethanol > Dimethyl ether > Propane",
+        "Propane > Ethanol > Dimethyl ether",
+        "Dimethyl ether > Propane > Ethanol",
+        "Ethanol > Propane > Dimethyl ether",
+        "Propane > Dimethyl ether > Ethanol"
+      ],
+      "answer": 1,
+      "difficulty": 2,
+      "marks": 1,
+      "explanation": "Alcohols exhibit hydrogen bonding, ethers show dipole-dipole interactions and alkanes possess only dispersion forces."
+    },
+    {
+      "id": 13,
+      "type": "mcq_single",
+      "question": "Arrange the following in increasing solubility in water: Ethanol, Propan-1-ol, Butan-1-ol.",
+      "options": [
+        "Ethanol < Propan-1-ol < Butan-1-ol",
+        "Butan-1-ol < Propan-1-ol < Ethanol",
+        "Propan-1-ol < Butan-1-ol < Ethanol",
+        "Butan-1-ol < Ethanol < Propan-1-ol",
+        "Propan-1-ol < Ethanol < Butan-1-ol",
+        "Ethanol < Butan-1-ol < Propan-1-ol"
+      ],
+      "answer": 1,
+      "difficulty": 2,
+      "marks": 1,
+      "explanation": "Water solubility decreases with increase in the length of the alkyl chain."
+    },
+    {
+      "id": 14,
+      "type": "mcq_single",
+      "question": "Which alcohol does NOT undergo oxidation under ordinary conditions with acidified KMnO₄ or K₂Cr₂O₇?",
+      "options": [
+        "Methanol",
+        "Ethanol",
+        "Propan-2-ol",
+        "2-Methylpropan-2-ol",
+        "Propan-1-ol",
+        "Butan-1-ol"
+      ],
+      "answer": 3,
+      "difficulty": 2,
+      "marks": 1,
+      "explanation": "Tertiary alcohols lack an α-hydrogen and therefore resist oxidation under ordinary conditions."
+    },
+    {
+      "id": 15,
+      "type": "mcq_single",
+      "question": "Phenol reacts with bromine water to give:",
+      "options": [
+        "Bromobenzene",
+        "o-Bromophenol only",
+        "p-Bromophenol only",
+        "2,4,6-Tribromophenol",
+        "2,4-Dibromophenol",
         "Benzoic acid"
       ],
       "answer": 3,
       "difficulty": 1,
       "marks": 1,
-      "explanation": "Concentrated nitric acid converts phenol into 2,4,6-trinitrophenol (picric acid)."
+      "explanation": "Phenol rapidly reacts with bromine water to give a white precipitate of 2,4,6-tribromophenol."
     },
     {
-      "id": 30,
+      "id": 16,
       "type": "mcq_single",
-      "question": "Why is sodium phenoxide more reactive than phenol towards electrophilic aromatic substitution?",
+      "question": "Arrange the following in decreasing reactivity towards Lucas reagent: Ethanol, tert-Butyl alcohol, Propan-2-ol.",
       "options": [
-        "It contains an additional hydroxyl group",
-        "The O⁻ ion donates electron density to the ring more strongly than –OH",
-        "It has a weaker C–O bond",
-        "It is less soluble in water",
-        "It is a stronger electrophile"
-      ],
-      "answer": 1,
-      "difficulty": 2,
-      "marks": 1,
-      "explanation": "The negatively charged oxygen atom in phenoxide donates electron density to the aromatic ring more effectively than the neutral –OH group, making the ring more reactive towards electrophilic substitution."
-    },
-    {
-      "id": 31,
-      "type": "mcq_single",
-      "question": "Why does phenol react with aqueous NaOH whereas ethanol does not?",
-      "options": [
-        "Phenol is sufficiently acidic to form sodium phenoxide",
-        "Phenol is a stronger base than ethanol",
-        "Ethanol contains no O–H bond",
-        "Phenol is an ether",
-        "Ethanol is aromatic"
-      ],
-      "answer": 0,
-      "difficulty": 2,
-      "marks": 1,
-      "explanation": "Phenol is more acidic because the phenoxide ion is resonance stabilised. Therefore, it reacts with NaOH, unlike ethanol."
-    },
-    {
-      "id": 32,
-      "type": "mcq_single",
-      "question": "Arrange the following in decreasing acidity: Phenol, p-Nitrophenol, p-Cresol.",
-      "options": [
-        "Phenol > p-Nitrophenol > p-Cresol",
-        "p-Cresol > Phenol > p-Nitrophenol",
-        "p-Nitrophenol > Phenol > p-Cresol",
-        "Phenol > p-Cresol > p-Nitrophenol",
-        "p-Cresol > p-Nitrophenol > Phenol"
+        "Ethanol > Propan-2-ol > tert-Butyl alcohol",
+        "Propan-2-ol > tert-Butyl alcohol > Ethanol",
+        "tert-Butyl alcohol > Propan-2-ol > Ethanol",
+        "Propan-2-ol > Ethanol > tert-Butyl alcohol",
+        "tert-Butyl alcohol > Ethanol > Propan-2-ol",
+        "Ethanol > tert-Butyl alcohol > Propan-2-ol"
       ],
       "answer": 2,
       "difficulty": 2,
       "marks": 1,
-      "explanation": "The electron-withdrawing nitro group increases acidity, whereas the electron-donating methyl group decreases it."
+      "explanation": "Lucas reagent reacts fastest with tertiary alcohols, followed by secondary and then primary alcohols."
     },
     {
-      "id": 33,
+      "id": 17,
       "type": "mcq_single",
-      "question": "Why does phenol give mainly para-bromophenol along with o-bromophenol when brominated in CS₂ or CHCl₃ at low temperature?",
+      "question": "Which named reaction converts sodium phenoxide into salicylic acid after treatment with carbon dioxide and acidification?",
       "options": [
-        "The ortho position is completely unreactive",
-        "The para position experiences less steric hindrance",
-        "The bromine attacks only the para position",
-        "The ortho product immediately decomposes",
-        "Phenol behaves as a meta-directing group"
+        "Reimer-Tiemann reaction",
+        "Kolbe reaction",
+        "Friedel-Crafts reaction",
+        "Sandmeyer reaction",
+        "Swarts reaction",
+        "Cannizzaro reaction"
       ],
       "answer": 1,
-      "difficulty": 2,
+      "difficulty": 1,
       "marks": 1,
-      "explanation": "Although both ortho and para positions are activated, the para position is less sterically hindered, making para-bromophenol the major product."
+      "explanation": "The Kolbe reaction introduces a carboxyl group into sodium phenoxide to form salicylic acid."
     },
     {
-      "id": 34,
+      "id": 18,
       "type": "mcq_single",
-      "question": "Which alcohol is obtained when methylmagnesium bromide reacts with methanal followed by hydrolysis?",
+      "question": "Which reagent is used in the Reimer-Tiemann reaction?",
       "options": [
-        "Methanol",
-        "Ethanol",
-        "Propan-1-ol",
-        "Propan-2-ol",
-        "2-Methylpropan-2-ol"
-      ],
-      "answer": 1,
-      "difficulty": 2,
-      "marks": 1,
-      "explanation": "Reaction of methylmagnesium bromide with methanal produces ethanol after acidic hydrolysis. Methanal always gives a primary alcohol with one additional carbon atom."
-    },
-    {
-      "id": 35,
-      "type": "mcq_single",
-      "question": "Arrange the following in decreasing solubility in water: Ethanol, Methanol, Propan-1-ol.",
-      "options": [
-        "Propan-1-ol > Ethanol > Methanol",
-        "Methanol > Ethanol > Propan-1-ol",
-        "Ethanol > Methanol > Propan-1-ol",
-        "Methanol > Propan-1-ol > Ethanol",
-        "Ethanol > Propan-1-ol > Methanol"
-      ],
-      "answer": 1,
-      "difficulty": 2,
-      "marks": 1,
-      "explanation": "Water solubility decreases as the hydrophobic alkyl chain becomes longer. Hence Methanol > Ethanol > Propan-1-ol."
-    },
-    {
-      "id": 36,
-      "type": "mcq_single",
-      "question": "Why does concentrated H₂SO₄ facilitate dehydration of alcohols?",
-      "options": [
-        "It acts as a reducing agent",
-        "It protonates the –OH group, converting it into a better leaving group",
-        "It supplies oxygen to the alcohol",
-        "It converts alcohols directly into aldehydes",
-        "It behaves as a nucleophile"
-      ],
-      "answer": 1,
-      "difficulty": 2,
-      "marks": 1,
-      "explanation": "Concentrated H₂SO₄ protonates the hydroxyl group to form water, which is a much better leaving group, thereby promoting elimination."
-    },
-    {
-      "id": 37,
-      "type": "mcq_single",
-      "question": "Which product is formed when phenol undergoes the Kolbe reaction followed by acidification?",
-      "options": [
-        "Benzoic acid",
-        "Salicylic acid",
-        "Picric acid",
-        "Salicylaldehyde",
-        "Phenyl acetate"
-      ],
-      "answer": 1,
-      "difficulty": 2,
-      "marks": 1,
-      "explanation": "In the Kolbe reaction, sodium phenoxide reacts with CO₂ to form sodium salicylate, which on acidification yields salicylic acid."
-    },
-    {
-      "id": 38,
-      "type": "mcq_single",
-      "question": "Arrange the following in decreasing ease of dehydration: Propan-2-ol, tert-Butyl alcohol, Ethanol.",
-      "options": [
-        "Ethanol > Propan-2-ol > tert-Butyl alcohol",
-        "tert-Butyl alcohol > Propan-2-ol > Ethanol",
-        "Propan-2-ol > Ethanol > tert-Butyl alcohol",
-        "Propan-2-ol > tert-Butyl alcohol > Ethanol",
-        "Ethanol > tert-Butyl alcohol > Propan-2-ol"
-      ],
-      "answer": 1,
-      "difficulty": 2,
-      "marks": 1,
-      "explanation": "Ease of dehydration follows carbocation stability: tertiary > secondary > primary alcohol."
-    },
-    {
-      "id": 39,
-      "type": "mcq_single",
-      "question": "Phenol is converted into salicylaldehyde by treatment with:",
-      "options": [
-        "CO₂ followed by H⁺",
+        "CO₂ and pressure",
         "CHCl₃ and aqueous NaOH",
         "Br₂/H₂O",
         "Concentrated HNO₃",
-        "Acetic anhydride"
+        "SOCl₂",
+        "NaBH₄"
       ],
       "answer": 1,
-      "difficulty": 2,
-      "marks": 1,
-      "explanation": "The Reimer–Tiemann reaction uses chloroform and aqueous sodium hydroxide to introduce a formyl group at the ortho position of phenol."
-    },
-    {
-      "id": 40,
-      "type": "mcq_single",
-      "question": "Which statement best explains why phenol is ortho/para directing in electrophilic aromatic substitution?",
-      "options": [
-        "The –OH group withdraws electrons by resonance",
-        "The –OH group donates electron density to the ortho and para positions through resonance",
-        "The –OH group deactivates the benzene ring",
-        "Phenol reacts only through the oxygen atom",
-        "The inductive effect alone determines substitution"
-      ],
-      "answer": 1,
-      "difficulty": 2,
-      "marks": 1,
-      "explanation": "The lone pair on oxygen is delocalised into the benzene ring by resonance, increasing electron density mainly at the ortho and para positions and directing electrophilic substitution there."
-    },
-    {
-      "id": 41,
-      "type": "mcq_single",
-      "question": "Why does phenol undergo electrophilic substitution more readily than benzene?",
-      "options": [
-        "The –OH group withdraws electrons by resonance",
-        "The –OH group donates electron density to the ring by resonance",
-        "Phenol contains no π electrons",
-        "The –OH group deactivates the ring",
-        "Phenol is non-aromatic"
-      ],
-      "answer": 1,
-      "difficulty": 2,
-      "marks": 1,
-      "explanation": "The lone pair on oxygen is delocalised into the aromatic ring by resonance, increasing its electron density and making phenol more reactive than benzene towards electrophilic substitution."
-    },
-    {
-      "id": 42,
-      "type": "mcq_single",
-      "question": "Which reagent is used in the Kolbe reaction for preparing salicylic acid from sodium phenoxide?",
-      "options": [
-        "CO₂",
-        "CHCl₃",
-        "Br₂",
-        "Na₂Cr₂O₇/H₂SO₄",
-        "SOCl₂"
-      ],
-      "answer": 0,
       "difficulty": 1,
       "marks": 1,
-      "explanation": "The Kolbe reaction involves reaction of sodium phenoxide with carbon dioxide under pressure followed by acidification to give salicylic acid."
+      "explanation": "Phenol reacts with chloroform and aqueous sodium hydroxide in the Reimer-Tiemann reaction to give salicylaldehyde."
     },
     {
-      "id": 43,
+      "id": 19,
+      "type": "mcq_single",
+      "question": "Arrange the following in increasing acidity: Ethanol, Water, Phenol.",
+      "options": [
+        "Phenol < Water < Ethanol",
+        "Water < Ethanol < Phenol",
+        "Ethanol < Water < Phenol",
+        "Phenol < Ethanol < Water",
+        "Water < Phenol < Ethanol",
+        "Ethanol < Phenol < Water"
+      ],
+      "answer": 2,
+      "difficulty": 2,
+      "marks": 1,
+      "explanation": "Phenol is most acidic due to resonance stabilization of the phenoxide ion, whereas ethanol is the least acidic."
+    },
+    {
+      "id": 20,
+      "type": "mcq_single",
+      "question": "Which statement correctly explains why phenol is more acidic than ethanol?",
+      "options": [
+        "Phenol contains more oxygen atoms.",
+        "Phenoxide ion is resonance stabilized.",
+        "Ethanol has stronger hydrogen bonding.",
+        "Phenol has a lower molecular mass.",
+        "Phenol contains an aromatic ring only.",
+        "Phenol undergoes oxidation more easily."
+      ],
+      "answer": 1,
+      "difficulty": 2,
+      "marks": 1,
+      "explanation": "The conjugate base of phenol is resonance stabilized, making proton loss easier than in ethanol."
+    },
+    {
+      "id": 21,
+      "type": "mcq_single",
+      "question": "Which compound is obtained by oxidation of propan-2-ol using acidified potassium dichromate?",
+      "options": [
+        "Propanal",
+        "Propanoic acid",
+        "Acetone",
+        "Propene",
+        "Propan-1-ol",
+        "Acetic acid"
+      ],
+      "answer": 2,
+      "difficulty": 1,
+      "marks": 1,
+      "explanation": "Secondary alcohols are oxidized to ketones. Propan-2-ol gives propanone (acetone)."
+    },
+    {
+      "id": 22,
       "type": "mcq_single",
       "question": "Arrange the following in decreasing boiling point: Propan-2-ol, Propan-1-ol, 2-Methylpropan-2-ol.",
       "options": [
@@ -622,124 +371,490 @@
         "Propan-1-ol > Propan-2-ol > 2-Methylpropan-2-ol",
         "Propan-2-ol > Propan-1-ol > 2-Methylpropan-2-ol",
         "Propan-1-ol > 2-Methylpropan-2-ol > Propan-2-ol",
-        "2-Methylpropan-2-ol > Propan-1-ol > Propan-2-ol"
+        "2-Methylpropan-2-ol > Propan-1-ol > Propan-2-ol",
+        "Propan-2-ol > 2-Methylpropan-2-ol > Propan-1-ol"
       ],
       "answer": 1,
       "difficulty": 2,
       "marks": 1,
-      "explanation": "Branching reduces surface area and intermolecular attraction. Hence the boiling point decreases with increasing branching."
+      "explanation": "Boiling point decreases with branching because branching reduces the surface area available for intermolecular attractions."
     },
     {
-      "id": 44,
+      "id": 23,
       "type": "mcq_single",
-      "question": "Why does dehydration of alcohols generally give the more substituted alkene as the major product?",
+      "question": "Which reagent is commonly used to oxidise a primary alcohol to an aldehyde without further oxidation?",
       "options": [
-        "The less substituted alkene is always more stable",
-        "The reaction follows Zaitsev's rule",
-        "The double bond always forms at carbon-1",
-        "Hydrogen is removed only from the α-carbon",
-        "Alcohols undergo substitution instead of elimination"
-      ],
-      "answer": 1,
-      "difficulty": 2,
-      "marks": 1,
-      "explanation": "According to Zaitsev's rule, the more substituted (and therefore more stable) alkene is generally formed as the major product."
-    },
-    {
-      "id": 45,
-      "type": "mcq_single",
-      "question": "Which alcohol is obtained when ethylmagnesium bromide reacts with ethanal followed by hydrolysis?",
-      "options": [
-        "Butan-2-ol",
-        "Butan-1-ol",
-        "Propan-2-ol",
-        "Propan-1-ol",
-        "2-Methylpropan-2-ol"
-      ],
-      "answer": 0,
-      "difficulty": 2,
-      "marks": 1,
-      "explanation": "An aldehyde (other than methanal) reacts with a Grignard reagent to produce a secondary alcohol after hydrolysis. Ethanal with ethylmagnesium bromide gives butan-2-ol."
-    },
-    {
-      "id": 46,
-      "type": "mcq_single",
-      "question": "Why must Grignard reagents never be prepared in the presence of water?",
-      "options": [
-        "Water oxidises magnesium into MgO",
-        "Water converts the reagent into an alkene",
-        "Water protonates and destroys the Grignard reagent",
-        "Water converts ether into alcohol",
-        "Water acts as a catalyst"
+        "Acidified KMnO₄",
+        "Acidified K₂Cr₂O₇",
+        "PCC",
+        "NaBH₄",
+        "LiAlH₄",
+        "Zn/HCl"
       ],
       "answer": 2,
       "difficulty": 2,
       "marks": 1,
-      "explanation": "Grignard reagents are highly reactive and are immediately protonated by water to form hydrocarbons, destroying the reagent."
+      "explanation": "Pyridinium chlorochromate (PCC) selectively oxidises primary alcohols to aldehydes without significant oxidation to carboxylic acids."
     },
     {
-      "id": 47,
+      "id": 24,
       "type": "mcq_single",
-      "question": "Phenol is converted into phenyl acetate during acetylation using:",
+      "question": "Which compound is formed when ethanol is oxidised with PCC?",
       "options": [
-        "Acetic anhydride",
-        "NaOH",
-        "CO₂",
-        "PCC",
-        "Lucas reagent"
+        "Ethanoic acid",
+        "Ethanal",
+        "Ethene",
+        "Ethanol remains unchanged",
+        "Methanal",
+        "Acetone"
       ],
-      "answer": 0,
+      "answer": 1,
       "difficulty": 1,
       "marks": 1,
-      "explanation": "Phenol undergoes acetylation with acetic anhydride (or acetyl chloride) to form phenyl acetate."
+      "explanation": "PCC oxidises primary alcohols to aldehydes. Hence ethanol gives ethanal."
     },
     {
-      "id": 48,
+      "id": 25,
       "type": "mcq_single",
-      "question": "Arrange the following in decreasing boiling point: Methanol, Ethanol, Propan-1-ol.",
+      "question": "Which reagent converts an acid chloride into an aldehyde by partial reduction?",
       "options": [
-        "Propan-1-ol > Ethanol > Methanol",
-        "Methanol > Ethanol > Propan-1-ol",
-        "Ethanol > Propan-1-ol > Methanol",
-        "Propan-1-ol > Methanol > Ethanol",
-        "Ethanol > Methanol > Propan-1-ol"
+        "NaBH₄",
+        "LiAlH₄",
+        "H₂/Pd",
+        "H₂ over poisoned Pd/BaSO₄",
+        "Zn/HCl",
+        "KMnO₄"
       ],
-      "answer": 0,
+      "answer": 3,
       "difficulty": 2,
       "marks": 1,
-      "explanation": "All three alcohols exhibit hydrogen bonding. Boiling point increases with molecular mass, giving Propan-1-ol > Ethanol > Methanol."
+      "explanation": "The Rosenmund reduction converts acid chlorides into aldehydes using hydrogen over poisoned palladium supported on barium sulfate."
     },
     {
-      "id": 49,
+      "id": 26,
       "type": "mcq_single",
-      "question": "Why does phenol not give the Lucas test under ordinary conditions?",
+      "question": "The Rosenmund reduction is used to prepare:",
       "options": [
-        "Phenol contains no oxygen atom",
-        "The aryl C–O bond has partial double-bond character due to resonance",
-        "Phenol is a tertiary alcohol",
-        "Phenol is completely non-polar",
-        "Phenol contains no hydrogen atom"
+        "Alcohols from aldehydes",
+        "Ketones from alcohols",
+        "Aldehydes from acid chlorides",
+        "Carboxylic acids from aldehydes",
+        "Alkanes from alkyl halides",
+        "Esters from acids"
+      ],
+      "answer": 2,
+      "difficulty": 1,
+      "marks": 1,
+      "explanation": "Rosenmund reduction is a selective method for preparing aldehydes from acid chlorides."
+    },
+    {
+      "id": 27,
+      "type": "mcq_single",
+      "question": "Which reagent converts a nitrile into an aldehyde followed by hydrolysis?",
+      "options": [
+        "LiAlH₄",
+        "NaBH₄",
+        "Sn/HCl",
+        "DIBAL-H",
+        "CrO₃",
+        "PCC"
+      ],
+      "answer": 3,
+      "difficulty": 2,
+      "marks": 1,
+      "explanation": "DIBAL-H partially reduces nitriles to imines, which on hydrolysis produce aldehydes."
+    },
+    {
+  "id": 28,
+  "type": "mcq_single",
+  "question": "Which reagent is used in the Rosenmund reduction for the preparation of aldehydes from acid chlorides?",
+  "options": [
+    "H₂/Pd-BaSO₄",
+    "NaBH₄",
+    "LiAlH₄",
+    "SnCl₂/HCl",
+    "PCC",
+    "Acidified K₂Cr₂O₇"
+  ],
+  "answer": 0,
+  "difficulty": 2,
+  "marks": 1,
+  "explanation": "In the Rosenmund reduction, acid chlorides are reduced to aldehydes using hydrogen gas over poisoned palladium supported on barium sulfate."
+},
+    {
+      "id": 29,
+      "type": "mcq_single",
+      "question": "Which product is obtained when propan-1-ol is oxidised using acidified potassium dichromate under controlled conditions?",
+      "options": [
+        "Propanoic acid",
+        "Propanal",
+        "Propene",
+        "Acetone",
+        "Propan-2-ol",
+        "Propyl chloride"
+      ],
+      "answer": 1,
+      "difficulty": 1,
+      "marks": 1,
+      "explanation": "Under controlled oxidation, a primary alcohol first forms the corresponding aldehyde."
+    },
+    {
+      "id": 30,
+      "type": "mcq_single",
+      "question": "Arrange the following in increasing ease of oxidation: Propan-2-ol, 2-Methylpropan-2-ol, Propan-1-ol.",
+      "options": [
+        "Propan-2-ol < Propan-1-ol < 2-Methylpropan-2-ol",
+        "2-Methylpropan-2-ol < Propan-2-ol < Propan-1-ol",
+        "Propan-1-ol < Propan-2-ol < 2-Methylpropan-2-ol",
+        "2-Methylpropan-2-ol < Propan-1-ol < Propan-2-ol",
+        "Propan-2-ol < 2-Methylpropan-2-ol < Propan-1-ol",
+        "Propan-1-ol < 2-Methylpropan-2-ol < Propan-2-ol"
       ],
       "answer": 1,
       "difficulty": 2,
       "marks": 1,
-      "explanation": "The C–O bond in phenol has partial double-bond character because of resonance and therefore does not undergo the substitution required in the Lucas test."
+      "explanation": "Tertiary alcohols resist oxidation, secondary alcohols oxidise to ketones and primary alcohols oxidise most readily."
     },
     {
-      "id": 50,
+      "id": 31,
       "type": "mcq_single",
-      "question": "Which reagent is preferred for converting alcohols into alkyl chlorides because its by-products escape as gases, giving a pure product?",
+      "question": "Which alcohol produces acetone on oxidation?",
       "options": [
-        "SOCl₂",
-        "PCl₅",
-        "PCl₃",
-        "HCl",
-        "NaCl"
+        "Ethanol",
+        "Methanol",
+        "Propan-2-ol",
+        "Propan-1-ol",
+        "tert-Butyl alcohol",
+        "Butan-1-ol"
+      ],
+      "answer": 2,
+      "difficulty": 1,
+      "marks": 1,
+      "explanation": "Oxidation of propan-2-ol produces propanone (acetone)."
+    },
+    {
+      "id": 32,
+      "type": "mcq_single",
+      "question": "Which reagent is commonly used to prepare ketones from secondary alcohols?",
+      "options": [
+        "NaBH₄",
+        "LiAlH₄",
+        "Acidified K₂Cr₂O₇",
+        "Zn/Hg",
+        "H₂/Ni",
+        "SOCl₂"
+      ],
+      "answer": 2,
+      "difficulty": 1,
+      "marks": 1,
+      "explanation": "Secondary alcohols are oxidised to ketones using oxidising agents such as acidified potassium dichromate or potassium permanganate."
+    },
+    {
+      "id": 33,
+      "type": "mcq_single",
+      "question": "Which reagent converts an acid chloride into a ketone?",
+      "options": [
+        "NaBH₄",
+        "R₂Cd",
+        "LiAlH₄",
+        "PCC",
+        "H₂/Ni",
+        "Zn/Hg"
+      ],
+      "answer": 1,
+      "difficulty": 2,
+      "marks": 1,
+      "explanation": "Acid chlorides react with dialkylcadmium reagents to form ketones without further addition."
+    },
+    {
+      "id": 34,
+      "type": "mcq_single",
+      "question": "Which product is obtained when ethanoyl chloride reacts with dimethylcadmium?",
+      "options": [
+        "Acetaldehyde",
+        "Acetone",
+        "Methanol",
+        "Ethanol",
+        "Ethanoic acid",
+        "2-Butanone"
+      ],
+      "answer": 1,
+      "difficulty": 2,
+      "marks": 1,
+      "explanation": "Dimethylcadmium reacts with ethanoyl chloride to produce propanone (acetone)."
+    },
+    {
+      "id": 35,
+      "type": "mcq_single",
+      "question": "Which compound is produced when benzonitrile is partially reduced with DIBAL-H followed by hydrolysis?",
+      "options": [
+        "Benzyl alcohol",
+        "Benzoic acid",
+        "Benzaldehyde",
+        "Toluene",
+        "Acetophenone",
+        "Benzene"
+      ],
+      "answer": 2,
+      "difficulty": 2,
+      "marks": 1,
+      "explanation": "DIBAL-H selectively reduces nitriles to aldehydes after hydrolysis."
+    },
+    {
+      "id": 36,
+      "type": "mcq_single",
+      "question": "Arrange the following in increasing ease of oxidation: Ethanol, Propan-2-ol, 2-Methylpropan-2-ol.",
+      "options": [
+        "Propan-2-ol < Ethanol < 2-Methylpropan-2-ol",
+        "2-Methylpropan-2-ol < Propan-2-ol < Ethanol",
+        "Ethanol < Propan-2-ol < 2-Methylpropan-2-ol",
+        "2-Methylpropan-2-ol < Ethanol < Propan-2-ol",
+        "Propan-2-ol < 2-Methylpropan-2-ol < Ethanol",
+        "Ethanol < 2-Methylpropan-2-ol < Propan-2-ol"
+      ],
+      "answer": 1,
+      "difficulty": 2,
+      "marks": 1,
+      "explanation": "Tertiary alcohols resist oxidation, secondary alcohols oxidise less readily than primary alcohols."
+    },
+    {
+      "id": 37,
+      "type": "mcq_single",
+      "question": "Which reagent is used in the Stephen reaction for the preparation of aldehydes from nitriles?",
+      "options": [
+        "SnCl₂/HCl",
+        "NaBH₄",
+        "PCC",
+        "LiAlH₄",
+        "KMnO₄",
+        "SOCl₂"
+      ],
+      "answer": 0,
+      "difficulty": 2,
+      "marks": 1,
+      "explanation": "The Stephen reaction involves reduction of nitriles using stannous chloride and hydrochloric acid followed by hydrolysis to form aldehydes."
+    },
+    {
+      "id": 38,
+      "type": "mcq_single",
+      "question": "The Stephen reaction converts which functional group into an aldehyde?",
+      "options": [
+        "Alcohol",
+        "Acid chloride",
+        "Nitrile",
+        "Carboxylic acid",
+        "Ketone",
+        "Ester"
+      ],
+      "answer": 2,
+      "difficulty": 1,
+      "marks": 1,
+      "explanation": "Stephen reduction converts nitriles into aldehydes after hydrolysis."
+    },
+    {
+      "id": 39,
+      "type": "mcq_single",
+      "question": "Which product is obtained when propan-2-ol is oxidised using acidified potassium permanganate?",
+      "options": [
+        "Propanal",
+        "Propanoic acid",
+        "Propanone",
+        "Propene",
+        "Propan-1-ol",
+        "Acetaldehyde"
+      ],
+      "answer": 2,
+      "difficulty": 1,
+      "marks": 1,
+      "explanation": "Secondary alcohols are oxidised to ketones. Hence propan-2-ol gives propanone."
+    },
+    {
+      "id": 40,
+      "type": "mcq_single",
+      "question": "Which reagent is NOT suitable for preparing aldehydes from primary alcohols without significant over-oxidation?",
+      "options": [
+        "PCC",
+        "Acidified KMnO₄",
+        "Controlled CrO₃",
+        "Pyridinium chlorochromate",
+        "Anhydrous oxidation conditions",
+        "PCC in CH₂Cl₂"
+      ],
+      "answer": 1,
+      "difficulty": 2,
+      "marks": 1,
+      "explanation": "Acidified KMnO₄ is a strong oxidising agent and generally oxidises aldehydes further to carboxylic acids."
+    },
+    {
+      "id": 41,
+      "type": "mcq_single",
+      "question": "Which compound is obtained when propan-1-ol undergoes mild oxidation with PCC?",
+      "options": [
+        "Propanoic acid",
+        "Propanone",
+        "Propanal",
+        "Propene",
+        "Propanol remains unchanged",
+        "Acetone"
+      ],
+      "answer": 2,
+      "difficulty": 1,
+      "marks": 1,
+      "explanation": "PCC selectively oxidises primary alcohols to aldehydes."
+    },
+    {
+      "id": 42,
+      "type": "mcq_single",
+      "question": "Arrange the following in increasing ease of oxidation: Methanol, Propan-2-ol, tert-Butyl alcohol.",
+      "options": [
+        "Methanol < Propan-2-ol < tert-Butyl alcohol",
+        "tert-Butyl alcohol < Propan-2-ol < Methanol",
+        "Propan-2-ol < Methanol < tert-Butyl alcohol",
+        "tert-Butyl alcohol < Methanol < Propan-2-ol",
+        "Methanol < tert-Butyl alcohol < Propan-2-ol",
+        "Propan-2-ol < tert-Butyl alcohol < Methanol"
+      ],
+      "answer": 1,
+      "difficulty": 2,
+      "marks": 1,
+      "explanation": "Primary alcohols oxidise most readily, followed by secondary alcohols, whereas tertiary alcohols resist oxidation."
+    },
+    {
+      "id": 43,
+      "type": "mcq_single",
+      "question": "Which reagent is used to prepare ketones by hydration of alkynes in the presence of mercuric sulphate?",
+      "options": [
+        "Dilute H₂SO₄/HgSO₄",
+        "NaBH₄",
+        "LiAlH₄",
+        "PCC",
+        "Zn/HCl",
+        "H₂/Ni"
+      ],
+      "answer": 0,
+      "difficulty": 2,
+      "marks": 1,
+      "explanation": "Hydration of alkynes using dilute sulphuric acid and mercuric sulphate produces an enol, which undergoes tautomerisation to form a ketone."
+    },
+    {
+      "id": 44,
+      "type": "mcq_single",
+      "question": "Which compound is formed when propyne undergoes hydration in the presence of HgSO₄ and dilute H₂SO₄?",
+      "options": [
+        "Propanal",
+        "Propanone",
+        "Propan-1-ol",
+        "Propene",
+        "Propanoic acid",
+        "Acetaldehyde"
+      ],
+      "answer": 1,
+      "difficulty": 2,
+      "marks": 1,
+      "explanation": "Propyne first forms an enol which rapidly tautomerises to propanone."
+    },
+    {
+      "id": 45,
+      "type": "mcq_single",
+      "question": "The immediate product formed after hydration of an alkyne, before ketone formation, is:",
+      "options": [
+        "Alcohol",
+        "Enol",
+        "Carboxylic acid",
+        "Ether",
+        "Aldehyde",
+        "Haloalkane"
+      ],
+      "answer": 1,
+      "difficulty": 2,
+      "marks": 1,
+      "explanation": "Hydration of alkynes initially gives an enol, which undergoes keto-enol tautomerism to form the more stable carbonyl compound."
+    },
+    {
+      "id": 46,
+      "type": "mcq_single",
+      "question": "Which process converts an enol into its corresponding aldehyde or ketone?",
+      "options": [
+        "Hydrogenation",
+        "Hydrolysis",
+        "Tautomerisation",
+        "Halogenation",
+        "Reduction",
+        "Esterification"
+      ],
+      "answer": 2,
+      "difficulty": 1,
+      "marks": 1,
+      "explanation": "Keto-enol tautomerisation converts the unstable enol into the more stable aldehyde or ketone."
+    },
+    {
+      "id": 47,
+      "type": "mcq_single",
+      "question": "Which reagent is used for the hydration of alkynes to prepare ketones according to the NCERT method?",
+      "options": [
+        "Dilute H₂SO₄ and HgSO₄",
+        "Concentrated H₂SO₄",
+        "NaOH",
+        "PCC",
+        "LiAlH₄",
+        "SOCl₂"
       ],
       "answer": 0,
       "difficulty": 1,
       "marks": 1,
-      "explanation": "Thionyl chloride (SOCl₂) produces gaseous SO₂ and HCl as by-products, leaving relatively pure alkyl chloride."
+      "explanation": "NCERT describes hydration of alkynes using dilute sulphuric acid in the presence of mercuric sulphate catalyst."
+    },
+    {
+      "id": 48,
+      "type": "mcq_single",
+      "question": "Which statement correctly explains why ketones are formed after hydration of alkynes?",
+      "options": [
+        "The enol formed is more stable than the ketone.",
+        "The initially formed enol rapidly undergoes keto-enol tautomerisation.",
+        "Mercuric sulphate directly converts alkynes into ketones without any intermediate.",
+        "Water acts as an oxidising agent.",
+        "The reaction proceeds through an SN1 mechanism.",
+        "The alkyne first forms a carboxylic acid."
+      ],
+      "answer": 1,
+      "difficulty": 2,
+      "marks": 1,
+      "explanation": "Hydration produces an enol intermediate, which spontaneously rearranges to the more stable keto form."
+    },
+    {
+      "id": 49,
+      "type": "mcq_single",
+      "question": "Which compound gives propanone after hydration followed by tautomerisation?",
+      "options": [
+        "Propene",
+        "Propyne",
+        "Propanal",
+        "Propan-1-ol",
+        "1-Bromopropane",
+        "Propanoic acid"
+      ],
+      "answer": 1,
+      "difficulty": 2,
+      "marks": 1,
+      "explanation": "Hydration of propyne in the presence of HgSO₄/H₂SO₄ gives an enol that tautomerises to propanone."
+    },
+    {
+      "id": 50,
+      "type": "mcq_single",
+      "question": "Which statement regarding keto-enol tautomerisation is correct?",
+      "options": [
+        "Only aldehydes undergo tautomerisation.",
+        "The keto form is generally more stable than the enol form.",
+        "The enol form is always the major product at equilibrium.",
+        "Tautomerisation occurs only in the presence of oxygen.",
+        "Ketones cannot exist in equilibrium with enols.",
+        "The reaction is irreversible."
+      ],
+      "answer": 1,
+      "difficulty": 2,
+      "marks": 1,
+      "explanation": "For most simple carbonyl compounds, the keto form is thermodynamically more stable than the enol form, so equilibrium lies predominantly towards the keto form."
     }
   ]
 }
+
