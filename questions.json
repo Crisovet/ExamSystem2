@@ -2,555 +2,283 @@
   "examTitle": "Chemistry Test",
   "subject": "Chemistry",
   "class": 12,
-  "chapter": "Haloalkanes and Haloarenes; Alcohols, Phenols and Ethers; Aldehydes, Ketones and Carboxylic Acids",
+  "chapter": "Aldehydes, Ketones and Carboxylic Acids",
   "topic": "MCQ Test",
   "questions": [
     {
       "id": 1,
       "type": "mcq_single",
-      "question": "You are given three colourless bottles containing 1-bromopropane, 2-bromopropane and tert-butyl bromide. If each is subjected to an SN1 reaction under identical conditions, which order correctly represents their decreasing reactivity?",
-      "options": [
-        "2-Bromopropane > 1-Bromopropane > tert-Butyl bromide",
-        "tert-Butyl bromide > 1-Bromopropane > 2-Bromopropane",
-        "2-Bromopropane > tert-Butyl bromide > 1-Bromopropane",
-        "tert-Butyl bromide > 2-Bromopropane > 1-Bromopropane",
-        "1-Bromopropane > tert-Butyl bromide > 2-Bromopropane",
-        "1-Bromopropane > 2-Bromopropane > tert-Butyl bromide"
-      ],
-      "answer": 3,
-      "difficulty": 2,
-      "marks": 1,
-      "explanation": "SN1 reactivity follows carbocation stability: tertiary > secondary > primary."
-    },
-    {
-      "id": 2,
-      "type": "mcq_single",
-      "question": "Suppose you wish to convert bromoethane into ethanol in a single step with maximum yield. Which reagent would you choose?",
-      "options": [
-        "Alcoholic KOH",
-        "NaI in dry acetone",
-        "Aqueous KOH",
-        "Mg in dry ether",
-        "AgCN",
-        "Concentrated H2SO4"
-      ],
-      "answer": 2,
-      "difficulty": 1,
-      "marks": 1,
-      "explanation": "Aqueous KOH favours nucleophilic substitution, replacing bromine with hydroxyl."
-    },
-    {
-      "id": 3,
-      "type": "mcq_single",
-      "question": "A student wants to prepare fluoroethane from bromoethane using a named reaction. Which reagent is most suitable?",
-      "options": [
-        "NaI in dry acetone",
-        "AgF",
-        "Alcoholic KOH",
-        "Mg in dry ether",
-        "AgCN",
-        "Aqueous KOH"
-      ],
-      "answer": 1,
-      "difficulty": 1,
-      "marks": 1,
-      "explanation": "Swarts reaction employs metallic fluorides such as AgF to prepare alkyl fluorides."
-    },
-    {
-      "id": 4,
-      "type": "mcq_single",
-      "question": "Read carefully before answering. Which reagent converts an alkyl chloride into the corresponding alkyl iodide through the Finkelstein reaction?",
-      "options": [
-        "NaCl in water",
-        "KI in ethanol",
-        "NaI in dry acetone",
-        "AgF",
-        "HF",
-        "KCN"
-      ],
-      "answer": 2,
-      "difficulty": 1,
-      "marks": 1,
-      "explanation": "NaI in dry acetone is used in the Finkelstein reaction."
-    },
-    {
-      "id": 5,
-      "type": "mcq_single",
-      "question": "Three compounds are placed on your bench: chlorobenzene, tert-butyl chloride and ethyl chloride. Which option gives their increasing ease of nucleophilic substitution?",
-      "options": [
-        "Ethyl chloride < Chlorobenzene < tert-Butyl chloride",
-        "tert-Butyl chloride < Ethyl chloride < Chlorobenzene",
-        "Chlorobenzene < tert-Butyl chloride < Ethyl chloride",
-        "Chlorobenzene < Ethyl chloride < tert-Butyl chloride",
-        "Ethyl chloride < tert-Butyl chloride < Chlorobenzene",
-        "tert-Butyl chloride < Chlorobenzene < Ethyl chloride"
-      ],
-      "answer": 3,
-      "difficulty": 2,
-      "marks": 1,
-      "explanation": "Haloarenes are least reactive. Tertiary alkyl halides undergo substitution most readily through SN1."
-    },
-    {
-      "id": 6,
-      "type": "mcq_single",
-      "question": "Many students know chlorobenzene reacts much more slowly than chloroethane towards nucleophilic substitution. What is the best explanation?",
-      "options": [
-        "The chlorine atom is positively charged.",
-        "The C-Cl bond acquires partial double-bond character due to resonance.",
-        "The benzene ring donates hydroxide ions.",
-        "Chlorobenzene has weaker intermolecular forces.",
-        "The chlorine atom is smaller.",
-        "The molecule contains fewer hydrogen atoms."
-      ],
-      "answer": 1,
-      "difficulty": 2,
-      "marks": 1,
-      "explanation": "Resonance gives the C-Cl bond partial double-bond character, making cleavage difficult."
-    },
-    {
-      "id": 7,
-      "type": "mcq_single",
-      "question": "Imagine you accidentally picked alcoholic KOH instead of aqueous KOH while reacting with bromoethane. Which major product would now be obtained?",
-      "options": [
-        "Ethanol",
-        "Ethanal",
-        "Ethanoic acid",
-        "Ethene",
-        "Diethyl ether",
-        "Ethyne"
-      ],
-      "answer": 3,
-      "difficulty": 1,
-      "marks": 1,
-      "explanation": "Alcoholic KOH favours β-elimination to produce ethene."
-    },
-    {
-      "id": 8,
-      "type": "mcq_single",
-      "question": "Without arranging the compounds mentally first, choose the correct increasing order of boiling point for ethanol, ethane and chloroethane.",
-      "options": [
-        "Ethanol < Chloroethane < Ethane",
-        "Chloroethane < Ethane < Ethanol",
-        "Ethane < Chloroethane < Ethanol",
-        "Ethane < Ethanol < Chloroethane",
-        "Chloroethane < Ethanol < Ethane",
-        "Ethanol < Ethane < Chloroethane"
-      ],
-      "answer": 2,
-      "difficulty": 2,
-      "marks": 1,
-      "explanation": "Alcohols show hydrogen bonding, haloalkanes have dipole-dipole interactions and alkanes possess only weak dispersion forces."
-    },
-    {
-      "id": 9,
-      "type": "mcq_single",
-      "question": "A Grignard reagent prepared from methyl bromide is treated with carbon dioxide followed by acidic hydrolysis. What is the final product?",
-      "options": [
-        "Methanol",
-        "Methanal",
-        "Ethanol",
-        "Ethanoic acid",
-        "Methanoic acid",
-        "Ethane"
-      ],
-      "answer": 3,
-      "difficulty": 2,
-      "marks": 1,
-      "explanation": "Grignard reagents react with CO2 to give carboxylic acids containing one extra carbon atom."
-    },
-    {
-      "id": 10,
-      "type": "mcq_single",
-      "question": "Two students use different cyanide reagents with an alkyl halide. One obtains a nitrile while the other obtains an isocyanide. Which reagent leads to isocyanide formation?",
-      "options": [
-        "KCN",
-        "NaCN",
-        "AgCN",
-        "NaOH",
-        "NaI",
-        "Mg"
-      ],
-      "answer": 2,
-      "difficulty": 2,
-      "marks": 1,
-      "explanation": "AgCN is largely covalent and attacks through nitrogen, giving isocyanides."
-    },
-    {
-      "id": 11,
-      "type": "mcq_single",
-      "question": "You need to prepare an alkyl chloride from ethanol while keeping purification as simple as possible. Which reagent is the best choice?",
-      "options": [
-        "PCl5",
-        "Concentrated HCl",
-        "SOCl2",
-        "PCl3",
-        "NaCl",
-        "Cl2"
-      ],
-      "answer": 2,
-      "difficulty": 1,
-      "marks": 1,
-      "explanation": "SOCl₂ forms alkyl chloride along with gaseous SO₂ and HCl, making purification easier."
-    },
-    {
-      "id": 12,
-      "type": "mcq_single",
-      "question": "Don't be fooled by the order below. Which option correctly represents the decreasing boiling point of propane, ethanol and dimethyl ether?",
-      "options": [
-        "Dimethyl ether > Ethanol > Propane",
-        "Propane > Ethanol > Dimethyl ether",
-        "Ethanol > Dimethyl ether > Propane",
-        "Dimethyl ether > Propane > Ethanol",
-        "Ethanol > Propane > Dimethyl ether",
-        "Propane > Dimethyl ether > Ethanol"
-      ],
-      "answer": 2,
-      "difficulty": 2,
-      "marks": 1,
-      "explanation": "Hydrogen bonding makes alcohols boil at much higher temperatures than ethers and alkanes."
-    },
-    {
-      "id": 13,
-      "type": "mcq_single",
-      "question": "Suppose equal moles of ethanol, butan-1-ol and propan-1-ol are added separately to water. Which option gives the increasing order of their solubility?",
-      "options": [
-        "Ethanol < Propan-1-ol < Butan-1-ol",
-        "Butan-1-ol < Ethanol < Propan-1-ol",
-        "Butan-1-ol < Propan-1-ol < Ethanol",
-        "Propan-1-ol < Butan-1-ol < Ethanol",
-        "Propan-1-ol < Ethanol < Butan-1-ol",
-        "Ethanol < Butan-1-ol < Propan-1-ol"
-      ],
-      "answer": 2,
-      "difficulty": 2,
-      "marks": 1,
-      "explanation": "Water solubility decreases as the alkyl chain length increases."
-    },
-    {
-      "id": 14,
-      "type": "mcq_single",
-      "question": "One of these alcohols resists oxidation by acidified KMnO₄ under ordinary conditions. Which one is it?",
-      "options": [
-        "Methanol",
-        "Propan-1-ol",
-        "2-Methylpropan-2-ol",
-        "Ethanol",
-        "Propan-2-ol",
-        "Butan-1-ol"
-      ],
-      "answer": 2,
-      "difficulty": 2,
-      "marks": 1,
-      "explanation": "Tertiary alcohols lack an α-hydrogen and therefore resist oxidation under ordinary conditions."
-    },
-    {
-      "id": 15,
-      "type": "mcq_single",
-      "question": "Phenol is treated with bromine water without using any catalyst. What is the major product?",
-      "options": [
-        "Bromobenzene",
-        "2-Bromophenol",
-        "4-Bromophenol",
-        "2,4-Dibromophenol",
-        "2,4,6-Tribromophenol",
-        "Benzoic acid"
-      ],
-      "answer": 4,
-      "difficulty": 1,
-      "marks": 1,
-      "explanation": "Phenol readily forms white precipitates of 2,4,6-tribromophenol."
-    },
-    {
-      "id": 16,
-      "type": "mcq_single",
-      "question": "Three alcohols—propan-2-ol, ethanol and tert-butyl alcohol—are tested with Lucas reagent. Which is the correct decreasing order of reactivity?",
-      "options": [
-        "Ethanol > Propan-2-ol > tert-Butyl alcohol",
-        "tert-Butyl alcohol > Propan-2-ol > Ethanol",
-        "Propan-2-ol > tert-Butyl alcohol > Ethanol",
-        "Propan-2-ol > Ethanol > tert-Butyl alcohol",
-        "Ethanol > tert-Butyl alcohol > Propan-2-ol",
-        "tert-Butyl alcohol > Ethanol > Propan-2-ol"
-      ],
-      "answer": 1,
-      "difficulty": 2,
-      "marks": 1,
-      "explanation": "Lucas reagent reacts fastest with tertiary alcohols followed by secondary and then primary alcohols."
-    },
-    {
-      "id": 17,
-      "type": "mcq_single",
-      "question": "A student wants to convert sodium phenoxide into salicylic acid using a named reaction. Which reaction should be chosen?",
-      "options": [
-        "Sandmeyer reaction",
-        "Kolbe reaction",
-        "Swarts reaction",
-        "Cannizzaro reaction",
-        "Reimer-Tiemann reaction",
-        "Friedel-Crafts reaction"
-      ],
-      "answer": 1,
-      "difficulty": 1,
-      "marks": 1,
-      "explanation": "Kolbe reaction converts sodium phenoxide into salicylic acid after CO₂ treatment and acidification."
-    },
-    {
-      "id": 18,
-      "type": "mcq_single",
-      "question": "In the Reimer-Tiemann reaction, which combination of reagents is actually used?",
-      "options": [
-        "Br₂/H₂O",
-        "CO₂ under pressure",
-        "CHCl₃ and aqueous NaOH",
-        "NaBH₄",
-        "Concentrated HNO₃",
-        "SOCl₂"
-      ],
-      "answer": 2,
-      "difficulty": 1,
-      "marks": 1,
-      "explanation": "Reimer-Tiemann reaction employs chloroform and aqueous sodium hydroxide."
-    },
-    {
-      "id": 19,
-      "type": "mcq_single",
-      "question": "Think carefully before choosing. Which option correctly gives the increasing acidity of water, phenol and ethanol?",
-      "options": [
-        "Phenol < Water < Ethanol",
-        "Water < Ethanol < Phenol",
-        "Ethanol < Water < Phenol",
-        "Phenol < Ethanol < Water",
-        "Water < Phenol < Ethanol",
-        "Ethanol < Phenol < Water"
-      ],
-      "answer": 2,
-      "difficulty": 2,
-      "marks": 1,
-      "explanation": "Phenol is most acidic due to resonance stabilization of phenoxide ion, while ethanol is the least acidic."
-    },
-    {
-      "id": 20,
-      "type": "mcq_single",
-      "question": "Why is phenol considerably more acidic than ethanol, even though both contain an –OH group?",
-      "options": [
-        "Phenol contains more oxygen atoms.",
-        "Phenoxide ion is resonance stabilized.",
-        "Phenol has stronger hydrogen bonding.",
-        "Ethanol has a higher molecular mass.",
-        "Phenol is oxidised more easily.",
-        "Phenol contains a benzene ring only."
-      ],
-      "answer": 1,
-      "difficulty": 2,
-      "marks": 1,
-      "explanation": "The conjugate base of phenol is stabilized by resonance, making proton loss easier."
-    },
-    {
-      "id": 21,
-      "type": "mcq_single",
-      "question": "A chemist oxidises propan-2-ol using acidified potassium dichromate. Which compound should be expected as the major product?",
-      "options": [
-        "Propanal",
-        "Propanoic acid",
-        "Propanone",
-        "Propene",
-        "Propan-1-ol",
-        "Ethanoic acid"
-      ],
-      "answer": 2,
-      "difficulty": 1,
-      "marks": 1,
-      "explanation": "Secondary alcohols undergo oxidation to form ketones. Hence propan-2-ol gives propanone."
-    },
-    {
-      "id": 22,
-      "type": "mcq_single",
-      "question": "Don't rely on the order shown. Which option correctly represents the decreasing boiling point of 2-methylpropan-2-ol, propan-1-ol and propan-2-ol?",
-      "options": [
-        "2-Methylpropan-2-ol > Propan-2-ol > Propan-1-ol",
-        "Propan-2-ol > Propan-1-ol > 2-Methylpropan-2-ol",
-        "Propan-1-ol > Propan-2-ol > 2-Methylpropan-2-ol",
-        "2-Methylpropan-2-ol > Propan-1-ol > Propan-2-ol",
-        "Propan-1-ol > 2-Methylpropan-2-ol > Propan-2-ol",
-        "Propan-2-ol > 2-Methylpropan-2-ol > Propan-1-ol"
-      ],
-      "answer": 2,
-      "difficulty": 2,
-      "marks": 1,
-      "explanation": "Branching lowers boiling point because it decreases surface area available for intermolecular attraction."
-    },
-    {
-      "id": 23,
-      "type": "mcq_single",
-      "question": "You need to oxidise ethanol only up to ethanal without significant further oxidation. Which reagent is most suitable?",
+      "question": "Ethanal has to be prepared directly from ethanol without allowing further oxidation to ethanoic acid. Which reagent is the most suitable?",
       "options": [
         "Acidified KMnO₄",
         "Acidified K₂Cr₂O₇",
         "PCC",
         "NaBH₄",
         "LiAlH₄",
-        "Zn/HCl"
+        "H₂/Ni"
       ],
       "answer": 2,
-      "difficulty": 2,
+      "difficulty": 1,
       "marks": 1,
       "explanation": "PCC selectively oxidises primary alcohols to aldehydes."
     },
     {
-      "id": 24,
+      "id": 2,
       "type": "mcq_single",
-      "question": "When ethanol is treated with PCC under anhydrous conditions, what is the expected product?",
+      "question": "A laboratory needs to prepare an aldehyde from an acid chloride without reducing it completely to an alcohol. Which reagent should be selected?",
       "options": [
-        "Ethanoic acid",
-        "Ethanal",
-        "Ethene",
-        "Methanal",
-        "Ethanol remains unchanged",
-        "Acetone"
-      ],
-      "answer": 1,
-      "difficulty": 1,
-      "marks": 1,
-      "explanation": "PCC stops oxidation at the aldehyde stage."
-    },
-    {
-      "id": 25,
-      "type": "mcq_single",
-      "question": "A laboratory wants to prepare an aldehyde directly from an acid chloride without reducing it all the way to an alcohol. Which reagent should be selected?",
-      "options": [
-        "NaBH₄",
         "LiAlH₄",
-        "H₂ over poisoned Pd/BaSO₄",
-        "Zn/HCl",
+        "NaBH₄",
+        "H₂/Pd-BaSO₄",
+        "Zn/Hg",
         "Acidified KMnO₄",
         "PCC"
       ],
       "answer": 2,
       "difficulty": 2,
       "marks": 1,
-      "explanation": "Rosenmund reduction converts acid chlorides into aldehydes using poisoned palladium catalyst."
+      "explanation": "Rosenmund reduction converts acid chlorides into aldehydes."
     },
     {
-      "id": 26,
+      "id": 3,
       "type": "mcq_single",
-      "question": "Which named reaction is specifically used for preparing aldehydes from acid chlorides?",
+      "question": "Which named reaction specifically converts acid chlorides into aldehydes?",
       "options": [
-        "Cannizzaro reaction",
         "Stephen reaction",
-        "Kolbe reaction",
+        "Cannizzaro reaction",
+        "Etard reaction",
         "Rosenmund reduction",
-        "Swarts reaction",
-        "Finkelstein reaction"
+        "Kolbe reaction",
+        "Swarts reaction"
       ],
       "answer": 3,
       "difficulty": 1,
       "marks": 1,
-      "explanation": "Rosenmund reduction is the selective reduction of acid chlorides to aldehydes."
+      "explanation": "Rosenmund reduction is used for preparing aldehydes from acid chlorides."
     },
     {
-      "id": 27,
+      "id": 4,
       "type": "mcq_single",
-      "question": "A nitrile has to be converted into an aldehyde by partial reduction followed by hydrolysis. Which reagent best accomplishes this?",
+      "question": "Read carefully before answering. Which reagent combination is actually used in the Rosenmund reduction?",
+      "options": [
+        "NaBH₄",
+        "LiAlH₄",
+        "H₂/Pd-BaSO₄",
+        "SnCl₂/HCl",
+        "PCC",
+        "Zn/Hg"
+      ],
+      "answer": 2,
+      "difficulty": 2,
+      "marks": 1,
+      "explanation": "Hydrogen with poisoned Pd supported on BaSO₄ is employed."
+    },
+    {
+      "id": 5,
+      "type": "mcq_single",
+      "question": "A nitrile is partially reduced and then hydrolysed to obtain an aldehyde. Which reagent is most suitable?",
       "options": [
         "LiAlH₄",
         "NaBH₄",
         "DIBAL-H",
         "PCC",
         "Acidified KMnO₄",
-        "Zn/HCl"
+        "H₂/Ni"
       ],
       "answer": 2,
       "difficulty": 2,
       "marks": 1,
-      "explanation": "DIBAL-H partially reduces nitriles to imines, which yield aldehydes after hydrolysis."
+      "explanation": "DIBAL-H partially reduces nitriles to aldehydes after hydrolysis."
     },
     {
-      "id": 28,
+      "id": 6,
       "type": "mcq_single",
-      "question": "Read the question carefully. Which reagent is actually employed in the Rosenmund reduction?",
+      "question": "A nitrile is treated with SnCl₂/HCl followed by hydrolysis to produce an aldehyde. Which named reaction is involved?",
       "options": [
-        "H₂/Pd-BaSO₄",
-        "LiAlH₄",
-        "NaBH₄",
-        "PCC",
-        "SnCl₂/HCl",
-        "Acidified K₂Cr₂O₇"
+        "Stephen reaction",
+        "Rosenmund reduction",
+        "Etard reaction",
+        "Cannizzaro reaction",
+        "Kolbe reaction",
+        "Friedel-Crafts reaction"
       ],
       "answer": 0,
       "difficulty": 2,
       "marks": 1,
-      "explanation": "Hydrogen in the presence of poisoned Pd supported on BaSO₄ is used in Rosenmund reduction."
+      "explanation": "Stephen reaction converts nitriles into aldehydes."
     },
     {
-      "id": 29,
+      "id": 7,
       "type": "mcq_single",
-      "question": "Under carefully controlled oxidation conditions, propan-1-ol gives which major product?",
+      "question": "The Stephen reaction begins with which functional group?",
       "options": [
-        "Propanoic acid",
-        "Propanal",
-        "Propanone",
-        "Propene",
-        "Propan-2-ol",
-        "Propyl chloride"
+        "Alcohol",
+        "Ketone",
+        "Acid chloride",
+        "Nitrile",
+        "Carboxylic acid",
+        "Ester"
+      ],
+      "answer": 3,
+      "difficulty": 1,
+      "marks": 1,
+      "explanation": "Stephen reduction starts from nitriles."
+    },
+    {
+      "id": 8,
+      "type": "mcq_single",
+      "question": "Benzaldehyde is prepared directly from toluene by controlled oxidation of the side chain. Which named reaction is used?",
+      "options": [
+        "Stephen reaction",
+        "Etard reaction",
+        "Rosenmund reduction",
+        "Cannizzaro reaction",
+        "Kolbe reaction",
+        "Reimer-Tiemann reaction"
       ],
       "answer": 1,
       "difficulty": 1,
       "marks": 1,
-      "explanation": "Controlled oxidation converts a primary alcohol first into the corresponding aldehyde."
+      "explanation": "Etard reaction converts toluene into benzaldehyde using chromyl chloride."
     },
     {
-      "id": 30,
+      "id": 9,
       "type": "mcq_single",
-      "question": "Test your understanding rather than memorising. Which option correctly gives the increasing ease of oxidation of propan-2-ol, propan-1-ol and 2-methylpropan-2-ol?",
+      "question": "Which reagent is employed in the Etard reaction?",
       "options": [
-        "Propan-2-ol < Propan-1-ol < 2-Methylpropan-2-ol",
-        "2-Methylpropan-2-ol < Propan-2-ol < Propan-1-ol",
-        "Propan-1-ol < Propan-2-ol < 2-Methylpropan-2-ol",
-        "2-Methylpropan-2-ol < Propan-1-ol < Propan-2-ol",
-        "Propan-2-ol < 2-Methylpropan-2-ol < Propan-1-ol",
-        "Propan-1-ol < 2-Methylpropan-2-ol < Propan-2-ol"
-      ],
-      "answer": 3,
-      "difficulty": 2,
-      "marks": 1,
-      "explanation": "Tertiary alcohols resist oxidation, secondary alcohols oxidise less readily than primary alcohols."
-    },
-    {
-      "id": 31,
-      "type": "mcq_single",
-      "question": "Which alcohol produces acetone when oxidised with acidified potassium dichromate?",
-      "options": [
-        "Methanol",
-        "Ethanol",
-        "Propan-1-ol",
-        "Propan-2-ol",
-        "tert-Butyl alcohol",
-        "Butan-1-ol"
-      ],
-      "answer": 3,
-      "difficulty": 1,
-      "marks": 1,
-      "explanation": "Propan-2-ol is a secondary alcohol and oxidises to propanone (acetone)."
-    },
-    {
-      "id": 32,
-      "type": "mcq_single",
-      "question": "A secondary alcohol has to be converted into the corresponding ketone. Which reagent below is the most suitable?",
-      "options": [
+        "CrO₂Cl₂ in CS₂",
+        "PCC",
+        "SnCl₂/HCl",
         "NaBH₄",
         "LiAlH₄",
-        "Acidified K₂Cr₂O₇",
-        "SOCl₂",
-        "H₂/Ni",
-        "Zn/Hg"
+        "Dilute H₂SO₄"
       ],
-      "answer": 2,
-      "difficulty": 1,
+      "answer": 0,
+      "difficulty": 2,
       "marks": 1,
-      "explanation": "Acidified potassium dichromate readily oxidises secondary alcohols into ketones."
+      "explanation": "Chromyl chloride in carbon disulphide is used in the Etard reaction."
     },
     {
-      "id": 33,
+      "id": 10,
+      "type": "mcq_single",
+      "question": "Benzene is converted into benzaldehyde using carbon monoxide and hydrogen chloride in the presence of AlCl₃/CuCl. Which named reaction is this?",
+      "options": [
+        "Etard reaction",
+        "Stephen reaction",
+        "Gattermann-Koch reaction",
+        "Kolbe reaction",
+        "Rosenmund reduction",
+        "Sandmeyer reaction"
+      ],
+      "answer": 2,
+      "difficulty": 2,
+      "marks": 1,
+      "explanation": "Gattermann-Koch reaction introduces the formyl group into benzene."
+    },
+    {
+      "id": 11,
+      "type": "mcq_single",
+      "question": "Which reagent combination is characteristic of the Gattermann-Koch reaction?",
+      "options": [
+        "CO + HCl, AlCl₃/CuCl",
+        "CO₂ + NaOH",
+        "CHCl₃ + NaOH",
+        "SnCl₂/HCl",
+        "H₂/Pd-BaSO₄",
+        "PCC"
+      ],
+      "answer": 0,
+      "difficulty": 2,
+      "marks": 1,
+      "explanation": "Carbon monoxide and hydrogen chloride are used with AlCl₃/CuCl catalyst."
+    },
+    {
+      "id": 12,
+      "type": "mcq_single",
+      "question": "Hydration of propyne in the presence of dilute H₂SO₄ and HgSO₄ ultimately produces:",
+      "options": [
+        "Propanal",
+        "Propanone",
+        "Propan-1-ol",
+        "Propene",
+        "Propanoic acid",
+        "Acetaldehyde"
+      ],
+      "answer": 1,
+      "difficulty": 2,
+      "marks": 1,
+      "explanation": "The initially formed enol undergoes keto-enol tautomerisation to propanone."
+    },
+    {
+      "id": 13,
+      "type": "mcq_single",
+      "question": "During hydration of an alkyne, which intermediate is formed before the stable carbonyl compound appears?",
+      "options": [
+        "Alcohol",
+        "Enol",
+        "Ether",
+        "Acid chloride",
+        "Haloalkane",
+        "Carboxylic acid"
+      ],
+      "answer": 1,
+      "difficulty": 1,
+      "marks": 1,
+      "explanation": "An unstable enol is formed first."
+    },
+    {
+      "id": 14,
+      "type": "mcq_single",
+      "question": "The conversion of an enol into the corresponding aldehyde or ketone is known as:",
+      "options": [
+        "Hydrogenation",
+        "Hydrolysis",
+        "Halogenation",
+        "Tautomerisation",
+        "Reduction",
+        "Polymerisation"
+      ],
+      "answer": 3,
+      "difficulty": 1,
+      "marks": 1,
+      "explanation": "The process is called keto-enol tautomerisation."
+    },
+    {
+      "id": 15,
+      "type": "mcq_single",
+      "question": "Which statement best explains why the carbonyl compound is isolated after hydration of an alkyne?",
+      "options": [
+        "The enol rapidly undergoes keto-enol tautomerisation.",
+        "HgSO₄ directly produces the ketone.",
+        "Water acts as a reducing agent.",
+        "The reaction proceeds through SN1.",
+        "The alkyne first forms an alcohol.",
+        "The ketone is produced by oxidation."
+      ],
+      "answer": 0,
+      "difficulty": 2,
+      "marks": 1,
+      "explanation": "The unstable enol rearranges rapidly to the keto form."
+    },
+    {
+      "id": 16,
+      "type": "mcq_single",
+      "question": "A secondary alcohol is oxidised using acidified potassium dichromate. Which product is obtained?",
+      "options": [
+        "Aldehyde",
+        "Ketone",
+        "Carboxylic acid",
+        "Alkene",
+        "Primary alcohol",
+        "Acid chloride"
+      ],
+      "answer": 1,
+      "difficulty": 1,
+      "marks": 1,
+      "explanation": "Secondary alcohols oxidise to ketones."
+    },
+    {
+      "id": 17,
       "type": "mcq_single",
       "question": "Which reagent converts an acid chloride into a ketone without further addition to the carbonyl carbon?",
       "options": [
@@ -558,18 +286,18 @@
         "R₂Cd",
         "NaBH₄",
         "PCC",
-        "H₂/Ni",
-        "Zn/Hg"
+        "Zn/Hg",
+        "H₂/Ni"
       ],
       "answer": 1,
       "difficulty": 2,
       "marks": 1,
-      "explanation": "Dialkylcadmium reagents react with acid chlorides to produce ketones."
+      "explanation": "Dialkylcadmium reagents convert acid chlorides into ketones."
     },
     {
-      "id": 34,
+      "id": 18,
       "type": "mcq_single",
-      "question": "When ethanoyl chloride reacts with dimethylcadmium, what is the major organic product?",
+      "question": "Ethanoyl chloride reacts with dimethylcadmium. Which organic product is formed?",
       "options": [
         "Ethanal",
         "Propanone",
@@ -581,279 +309,551 @@
       "answer": 1,
       "difficulty": 2,
       "marks": 1,
-      "explanation": "Dimethylcadmium reacts with ethanoyl chloride to produce propanone."
+      "explanation": "Dimethylcadmium converts ethanoyl chloride into propanone."
     },
     {
-      "id": 35,
+      "id": 19,
       "type": "mcq_single",
-      "question": "Benzonitrile is partially reduced using DIBAL-H followed by hydrolysis. Which compound is obtained?",
+      "question": "Which reagent is most suitable for preparing a ketone from a secondary alcohol?",
+      "options": [
+        "NaBH₄",
+        "LiAlH₄",
+        "Acidified K₂Cr₂O₇",
+        "SOCl₂",
+        "H₂/Ni",
+        "Zn/Hg"
+      ],
+      "answer": 2,
+      "difficulty": 1,
+      "marks": 1,
+      "explanation": "Acidified potassium dichromate oxidises secondary alcohols into ketones."
+    },
+    {
+      "id": 20,
+      "type": "mcq_single",
+      "question": "A primary alcohol is oxidised using excess acidified potassium permanganate. Which class of compound is finally obtained?",
+      "options": [
+        "Aldehyde",
+        "Ketone",
+        "Carboxylic acid",
+        "Alkene",
+        "Ether",
+        "Haloalkane"
+      ],
+      "answer": 2,
+      "difficulty": 1,
+      "marks": 1,
+      "explanation": "Strong oxidising agents convert primary alcohols completely into carboxylic acids."
+    },
+    {
+      "id": 21,
+      "type": "mcq_single",
+      "question": "Ethanal is oxidised using acidified potassium dichromate. Which product is finally obtained?",
+      "options": [
+        "Methanoic acid",
+        "Ethanol",
+        "Ethanoic acid",
+        "Ethene",
+        "Acetone",
+        "Methanal"
+      ],
+      "answer": 2,
+      "difficulty": 1,
+      "marks": 1,
+      "explanation": "Aldehydes are readily oxidised to the corresponding carboxylic acids."
+    },
+    {
+      "id": 22,
+      "type": "mcq_single",
+      "question": "Aldehydes are generally oxidised to carboxylic acids by which of the following reagents?",
+      "options": [
+        "NaBH₄",
+        "LiAlH₄",
+        "Acidified K₂Cr₂O₇",
+        "Zn/Hg",
+        "H₂/Ni",
+        "PCC"
+      ],
+      "answer": 2,
+      "difficulty": 1,
+      "marks": 1,
+      "explanation": "Acidified potassium dichromate readily oxidises aldehydes."
+    },
+    {
+      "id": 23,
+      "type": "mcq_single",
+      "question": "Which reagent can oxidise an aldehyde into a carboxylic acid under mild laboratory conditions?",
+      "options": [
+        "NaBH₄",
+        "Tollens' reagent",
+        "LiAlH₄",
+        "Zn/HCl",
+        "PCC",
+        "SOCl₂"
+      ],
+      "answer": 1,
+      "difficulty": 2,
+      "marks": 1,
+      "explanation": "Tollens' reagent oxidises aldehydes to carboxylates in alkaline medium."
+    },
+    {
+      "id": 24,
+      "type": "mcq_single",
+      "question": "Which reagent can oxidise aldehydes to carboxylic acids while producing a reddish-brown precipitate during the test?",
+      "options": [
+        "NaBH₄",
+        "Fehling's solution",
+        "PCC",
+        "LiAlH₄",
+        "Zn/Hg",
+        "H₂/Ni"
+      ],
+      "answer": 1,
+      "difficulty": 2,
+      "marks": 1,
+      "explanation": "Fehling's solution oxidises aliphatic aldehydes and forms red Cu₂O."
+    },
+    {
+      "id": 25,
+      "type": "mcq_single",
+      "question": "Which of the following compounds is directly prepared by controlled oxidation of methanol?",
+      "options": [
+        "Methanoic acid",
+        "Methanal",
+        "Methane",
+        "Methanol remains unchanged",
+        "Ethanal",
+        "Carbon dioxide"
+      ],
+      "answer": 1,
+      "difficulty": 1,
+      "marks": 1,
+      "explanation": "Controlled oxidation of methanol produces methanal."
+    },
+    {
+      "id": 26,
+      "type": "mcq_single",
+      "question": "Choose the correct increasing ease of oxidation without assuming the compounds are written in any meaningful order: propan-1-ol, tert-butyl alcohol and propan-2-ol.",
+      "options": [
+        "Propan-2-ol < Propan-1-ol < tert-Butyl alcohol",
+        "tert-Butyl alcohol < Propan-2-ol < Propan-1-ol",
+        "Propan-1-ol < tert-Butyl alcohol < Propan-2-ol",
+        "tert-Butyl alcohol < Propan-1-ol < Propan-2-ol",
+        "Propan-2-ol < tert-Butyl alcohol < Propan-1-ol",
+        "Propan-1-ol < Propan-2-ol < tert-Butyl alcohol"
+      ],
+      "answer": 1,
+      "difficulty": 2,
+      "marks": 1,
+      "explanation": "Tertiary alcohols resist oxidation, secondary oxidise less readily than primary alcohols."
+    },
+    {
+      "id": 27,
+      "type": "mcq_single",
+      "question": "Which alcohol gives propanone when oxidised with acidified potassium dichromate?",
+      "options": [
+        "Propan-1-ol",
+        "Methanol",
+        "Propan-2-ol",
+        "Ethanol",
+        "tert-Butyl alcohol",
+        "Butan-1-ol"
+      ],
+      "answer": 2,
+      "difficulty": 1,
+      "marks": 1,
+      "explanation": "Propan-2-ol is a secondary alcohol and gives propanone."
+    },
+    {
+      "id": 28,
+      "type": "mcq_single",
+      "question": "Benzonitrile is partially reduced with DIBAL-H followed by hydrolysis. Which product is obtained?",
       "options": [
         "Benzoic acid",
         "Benzyl alcohol",
         "Benzaldehyde",
+        "Benzene",
         "Acetophenone",
-        "Toluene",
-        "Benzene"
+        "Toluene"
       ],
       "answer": 2,
       "difficulty": 2,
       "marks": 1,
-      "explanation": "DIBAL-H selectively converts nitriles into aldehydes after hydrolysis."
+      "explanation": "DIBAL-H converts nitriles into aldehydes after hydrolysis."
     },
     {
-      "id": 36,
+      "id": 29,
       "type": "mcq_single",
-      "question": "Without rearranging the names yourself first, identify the correct increasing ease of oxidation of tert-butyl alcohol, ethanol and propan-2-ol.",
-      "options": [
-        "Ethanol < Propan-2-ol < tert-Butyl alcohol",
-        "tert-Butyl alcohol < Propan-2-ol < Ethanol",
-        "Propan-2-ol < Ethanol < tert-Butyl alcohol",
-        "tert-Butyl alcohol < Ethanol < Propan-2-ol",
-        "Ethanol < tert-Butyl alcohol < Propan-2-ol",
-        "Propan-2-ol < tert-Butyl alcohol < Ethanol"
-      ],
-      "answer": 1,
-      "difficulty": 2,
-      "marks": 1,
-      "explanation": "Primary alcohols oxidise most readily, followed by secondary alcohols, while tertiary alcohols resist oxidation."
-    },
-    {
-      "id": 37,
-      "type": "mcq_single",
-      "question": "A nitrile is converted into an aldehyde using SnCl₂/HCl followed by hydrolysis. Which named reaction is being used?",
-      "options": [
-        "Rosenmund reduction",
-        "Stephen reaction",
-        "Kolbe reaction",
-        "Cannizzaro reaction",
-        "Swarts reaction",
-        "Etard reaction"
-      ],
-      "answer": 1,
-      "difficulty": 2,
-      "marks": 1,
-      "explanation": "Stephen reaction converts nitriles into aldehydes via an iminium salt intermediate."
-    },
-    {
-      "id": 38,
-      "type": "mcq_single",
-      "question": "The Stephen reaction starts from which functional group?",
-      "options": [
-        "Alcohol",
-        "Carboxylic acid",
-        "Ketone",
-        "Nitrile",
-        "Acid chloride",
-        "Ester"
-      ],
-      "answer": 3,
-      "difficulty": 1,
-      "marks": 1,
-      "explanation": "Stephen reduction converts nitriles into aldehydes after hydrolysis."
-    },
-    {
-      "id": 39,
-      "type": "mcq_single",
-      "question": "Propan-2-ol is treated with acidified KMnO₄. Which compound is expected as the major product?",
-      "options": [
-        "Propanal",
-        "Propanoic acid",
-        "Propanone",
-        "Propene",
-        "Propan-1-ol",
-        "Ethanal"
-      ],
-      "answer": 2,
-      "difficulty": 1,
-      "marks": 1,
-      "explanation": "Secondary alcohols are oxidised into ketones by acidified potassium permanganate."
-    },
-    {
-      "id": 40,
-      "type": "mcq_single",
-      "question": "If your goal is to stop oxidation at the aldehyde stage, which reagent below should generally NOT be selected?",
-      "options": [
-        "PCC",
-        "PCC in CH₂Cl₂",
-        "Acidified KMnO₄",
-        "Controlled anhydrous oxidation",
-        "Pyridinium chlorochromate",
-        "Dry PCC"
-      ],
-      "answer": 2,
-      "difficulty": 2,
-      "marks": 1,
-      "explanation": "Acidified KMnO₄ is a strong oxidising agent that usually oxidises aldehydes further into carboxylic acids."
-    },
-    {
-      "id": 41,
-      "type": "mcq_single",
-      "question": "A sample of propan-1-ol is oxidised gently with PCC under anhydrous conditions. Which compound is obtained as the major product?",
+      "question": "When propan-1-ol is oxidised gently using PCC under anhydrous conditions, which product is formed?",
       "options": [
         "Propanoic acid",
-        "Propanone",
         "Propanal",
+        "Propanone",
         "Propene",
-        "Propan-1-ol remains unchanged",
+        "Propan-2-ol",
         "Acetone"
       ],
+      "answer": 1,
+      "difficulty": 1,
+      "marks": 1,
+      "explanation": "PCC stops oxidation at the aldehyde stage."
+    },
+    {
+      "id": 30,
+      "type": "mcq_single",
+      "question": "Read the compounds carefully without rearranging them mentally. Which option correctly represents the decreasing ease of oxidation: tert-butyl alcohol, ethanol and propan-2-ol?",
+      "options": [
+        "tert-Butyl alcohol > Ethanol > Propan-2-ol",
+        "Ethanol > Propan-2-ol > tert-Butyl alcohol",
+        "Propan-2-ol > Ethanol > tert-Butyl alcohol",
+        "Ethanol > tert-Butyl alcohol > Propan-2-ol",
+        "Propan-2-ol > tert-Butyl alcohol > Ethanol",
+        "tert-Butyl alcohol > Propan-2-ol > Ethanol"
+      ],
+      "answer": 1,
+      "difficulty": 2,
+      "marks": 1,
+      "explanation": "Primary alcohols oxidise most readily, followed by secondary, while tertiary alcohols resist oxidation."
+    },
+    {
+      "id": 31,
+      "type": "mcq_single",
+      "question": "Which compound is prepared when methylmagnesium bromide reacts with carbon dioxide followed by acidic hydrolysis?",
+      "options": [
+        "Methanoic acid",
+        "Ethanoic acid",
+        "Methanol",
+        "Ethanol",
+        "Ethanal",
+        "Methanal"
+      ],
+      "answer": 1,
+      "difficulty": 2,
+      "marks": 1,
+      "explanation": "Grignard reagents react with CO₂ to produce carboxylic acids containing one extra carbon atom."
+    },
+    {
+      "id": 32,
+      "type": "mcq_single",
+      "question": "A Grignard reagent reacts with dry ice followed by acidic hydrolysis. Which class of compounds is formed?",
+      "options": [
+        "Alcohols",
+        "Ketones",
+        "Carboxylic acids",
+        "Aldehydes",
+        "Acid chlorides",
+        "Esters"
+      ],
       "answer": 2,
       "difficulty": 1,
       "marks": 1,
-      "explanation": "PCC selectively oxidises primary alcohols to aldehydes without significant further oxidation."
+      "explanation": "Carbon dioxide inserts into the Grignard reagent to produce carboxylic acids."
     },
     {
-      "id": 42,
+      "id": 33,
       "type": "mcq_single",
-      "question": "Look carefully before choosing. Which option correctly represents the increasing ease of oxidation of methanol, tert-butyl alcohol and propan-2-ol?",
+      "question": "Which reagent is essential for converting a Grignard reagent into a carboxylic acid after hydrolysis?",
       "options": [
-        "Methanol < Propan-2-ol < tert-Butyl alcohol",
-        "tert-Butyl alcohol < Methanol < Propan-2-ol",
-        "Propan-2-ol < Methanol < tert-Butyl alcohol",
-        "Methanol < tert-Butyl alcohol < Propan-2-ol",
-        "tert-Butyl alcohol < Propan-2-ol < Methanol",
-        "Propan-2-ol < tert-Butyl alcohol < Methanol"
+        "Dilute H₂SO₄",
+        "Carbon dioxide",
+        "PCC",
+        "NaBH₄",
+        "H₂/Ni",
+        "SOCl₂"
+      ],
+      "answer": 1,
+      "difficulty": 1,
+      "marks": 1,
+      "explanation": "CO₂ reacts first with the Grignard reagent before hydrolysis."
+    },
+    {
+      "id": 34,
+      "type": "mcq_single",
+      "question": "Ethylmagnesium bromide reacts with carbon dioxide followed by acidic hydrolysis. Which compound is obtained?",
+      "options": [
+        "Ethanoic acid",
+        "Propanoic acid",
+        "Butanoic acid",
+        "Methanoic acid",
+        "Ethanol",
+        "Propanal"
+      ],
+      "answer": 1,
+      "difficulty": 2,
+      "marks": 1,
+      "explanation": "One carbon atom is added during the reaction with CO₂."
+    },
+    {
+      "id": 35,
+      "type": "mcq_single",
+      "question": "Which starting compound is directly oxidised to obtain benzoic acid according to NCERT preparation methods?",
+      "options": [
+        "Benzaldehyde",
+        "Benzene",
+        "Phenol",
+        "Benzyl chloride",
+        "Toluene",
+        "Aniline"
       ],
       "answer": 4,
       "difficulty": 2,
       "marks": 1,
-      "explanation": "Tertiary alcohols are most resistant to oxidation, secondary alcohols oxidise less readily than primary alcohols."
+      "explanation": "Strong oxidation of toluene gives benzoic acid."
+    },
+    {
+      "id": 36,
+      "type": "mcq_single",
+      "question": "Which reagent is commonly used for oxidising toluene into benzoic acid?",
+      "options": [
+        "PCC",
+        "Acidified KMnO₄",
+        "NaBH₄",
+        "LiAlH₄",
+        "H₂/Ni",
+        "SOCl₂"
+      ],
+      "answer": 1,
+      "difficulty": 2,
+      "marks": 1,
+      "explanation": "Potassium permanganate oxidises the alkyl side chain to a carboxyl group."
+    },
+    {
+      "id": 37,
+      "type": "mcq_single",
+      "question": "Which class of compounds undergoes hydrolysis to produce carboxylic acids as one of the NCERT preparation methods?",
+      "options": [
+        "Nitriles",
+        "Alcohols",
+        "Alkenes",
+        "Haloarenes",
+        "Ethers",
+        "Ketones"
+      ],
+      "answer": 0,
+      "difficulty": 1,
+      "marks": 1,
+      "explanation": "Hydrolysis of nitriles yields carboxylic acids."
+    },
+    {
+      "id": 38,
+      "type": "mcq_single",
+      "question": "Hydrolysis of ethanenitrile produces:",
+      "options": [
+        "Methanoic acid",
+        "Ethanoic acid",
+        "Propanoic acid",
+        "Methanol",
+        "Ethanal",
+        "Ethanol"
+      ],
+      "answer": 1,
+      "difficulty": 2,
+      "marks": 1,
+      "explanation": "Hydrolysis of ethanenitrile gives ethanoic acid."
+    },
+    {
+      "id": 39,
+      "type": "mcq_single",
+      "question": "Which reagent is commonly used to hydrolyse nitriles into carboxylic acids?",
+      "options": [
+        "Dilute acid",
+        "NaBH₄",
+        "PCC",
+        "LiAlH₄",
+        "SOCl₂",
+        "Zn/HCl"
+      ],
+      "answer": 0,
+      "difficulty": 1,
+      "marks": 1,
+      "explanation": "Acidic hydrolysis converts nitriles into carboxylic acids."
+    },
+    {
+      "id": 40,
+      "type": "mcq_single",
+      "question": "A nitrile is heated with dilute mineral acid for a sufficient time. Which class of compounds is finally obtained?",
+      "options": [
+        "Alcohol",
+        "Ketone",
+        "Carboxylic acid",
+        "Aldehyde",
+        "Acid chloride",
+        "Ether"
+      ],
+      "answer": 2,
+      "difficulty": 1,
+      "marks": 1,
+      "explanation": "Hydrolysis converts nitriles into carboxylic acids."
+    },
+    {
+      "id": 41,
+      "type": "mcq_single",
+      "question": "A primary alcohol is converted completely into the corresponding carboxylic acid. Which reagent is most suitable for this conversion?",
+      "options": [
+        "PCC",
+        "NaBH₄",
+        "Acidified K₂Cr₂O₇",
+        "LiAlH₄",
+        "H₂/Ni",
+        "Zn/Hg"
+      ],
+      "answer": 2,
+      "difficulty": 1,
+      "marks": 1,
+      "explanation": "Acidified potassium dichromate completely oxidises primary alcohols to carboxylic acids."
+    },
+    {
+      "id": 42,
+      "type": "mcq_single",
+      "question": "Which of the following compounds can be oxidised directly to ethanoic acid using a strong oxidising agent?",
+      "options": [
+        "Ethanal",
+        "Ethene",
+        "Ethyne",
+        "Ethyl chloride",
+        "Diethyl ether",
+        "Acetone"
+      ],
+      "answer": 0,
+      "difficulty": 1,
+      "marks": 1,
+      "explanation": "Aldehydes are readily oxidised to the corresponding carboxylic acids."
     },
     {
       "id": 43,
       "type": "mcq_single",
-      "question": "An alkyne is hydrated in the presence of dilute H₂SO₄ and HgSO₄. Which reagent combination shown below is actually used in the NCERT method?",
+      "question": "Which sequence correctly converts ethanol into ethanoic acid?",
       "options": [
-        "Dilute H₂SO₄ and HgSO₄",
-        "Concentrated H₂SO₄",
-        "NaOH",
-        "PCC",
-        "LiAlH₄",
-        "SOCl₂"
+        "Ethanol → Ethanal → Ethanoic acid",
+        "Ethanol → Ethene → Ethanoic acid",
+        "Ethanol → Ethanoyl chloride → Ethanoic acid",
+        "Ethanol → Ethane → Ethanoic acid",
+        "Ethanol → Acetone → Ethanoic acid",
+        "Ethanol → Ether → Ethanoic acid"
       ],
       "answer": 0,
       "difficulty": 2,
       "marks": 1,
-      "explanation": "Hydration of alkynes is carried out using dilute sulphuric acid in the presence of mercuric sulphate catalyst."
+      "explanation": "Primary alcohols are first oxidised to aldehydes and then to carboxylic acids."
     },
     {
       "id": 44,
       "type": "mcq_single",
-      "question": "Propyne is hydrated using HgSO₄ and dilute H₂SO₄. After tautomerisation, which compound is finally obtained?",
+      "question": "A student wants to prepare propanoic acid from ethylmagnesium bromide. Which additional reagent is essential before acidic hydrolysis?",
       "options": [
-        "Propanal",
-        "Propanone",
-        "Propan-1-ol",
-        "Propene",
-        "Propanoic acid",
-        "Ethanal"
+        "PCC",
+        "Carbon dioxide",
+        "NaBH₄",
+        "Acidified KMnO₄",
+        "SOCl₂",
+        "Dilute NaOH"
       ],
       "answer": 1,
       "difficulty": 2,
       "marks": 1,
-      "explanation": "Hydration first forms an enol, which rapidly tautomerises to propanone."
+      "explanation": "Grignard reagents react with CO₂ before hydrolysis to form carboxylic acids."
     },
     {
       "id": 45,
       "type": "mcq_single",
-      "question": "During hydration of an alkyne, which intermediate is actually formed before the stable carbonyl compound appears?",
+      "question": "Which preparation method introduces one additional carbon atom into the final carboxylic acid molecule?",
       "options": [
-        "Alcohol",
-        "Enol",
-        "Ether",
-        "Carboxylic acid",
-        "Haloalkane",
-        "Aldehyde"
+        "Oxidation of aldehydes",
+        "Hydrolysis of nitriles",
+        "Reaction of Grignard reagent with CO₂",
+        "Oxidation of primary alcohols",
+        "Oxidation of toluene",
+        "Hydration of alkynes"
       ],
-      "answer": 1,
+      "answer": 2,
       "difficulty": 2,
       "marks": 1,
-      "explanation": "The reaction initially produces an enol, which undergoes keto-enol tautomerisation."
+      "explanation": "Reaction with carbon dioxide increases the carbon chain by one carbon."
     },
     {
       "id": 46,
       "type": "mcq_single",
-      "question": "The conversion of an enol into its corresponding aldehyde or ketone is known as:",
+      "question": "Which of the following compounds gives benzoic acid on vigorous oxidation?",
       "options": [
-        "Hydrogenation",
-        "Reduction",
-        "Hydrolysis",
-        "Tautomerisation",
-        "Halogenation",
-        "Esterification"
-      ],
-      "answer": 3,
-      "difficulty": 1,
-      "marks": 1,
-      "explanation": "Keto-enol tautomerisation converts the unstable enol into the more stable carbonyl compound."
-    },
-    {
-      "id": 47,
-      "type": "mcq_single",
-      "question": "Which statement best explains why the carbonyl compound is obtained after hydration of an alkyne instead of isolating the enol?",
-      "options": [
-        "The enol is more stable than the keto form.",
-        "Mercuric sulphate directly forms the ketone without any intermediate.",
-        "The initially formed enol rapidly undergoes keto-enol tautomerisation.",
-        "Water behaves as a reducing agent.",
-        "The reaction follows an SN1 mechanism.",
-        "The alkyne is first converted into a carboxylic acid."
-      ],
-      "answer": 2,
-      "difficulty": 2,
-      "marks": 1,
-      "explanation": "The enol intermediate spontaneously rearranges to the thermodynamically more stable keto form."
-    },
-    {
-      "id": 48,
-      "type": "mcq_single",
-      "question": "Which compound gives propanone after hydration followed by keto-enol tautomerisation?",
-      "options": [
-        "Propene",
-        "Propyne",
-        "Propanal",
-        "Propan-1-ol",
-        "1-Bromopropane",
-        "Propanoic acid"
+        "Benzene",
+        "Toluene",
+        "Phenol",
+        "Chlorobenzene",
+        "Aniline",
+        "Benzaldehyde"
       ],
       "answer": 1,
       "difficulty": 2,
       "marks": 1,
-      "explanation": "Hydration of propyne produces an enol that rearranges to propanone."
+      "explanation": "The methyl side chain of toluene is oxidised to a carboxyl group."
+    },
+    {
+      "id": 47,
+      "type": "mcq_single",
+      "question": "Which preparation method of carboxylic acids involves hydrolysis as the final step?",
+      "options": [
+        "Oxidation of aldehydes",
+        "Oxidation of primary alcohols",
+        "Hydrolysis of nitriles",
+        "Oxidation of alkyl benzenes",
+        "Reaction of alcohols with PCC",
+        "Hydration of alkynes"
+      ],
+      "answer": 2,
+      "difficulty": 1,
+      "marks": 1,
+      "explanation": "Nitriles are converted into carboxylic acids by hydrolysis."
+    },
+    {
+      "id": 48,
+      "type": "mcq_single",
+      "question": "Ethanenitrile is heated with dilute sulphuric acid for several hours. Which product is finally obtained?",
+      "options": [
+        "Ethanal",
+        "Ethanol",
+        "Ethanoic acid",
+        "Methanoic acid",
+        "Acetamide",
+        "Ethene"
+      ],
+      "answer": 2,
+      "difficulty": 1,
+      "marks": 1,
+      "explanation": "Acidic hydrolysis of ethanenitrile produces ethanoic acid."
     },
     {
       "id": 49,
       "type": "mcq_single",
-      "question": "A compound gives a yellow precipitate with iodine and sodium hydroxide in the haloform test. According to the NCERT discussion up to this point, what does this most strongly suggest?",
+      "question": "Which reagent is NOT suitable for preparing a carboxylic acid directly from a primary alcohol?",
       "options": [
-        "It contains only a carboxyl group.",
-        "It is necessarily an aromatic aldehyde.",
-        "It contains a methyl ketone group or can be oxidised to one.",
-        "It is always a tertiary alcohol.",
-        "It must be benzaldehyde.",
-        "It contains no carbonyl group."
+        "Acidified KMnO₄",
+        "Acidified K₂Cr₂O₇",
+        "PCC",
+        "Hot alkaline KMnO₄ followed by acidification",
+        "Strong oxidising agent",
+        "Excess K₂Cr₂O₇/H₂SO₄"
       ],
       "answer": 2,
       "difficulty": 2,
       "marks": 1,
-      "explanation": "The haloform reaction is characteristic of methyl ketones and compounds that are readily oxidised to methyl ketones."
+      "explanation": "PCC stops oxidation at the aldehyde stage and does not normally produce carboxylic acids."
     },
     {
-      "id": 50,
-      "type": "mcq_single",
-      "question": "Which of the following compounds is expected to undergo the haloform reaction most directly?",
-      "options": [
-        "Methanal",
-        "Benzaldehyde",
-        "Propanal",
-        "Propanone",
-        "Ethanal",
-        "Methanoic acid"
-      ],
-      "answer": 3,
-      "difficulty": 2,
-      "marks": 1,
-      "explanation": "Propanone is a methyl ketone and readily undergoes the haloform reaction to produce iodoform (yellow precipitate) with I₂/NaOH."
-    }
+  "id": 50,
+  "type": "mcq_single",
+  "question": "Which of the following preparation methods of carboxylic acids increases the carbon chain by one carbon atom?",
+  "options": [
+    "Oxidation of primary alcohols",
+    "Oxidation of aldehydes",
+    "Hydrolysis of nitriles",
+    "Reaction of Grignard reagents with carbon dioxide",
+    "Oxidation of alkyl benzenes",
+    "Hydration of alkynes"
+  ],
+  "answer": 3,
+  "difficulty": 2,
+  "marks": 1,
+  "explanation": "Grignard reagents react with carbon dioxide to form carboxylic acids containing one additional carbon atom after acidic hydrolysis."
+}
   ]
 }
